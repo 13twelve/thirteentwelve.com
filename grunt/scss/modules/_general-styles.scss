@@ -1,0 +1,35 @@
+h1, h2, p, ul, small {
+  margin: 0 0 20px;
+}
+  h2 {
+      font-weight: bold;
+  }
+  ul li {
+    list-style-type: none;
+  }
+
+img {
+  border: 0 none;
+}
+
+a {
+  color: $color__link;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: $color__link--hover;
+  }
+}
+
+small {
+  @include font--s;
+  color: $color__text--grey;
+}
+
+.e404 {
+  @include font(72,72);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

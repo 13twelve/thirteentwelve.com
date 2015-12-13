@@ -1,0 +1,33 @@
+
+Options All -Indexes
+Options +FollowSymLinks
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ $1.php
+
+Redirect 301 /1000-miles.html /1000-miles
+Redirect 301 /1312-miles.html /1312-miles
+
+ErrorDocument 404 /404.php
+
+<IfModule mod_gzip.c>
+  mod_gzip_on     Yes
+  mod_gzip_dechunk  Yes
+  mod_gzip_item_include file      \.(html?|txt|css|js|php|pl)$
+  mod_gzip_item_include handler   ^cgi-script$
+  mod_gzip_item_include mime    ^text\.*
+  mod_gzip_item_include mime    ^application/x-javascript.*
+  mod_gzip_item_exclude mime    ^image\.*
+  mod_gzip_item_exclude rspheader ^Content-Encoding:.*gzip.*
+</IfModule>
+
+<FilesMatch ".(ico|gif|jpg|jpeg|png)$">
+Header set Cache-Control "max-age=2592000"
+</FilesMatch>
+
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>

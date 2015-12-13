@@ -1,0 +1,22 @@
+/* Main Color List - try not to use */
+$color__orange: #ff5400;
+
+/* Colors - Grayscale */
+$color__black: #000;
+$color__black--90: #1a1a1a;
+$color__black--60: #666666;
+$color__black--50: #808080;
+$color__black--40: #999999;
+$color__black--25: #bfbfbf;
+$color__black--15: #d9d9d9;
+$color__black--10: #e6e6e6;
+$color__black--5: #f2f2f2;
+$color__black--3-5: #F7F7F6;
+$color__black--2: #fbfbfb;
+$color__white: #fff;
+
+/* Colors by usage - use these! */
+$color__text: $color__black--90;
+$color__text--grey: $color__black--60;
+$color__link: $color__orange;
+$color__link--hover: $color__black--60;

@@ -1,0 +1,48 @@
+html,
+body {
+  min-width: 320px;
+  overflow-x: hidden;
+
+  @include breakpoint(small) {
+    overflow-x: auto;
+  }
+}
+body {
+  @include font--m();
+  color: $color__text;
+  background: $color__white;
+  -moz-font-feature-settings: "kern";
+  -webkit-font-feature-settings: "kern";
+  -ms-font-feature-settings: "kern";
+  -o-font-feature-settings: "kern";
+  font-feature-settings: "kern";
+  font-kerning: normal;
+  //-webkit-font-smoothing: antialiased;
+  //-moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-variant-ligatures: common-ligatures;
+  -webkit-text-size-adjust: 100%;
+
+  &:after {
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    width: 1px;
+    height: 1px;
+    margin: -1px 0 0 -1px;
+    position: absolute;
+    left: -1px;
+    top: -1px;
+  }
+}
+  @each $name, $point in $breakpoints {
+    @include breakpoint('#{$name}') {
+      head {
+        font-family: '#{$name}';
+      }
+      body:after {
+        content: '#{$name}';
+      }
+    }
+  }
+

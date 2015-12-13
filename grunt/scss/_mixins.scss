@@ -1,0 +1,98 @@
+/*
+  @mixin icon-type
+
+  Inserts an icon class with a name and optional width/height
+
+  Parameters:
+  $type - name of the icon
+  $minWidth - optional, number, width of the icon
+  $minHeight - optional, number, height of the icon
+  $include - force include of SVG data
+*/
+@mixin icon-type($type,$minWidth:0,$minHeight:0,$include:false) {
+  @if map-has-key($icons, $type) {
+    $svg: map-get($icons, $type);
+    %icon__#{$type},
+    .icon__#{$type} {
+      @include background-image("#{$type}",$include);
+      //
+      @if $include_icons == false {
+        @if $minWidth > 0 {
+          min-width: $minWidth*1px;
+        } @else {
+          min-width: map-get($svg, width);
+        }
+        @if $minHeight > 0 {
+          min-height: $minHeight*1px;
+        } @else {
+          min-height: map-get($svg, height);
+        }
+      }
+    }
+  }
+}
+
+/*
+  @mixin background-image
+
+  Inserts an encoded SVG background image from the $icons sass map
+
+  Parameters:
+  $file_name - name of icon
+  $include - include SVG data in stylesheet, overrides global $include_icons var
+*/
+@mixin background-image($file_name,$include:false) {
+  @if map-has-key($icons, $file_name) {
+    // if the sass map has a ref with the file name specified
+    @if $include == true or $include_icons == true {
+      // if include icons is specified as true or the global include icons is true
+      // stick the encoded SVG data in
+      $svg: map-get($icons, $file_name);
+      background-image: url(map-get($svg, datauri));
+    }
+    @if $include == false or ($include == true and $include_icons == false) {
+      // don't include the encoded SVG data
+      background-repeat: no-repeat;
+      // but do include the fallback png link
+      .no-svg & {
+        background-image: url('#{$path_img}fallback/#{$file_name}.png');
+      }
+    }
+  } @else {
+    @warn "Unknown `#{$file_name}` in $images.";
+  }
+}
+
+/*
+  @mixin breakpoint
+
+  Inserts a media query block
+
+  Parameters:
+  $point - name of the breakpoint
+*/
+@mixin breakpoint($point) {
+  @if map-has-key($breakpoints, $point) {
+    @media #{map-get($breakpoints, $point)} {
+      @content;
+    }
+  } @else {
+    @warn "Unknown breakpoint `#{$point}` in $breakpoints.";
+  }
+}
+
+/*
+  @mixin transition
+
+  Inserts vendor transition
+
+  Parameters:
+  $transition - transitions
+*/
+@mixin transition($transition...) {
+  -moz-transition: $transition;
+  -o-transition: $transition;
+  -webkit-transition: $transition;
+  transition: $transition;
+}
+

@@ -1,0 +1,37 @@
+/* ####################################################
+ * Site font stacks
+*/
+
+$font-stack: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+
+/* ####################################################
+ * Site font weights
+*/
+$font-weight__bold: 700;
+$font-weight__regular: 400;
+
+
+/* ####################################################
+ * Font setup mixins
+*/
+
+
+@mixin font($font-size, $line-height, $weight: 400) {
+  font-family: $font-stack;
+  font-size: $font-size * 1px;
+  line-height: $line-height * 1px;
+  font-weight: $weight * 1;
+}
+
+
+/* ####################################################
+ * Font styles declared
+*/
+
+@mixin font--m() {
+  @include font(12,16);
+}
+@mixin font--s() {
+  @include font(11,16);
+}
+

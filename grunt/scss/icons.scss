@@ -1,0 +1,15 @@
+$include_icons: true;
+
+@import 'variables';
+@import '../img/icons';
+@import 'mixins';
+@import 'modules/icons';
+
+.work a {
+  @extend .icon__external;
+
+  &:hover,
+  &:focus {
+    @extend .icon__external--hover;
+  }
+}

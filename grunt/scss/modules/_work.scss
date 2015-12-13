@@ -1,0 +1,87 @@
+.work {
+  @extend %float_clear;
+  margin-left: -9px;
+  margin-right: -9px;
+
+  @include breakpoint(small) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  li {
+    display: inline;
+    float: left;
+    position: relative;
+    width: 177px;
+    height: 180px;
+    padding: 90px 10px 0 0;
+    margin: 0 9px 20px;
+
+    @include breakpoint(small) {
+      float: none;
+      display: block;
+      margin: 0;
+      width: auto;
+      height: auto;
+      padding-top: 0;
+    }
+  }
+
+  img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 185px;
+    height: 79px;
+    border: 1px solid #666;
+
+    @include breakpoint(small) {
+      width: 100%;
+      height: auto;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+  }
+
+  div {
+    @include breakpoint(small) {
+      padding: 10px 0 20px;
+
+      &:before {
+        content: "";
+        display: block;
+        height: 0;
+        width: 1px;
+        padding-bottom: 43.32%;
+      }
+    }
+  }
+
+  p,
+  h2 {
+    margin-bottom: 0;
+  }
+
+  a,
+  a:hover,
+  a:focus {
+    @extend .icon;
+    @extend .icon__external;
+    @include font--m();
+    color: $color__link;
+    padding-left: 18px;
+    background-position: 0 50%;
+    text-indent: 0 !important;
+    overflow: initial;
+    min-width: initial;
+    min-height: initial;
+    background-size: 12px;
+  }
+
+  a:hover,
+  a:focus {
+    @extend .icon__external--hover;
+    color: $color__link--hover;
+  }
+}

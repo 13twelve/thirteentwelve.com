@@ -1,0 +1,121 @@
+#miles {
+  font-family: 'Oswald', sans-serif;
+  margin: 0 auto;
+  text-align: left;
+  width: 802px;
+  padding-bottom: 50px;
+}
+
+#miles h1 {
+  font-size: 175px;
+  line-height: 175px;
+  margin: 0;
+  vertical-align: text-top;
+}
+  #miles h1 .m {
+    text-align: justify;
+  }
+    #miles h1 .m:after {
+      content: '';
+      display: inline-block;
+      width: 100%;
+      height: 1px;
+    }
+  #miles h1 .d {
+    margin-top: -175px;
+  }
+#miles p {
+  font-size: 80px;
+  line-height: 100px;
+  padding: 10px 0 0;
+}
+#miles span {
+  display: block;
+}
+#miles .m {
+  position: relative;
+}
+#miles .m:hover {
+  color: #ff5400;
+  cursor: pointer;
+}
+#miles .m[title]:before {
+  content: attr(title);
+  position: absolute;
+  right: 0;
+  top: 12px;
+  font: 11px/13px Arial, sans-serif;
+  color: #fff;
+  background-color: #000;
+  background-color: rgba(0,0,0,.75);
+  padding: 4px 8px;
+  max-width: 200px;
+  opacity: 0;
+  transition: opacity .1s linear;
+  transition-delay: .25s;
+}
+#miles .m[title]:hover:before {
+  opacity: 1;
+}
+#miles .d {
+  display: block;
+  overflow: hidden;
+  max-height: 0;
+  color: #999;
+  -moz-transition: max-height .25s;
+  -ms-transition: max-height .25s;
+  -o-transition: max-height .25s;
+  -webkit-transition: max-height .25s;
+  transition: max-height .25s;
+}
+  #miles .m.active + .d {
+    max-height: 100px;
+  }
+  #miles h1 .m.active + .d,
+  #miles .m.active + .d_l {
+    max-height: 200px;
+  }
+  #miles .m.active + .d_xl {
+    max-height: 900px;
+  }
+  #miles .d a {
+    color: #666;
+  }
+
+@media only screen and (max-width : 802px) {
+  #miles {
+    width: auto;
+    padding: 0 40px 40px;
+  }
+  #miles h1 {
+    font-size: 90px;
+    line-height: 90px;
+  }
+  #miles h1 .d {
+    margin-top: -90px;
+  }
+  #miles p {
+    font-size: 40px;
+    line-height: 55px;
+  }
+}
+@media only screen and (max-width : 486px) {
+  #miles h1 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  #miles h1 .d {
+    margin-top: -50px;
+  }
+  #miles p {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  #miles .m:hover {
+    cursor: default;
+    color: #000;
+  }
+  #miles .d {
+    max-height: 999px;
+  }
+}

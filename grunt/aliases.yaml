@@ -1,0 +1,34 @@
+default:
+  - 'jshint:all_js'
+  - 'uglify:head'
+  - 'uglify:dev'
+  - 'sass:dev'
+
+dist:
+  description: 'Produces minified CSS and JS'
+  tasks:
+    - 'jshint:all_js'
+    - 'uglify:head'
+    - 'uglify:dist'
+    - 'sass:dist'
+
+icons:
+  description: 'Compresses SVGs, makes a data-uri SASS map, creates PNGs and cleans up after itself'
+  tasks:
+    - 'svgmin:svg'
+    - 'svgcss:svg'
+    - 'svg2png:svg'
+    - 'clean:svg'
+
+init:
+  description: 'Runs every task to generate icons, templates, PNGs and minified JS/CSS'
+  tasks:
+    - 'svgmin'
+    - 'svgcss'
+    - 'svg2png'
+    - 'clean'
+    - 'jshint:all_js'
+    - 'uglify:head'
+    - 'uglify:dist'
+    - 'sass:dist'
+
