@@ -1,4 +1,4 @@
-<?php $third_party_css = "<link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+<?php $third_party_css = "<link href=\"http://fonts.googleapis.com/css?family=Oswald:400,700\" rel=\"stylesheet\" type=\"text/css\">
 " ?>
 <?php include "includes/_html_header.php"; ?>
 <section id="miles">

@@ -14,10 +14,6 @@ A17.Behaviors = {};
 A17.Helpers = {};
 A17.media_query_in_use = "large";
 
-A17.client_id = "60249325a5084696aba63248421d9145";
-A17.access_token = localStorage.access_token || false;
-A17.user = localStorage.user || false;
-
 // look through the document (or ajax'd in content if "context" is defined) to look for "data-behavior" attributes.
 // Initialize a new instance of the method if found, passing through the element that had the attribute
 // So in this example it will find 'data-behavior="show_articles"' and run the show_articles method.

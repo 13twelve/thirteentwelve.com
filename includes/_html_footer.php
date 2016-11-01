@@ -10,10 +10,10 @@
           <li><a href="http://www.youtube.com/13twelve" target="_blank" title="YouTube" class="icon icon__youtube">YouTube</a></li>
           <li><a href="http://www.linkedin.com/in/13twelve" target="_blank" title="Linked In" class="icon icon__linked">Linked In</a></li>
         </ul>
-        <small>Copyright &copy; 2005 &ndash; 2015 thirteentwelve.com</small>
+        <small>Copyright &copy; 2005 &ndash; <?php date_default_timezone_set('UTC'); echo date("Y"); ?> thirteentwelve.com</small>
       </footer>
     </div>
-    <script src="/javascripts/application.js"></script>
+    <!-- <script src="/javascripts/application.js"></script> -->
 
     <script type="text/javascript">
 
