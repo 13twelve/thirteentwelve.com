@@ -15,6 +15,6 @@
   <body>
     <div id="thirteentwelve">
       <header>
-        <h1 class="icon icon__logo"><a href="/">13twelve, a front end web developer. Specialising in html, css and javascript.</a></h1>
+        <a href="/" class="logo"><svg><use xlink:href="#logo" /></svg></a>
       </header>
       <main id="content">

@@ -2,7 +2,7 @@
  * Site font stacks
 */
 
-$font-stack: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+$font-stack: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 /* ####################################################
  * Site font weights
@@ -29,9 +29,12 @@ $font-weight__regular: 400;
 */
 
 @mixin font--m() {
-  @include font(12,16);
+  @include font(18,27);
 }
 @mixin font--s() {
+  @include font(15,20);
+}
+@mixin font--xs() {
   @include font(11,16);
 }
 

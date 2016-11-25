@@ -1,87 +1,70 @@
 .work {
+  @include font--s;
   @extend %float_clear;
-  margin-left: -9px;
-  margin-right: -9px;
-
-  @include breakpoint(small) {
-    margin-left: 0;
-    margin-right: 0;
-  }
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  margin: -20px -20px 0;
 
   li {
-    display: inline;
-    float: left;
-    position: relative;
-    width: 177px;
-    height: 180px;
-    padding: 90px 10px 0 0;
-    margin: 0 9px 20px;
-
-    @include breakpoint(small) {
-      float: none;
-      display: block;
-      margin: 0;
-      width: auto;
-      height: auto;
-      padding-top: 0;
-    }
+    flex: 0 0 185px;
+    width: 185px;
+    margin: 40px 20px 0;
   }
 
-  img {
+  .js-all {
+    display: none;
+  }
+
+  &.js-reveal .js-all {
+    display: list-item;
+  }
+
+  .work__meta {
+    margin-top: 10px;
+  }
+
+  .work__img {
+    position: relative;
+  }
+
+  .work__img::before {
+    content: '';
     position: absolute;
     left: 0;
     top: 0;
-    width: 185px;
-    height: 79px;
-    border: 1px solid #666;
-
-    @include breakpoint(small) {
-      width: 100%;
-      height: auto;
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      box-sizing: border-box;
-    }
+    right: 0;
+    bottom: 0;
+    border: 1px solid rgba(0,0,0,.25);
   }
 
-  div {
-    @include breakpoint(small) {
-      padding: 10px 0 20px;
-
-      &:before {
-        content: "";
-        display: block;
-        height: 0;
-        width: 1px;
-        padding-bottom: 43.32%;
-      }
-    }
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
   }
 
-  p,
-  h2 {
-    margin-bottom: 0;
+  a {
+    @include font--s();
+  }
+
+  a svg {
+    display: inline-block;
+    width: 18px;
+    height: 9px;
+    margin-left: 5px;
   }
 
   a,
-  a:hover,
-  a:focus {
-    @extend .icon;
-    @extend .icon__external;
-    @include font--m();
+  a svg * {
     color: $color__link;
-    padding-left: 18px;
-    background-position: 0 50%;
-    text-indent: 0 !important;
-    overflow: initial;
-    min-width: initial;
-    min-height: initial;
-    background-size: 12px;
   }
 
   a:hover,
-  a:focus {
-    @extend .icon__external--hover;
+  a:focus,
+  a:hover svg *,
+  a:focus svg *,  {
     color: $color__link--hover;
   }
 }

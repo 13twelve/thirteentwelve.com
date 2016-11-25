@@ -1,0 +1,45 @@
+.key-engagements {
+  margin-top: -40px;
+
+  li {
+    margin-top: 60px;
+  }
+
+  .key-engagements__img {
+    position: relative;
+  }
+
+  .key-engagements__img::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 183px;
+    border: 1px solid rgba(0,0,0,.25);
+  }
+
+  img {
+    display: block;
+    width: 185px;
+    height: auto;
+  }
+
+  h3 {
+    margin-top: 15px;
+    font-weight: normal;
+    color: $color__black--40;
+  }
+
+  h3 b {
+    color: $color__black--90;
+  }
+
+  h3 i {
+    font-style: normal;
+  }
+
+  p {
+    max-width: 90%;
+  }
+}
