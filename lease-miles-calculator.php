@@ -1,9 +1,33 @@
 <?php include "includes/_html_header.php"; ?>
 
 <section id="lease-miles-calculator">
+  <dl>
+    <dt>Miles driven:</dt>
+    <dd>
+      <input id="milesDriven" type="text" value="730" pattern="[0-9]"> miles
+    </dd>
+  </dl>
+
+  <p>
+    <button id="calculate">Calculate</button>
+  </p>
+
+  <dl>
+    <dt>Target miles to date:</dt>
+    <dd id="targetMilesToDate"></dd>
+    <dt>Diff. from target:</dt>
+    <dd id="milesDiff"></dd>
+  </dl>
+
+  <div class="bars">
+    <div class="bars__bar bars__bar--target" id="barMilesTarget" title="target"></div>
+    <div class="bars__bar bars__bar--driven" id="barMilesDriven" title="driven"></div>
+    <i class="bars__label-total-miles" id="labelTotalMiles"></i>
+  </div>
+
   <div class="cols">
     <dl class="col">
-      <dt>Date Start (day month year):</dt>
+      <dt>Date Start (d/m/y):</dt>
       <dd>
         <input id="dateStart_day" type="text" value="20" pattern="[0-9]">
         <input id="dateStart_month" type="text" value="5" pattern="[0-9]">
@@ -13,24 +37,19 @@
       <dd>
         <input id="leaseTerm" type="text" value="24" pattern="[0-9]"> months
       </dd>
+    </dl>
+    <dl class="col">
+      <dt>Start miles:</dt>
+      <dd>
+        <input id="startMiles" type="text" value="0" pattern="[0-9]"> miles
+      </dd>
       <dt>Miles Per Annum:</dt>
       <dd>
         <input id="milesPerAnnum" type="text" value="9000" pattern="[0-9]"> miles
       </dd>
-      <dt>Miles driven:</dt>
-      <dd>
-        <input id="milesDriven" type="text" value="730" pattern="[0-9]"> miles
-      </dd>
     </dl>
-    <p class="col">
-      <button id="calculate">Calculate</button>
-    </p>
   </div>
-  <div class="bars">
-    <div class="bars__bar bars__bar--target" id="barMilesTarget" title="target"></div>
-    <div class="bars__bar bars__bar--driven" id="barMilesDriven" title="driven"></div>
-    <i class="bars__label-total-miles" id="labelTotalMiles"></i>
-  </div>
+
   <div class="cols">
     <dl class="col">
       <dt>Date Today:</dt>
@@ -47,12 +66,8 @@
       <dd id="leaseMilesPerDay"></dd>
       <dt>Lease miles available per week:</dt>
       <dd id="leaseMilesPerWeek"></dd>
-      <dt>Target miles to date:</dt>
-      <dd><b id="targetMilesToDate"></b></dd>
     </dl>
     <dl class="col">
-      <dt>Diff. from target:</dt>
-      <dd id="milesDiff"></dd>
       <dt>% diff:</dt>
       <dd id="milesDiffPercent"></dd>
       <dt>Miles remaining total:</dt>
@@ -74,8 +89,10 @@
     "August", "September", "October",
     "November", "December"
   ];
+  var locked = false;
 
   if (typeof(Storage) !== "undefined") {
+    document.getElementById("startMiles").value = parseInt(localStorage.getItem("startMiles", startMiles)) || 0;
     document.getElementById("milesDriven").value = parseInt(localStorage.getItem("milesDriven", milesDriven)) || 730;
     document.getElementById("dateStart_day").value = parseInt(localStorage.getItem("dateStart_day",dateStart_day)) || 20;
     document.getElementById("dateStart_month").value = (parseInt(localStorage.getItem("dateStart_month", dateStart_month)) + 1) || 5;
@@ -84,8 +101,22 @@
     document.getElementById("milesPerAnnum").value = parseInt(localStorage.getItem("milesPerAnnum", milesPerAnnum)) || 9000;
   }
 
-  function update() {
+  function update(event) {
+    if (locked) {
+      return;
+    }
+    if (event) {
+      locked = true;
+      var that = this;
+      that.blur();
+      that.classList.add('js-loading');
+      setTimeout(function(){
+        that.classList.remove('js-loading');
+        locked = false;
+      },500);
+    }
     try {
+      var startMiles = parseInt(document.getElementById("startMiles").value);
       var milesDriven = parseInt(document.getElementById("milesDriven").value);
       var dateStart_day = parseInt(document.getElementById("dateStart_day").value);
       var dateStart_month = parseInt(document.getElementById("dateStart_month").value) - 1;
@@ -94,6 +125,7 @@
       var milesPerAnnum = parseInt(document.getElementById("milesPerAnnum").value);
 
       if (typeof(Storage) !== "undefined") {
+        localStorage.setItem("startMiles", startMiles);
         localStorage.setItem("milesDriven", milesDriven);
         localStorage.setItem("dateStart_day",dateStart_day);
         localStorage.setItem("dateStart_month", dateStart_month);
@@ -112,6 +144,7 @@
       var leaseMilesPerWeek = leaseMilesPerDay * 7;
       var targetMilesToDate = leaseMilesPerDay * daysIntoLease;
       var targetMilesToDatePercentageOfTotal = (targetMilesToDate * 100) / totalMiles;
+      milesDriven = milesDriven - startMiles;
       var milesDiff = milesDriven - targetMilesToDate;
       var milesDiffPercent = (milesDiff * 100)/targetMilesToDate;
       var milesRemaining = totalMiles - milesDriven;
@@ -133,8 +166,16 @@
       document.getElementById("milesRemainingPerDay").textContent = Math.round(milesRemainingPerDay);
       document.getElementById("milesRemainingPerWeek").textContent = Math.round(milesRemainingPerWeek);
       document.getElementById("labelTotalMiles").textContent = totalMiles;
-      document.getElementById("barMilesTarget").style.width = targetMilesToDatePercentageOfTotal + "%";
-      document.getElementById("barMilesDriven").style.width = milesDrivenPercentageOfTotal + "%";
+
+      if (event) {
+        setTimeout(function(){
+          document.getElementById("barMilesTarget").style.width = targetMilesToDatePercentageOfTotal + "%";
+          document.getElementById("barMilesDriven").style.width = milesDrivenPercentageOfTotal + "%";
+        },500);
+      } else {
+        document.getElementById("barMilesTarget").style.width = targetMilesToDatePercentageOfTotal + "%";
+        document.getElementById("barMilesDriven").style.width = milesDrivenPercentageOfTotal + "%";
+      }
 
       if (milesDiff > 0) {
         document.getElementById("milesDiff").className = "too-many";

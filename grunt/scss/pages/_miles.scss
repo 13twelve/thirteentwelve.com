@@ -1,29 +1,22 @@
 #miles {
-  font-family: 'Oswald', sans-serif;
-  margin: 0 auto;
-  text-align: left;
-  width: 802px;
-  padding-bottom: 50px;
+  padding-top: 60px;
 }
 
-#miles h1 {
-  font-size: 175px;
+#miles * {
+  font-family: 'Oswald', sans-serif;
+}
+
+#miles h1,
+#miles h2 {
+  font-size: 185px;
   line-height: 175px;
   margin: 0;
   vertical-align: text-top;
 }
-  #miles h1 .m {
-    text-align: justify;
-  }
-    #miles h1 .m:after {
-      content: '';
-      display: inline-block;
-      width: 100%;
-      height: 1px;
-    }
-  #miles h1 .d {
-    margin-top: -175px;
-  }
+#miles h2 {
+  font-size: 155px;
+  line-height: 155px;
+}
 #miles p {
   font-size: 80px;
   line-height: 100px;
@@ -72,6 +65,7 @@
     max-height: 100px;
   }
   #miles h1 .m.active + .d,
+  #miles h2 .m.active + .d,
   #miles .m.active + .d_l {
     max-height: 200px;
   }
@@ -82,30 +76,29 @@
     color: #666;
   }
 
-@media only screen and (max-width : 802px) {
+@include breakpoint(medium) {
   #miles {
-    width: auto;
-    padding: 0 40px 40px;
+    padding-top: 40px;
   }
   #miles h1 {
     font-size: 90px;
     line-height: 90px;
   }
-  #miles h1 .d {
-    margin-top: -90px;
+  #miles h2 {
+    font-size: 70px;
+    line-height: 70px;
   }
   #miles p {
     font-size: 40px;
     line-height: 55px;
   }
 }
-@media only screen and (max-width : 486px) {
-  #miles h1 {
+
+@include breakpoint(small) {
+  #miles h1,
+  #miles h2 {
     font-size: 50px;
     line-height: 50px;
-  }
-  #miles h1 .d {
-    margin-top: -50px;
   }
   #miles p {
     font-size: 25px;

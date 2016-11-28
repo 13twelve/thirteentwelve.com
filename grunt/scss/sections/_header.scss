@@ -1,6 +1,10 @@
 header {
   padding-top: 60px;
 
+  @include breakpoint(small) {
+    padding-top: 20px;
+  }
+
   a,
   svg {
     display: block;
@@ -9,8 +13,8 @@ header {
     margin: 0 auto;
 
     @include breakpoint(small) {
-      width: 211px;
-      height: 43px;
+      width: 100%;
+      height: auto;
     }
   }
 }

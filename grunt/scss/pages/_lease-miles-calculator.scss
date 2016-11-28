@@ -1,17 +1,28 @@
 #lease-miles-calculator {
+  padding-top: 60px;
 
   .cols {
     overflow: hidden;
   }
 
+  .cols + .cols {
+    border-top: 1px solid $color__black--5;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+
   .col {
     float: left;
     width: 50%;
+
+    @include breakpoint(medium) {
+      float: none;
+      width: 100%;
+    }
   }
 
   dl {
     overflow: hidden;
-    margin-bottom: 20px;
   }
 
   dt {
@@ -33,7 +44,52 @@
     margin-right: 5px;
   }
 
+  p {
+    text-align: center;
+  }
+
+  button {
+    @include font--m;
+    position: relative;
+    display: inline-block;
+    padding: 4px 6px;
+    border: 1px solid $color__black--90;
+    background: $color__black--3-5;
+  }
+
+  button:hover,
+  button:focus,
+  button:active,
+  button.js-loading,
+  button.js-loading:hover,
+  button.js-loading:focus,
+  button.js-loading:active {
+    background: $color__white;
+  }
+
+  button.js-loading,
+  button.js-loading:hover,
+  button.js-loading:focus,
+  button.js-loading:active {
+    color: $color__white;
+  }
+
+  button.js-loading::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 16px;
+    height: 16px;
+    margin: -8px 0 0 -8px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: $color__orange;
+    animation: spin .5s linear infinite;
+  }
+
   .bars {
+    margin-top: 30px;
     margin-bottom: 30px;
   }
 
@@ -59,7 +115,7 @@
   }
 
   .bars__bar::after {
-    @include font--s();
+    @include font--xxs();
     content: attr(title);
     position: absolute;
     left: 100%;
@@ -93,12 +149,8 @@
   }
 }
 
-
-@media only screen and (max-width : 802px) {
-  #lease-miles-calculator .col {
-    float: none;
-    width: 100%;
+@keyframes spin {
+  100% {
+    transform:rotate(360deg);
   }
-}
-@media only screen and (max-width : 486px) {
 }

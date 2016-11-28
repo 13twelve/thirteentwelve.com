@@ -2,6 +2,10 @@ footer {
   margin-top: 140px;
   padding-bottom: 20px;
 
+  @include breakpoint(small) {
+    margin-top: 50px;
+  }
+
   .bee {
     display: block;
     margin: 20px auto -10px;
@@ -12,5 +16,6 @@ footer {
   small {
     display: block;
     text-align: center;
+    margin-top: 10px;
   }
 }

@@ -3,18 +3,27 @@
 
   li {
     display: inline-block;
-    margin-left: 3px;
-    margin-right: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
   }
 
-  .icon {
-    min-width: 16px !important;
-    min-height: 16px !important;
-    background-size: cover;
-    opacity: .25;
+  a {
+    color: $color__text;
+  }
 
-    &:hover {
-      opacity: 1;
-    }
+  a:hover,
+  a:focus {
+    color: $color__link;
+  }
+
+  svg {
+    display: inline-block;
+    width: auto;
+    height: 20px;
+  }
+
+  a[title='Linked In'] svg {
+    position: relative;
+    top: -1px;
   }
 }

@@ -1,7 +1,11 @@
 h1, h2, p, ul, small {
+  @include font--m;
   margin-top: 20px;
-  font-size: 18px;
-  line-height: 27px;
+
+  @include breakpoint(small) {
+    @include font--s;
+    margin-top: 15px;
+  }
 }
 
 h1,
@@ -12,16 +16,17 @@ strong {
   font-weight: bold;
 }
 
-h1 {
-  margin-top: 60px;
-}
-
+h1,
 h2 {
   margin-top: 60px;
 
-  &[data-reveal-trigger] {
-    cursor: pointer;
+  @include breakpoint(small) {
+    margin-top: 30px;
   }
+}
+
+h2[data-reveal-trigger] {
+  cursor: pointer;
 }
 
 a {
@@ -40,7 +45,7 @@ img {
 }
 
 small {
-  @include font--xs;
+  @include font--xxs;
   display: block;
   color: $color__text--grey;
 }

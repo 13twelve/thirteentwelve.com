@@ -35,6 +35,9 @@ $font-weight__regular: 400;
   @include font(15,20);
 }
 @mixin font--xs() {
+  @include font(13,16);
+}
+@mixin font--xxs() {
   @include font(11,16);
 }
 

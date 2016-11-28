@@ -3,15 +3,13 @@
 <?php include "includes/_html_header.php"; ?>
 <section id="miles">
   <h1>
-    <span class="m" title="and counting..">1312 MILES</span>
+    <span class="m" title="totalled 1416 miles!">1312 MILES</span>
     <span class="d">2111 km</span>
+    <span class="y">2015</span>
   </h1>
   <p>
-    <span class="m" title="To compare with 2014">1000 miles in</span>
-    <span class="d">1609 km in</span>
-
-    <span class="m" title="95 days less than 2014">251 days</span>
-    <span class="d">36 weeks</span>
+    <span class="m" title="95 days less than 2014">1000 miles in 251 days</span>
+    <span class="d">1609 km in 36 weeks</span>
 
     <span class="m" title="15 runs more than 2014">186 runs</span>
     <span class="d">5 runs/week avg.</span>

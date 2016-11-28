@@ -7,18 +7,46 @@
   align-content: flex-start;
   margin: -20px -20px 0;
 
+  @include breakpoint(medium) {
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+
+  @include breakpoint(small) {
+    @include font--xs;
+  }
+
   li {
     flex: 0 0 185px;
     width: 185px;
     margin: 40px 20px 0;
+
+    @include breakpoint(medium) {
+      flex: 0 0 auto;
+      width: calc((100vw - 120px)/3);
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+
+    @include breakpoint(small) {
+      flex: 0 0 auto;
+      width: calc((100vw - 60px)/2);
+      margin-right: 10px;
+      margin-left: 10px;
+    }
   }
 
   .js-all {
-    display: none;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s;
   }
 
   &.js-reveal .js-all {
-    display: list-item;
+    position: static;
+    visibility: visible;
+    opacity: 1;
   }
 
   .work__meta {
@@ -45,10 +73,6 @@
     height: auto;
   }
 
-  a {
-    @include font--s();
-  }
-
   a svg {
     display: inline-block;
     width: 18px;
@@ -56,15 +80,12 @@
     margin-left: 5px;
   }
 
-  a,
-  a svg * {
+  a {
     color: $color__link;
   }
 
   a:hover,
-  a:focus,
-  a:hover svg *,
-  a:focus svg *,  {
+  a:focus {
     color: $color__link--hover;
   }
 }
