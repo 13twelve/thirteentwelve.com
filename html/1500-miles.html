@@ -47,14 +47,27 @@
   </p>
 </section>
 <script>
-  if (typeof document.querySelectorAll && 'classList' in document.createElement('a')) {
-    var els = document.querySelectorAll(".m");
-    for (var i = 0; i < els.length; ++i) {
-      els[i].addEventListener("click", function(){
-        this.classList.toggle("active");
-      }, false);
+  var els = document.querySelectorAll(".m");
+  for (var i = 0; i < els.length; ++i) {
+    els[i].addEventListener("click", function(){
+      this.classList.toggle("active");
+    }, false);
+  }
+
+  function calcMiles(runMiles) {
+    var oneDay = 24*60*60*1000;
+    var firstDate = new Date(2017,0,1);
+    var secondDate = new Date(Date.now());
+    var diffDays = Math.round(Math.abs((firstDate.getTime() - secondDate.getTime())/(oneDay)));
+    var targetMiles = 1500;
+    var remainingMiles = targetMiles - runMiles;
+    var targetPerDay = remainingMiles / diffDays;
+    if (console.log) {
+      console.log("Remaining miles: "+remainingMiles+"\nTarget/day: "+targetPerDay);
     }
   }
+
+  calcMiles(1420);
 </script>
       </main>
       <footer>
@@ -69,6 +82,7 @@
           <li><a href="http://www.flickr.com/photos/13twelve/" target="_blank" title="Flickr"><svg width="32px" height="32px"><use xlink:href="#flickr" /></svg></a></li>
           <li><a href="http://www.youtube.com/13twelve" target="_blank" title="YouTube"><svg width="32px" height="32px"><use xlink:href="#youtube" /></svg></a></li>
           <li><a href="http://www.linkedin.com/in/13twelve" target="_blank" title="Linked In"><svg width="32px" height="32px"><use xlink:href="#linkedin" /></svg></a></li>
+          <li><a href="https://github.com/13twelve" target="_blank" title="GitHub"><svg width="32px" height="32px"><use xlink:href="#github" /></svg></a></li>
           <li><a href="http://goteamfun.tumblr.com/" target="_blank" title="Tumblr"><svg width="32px" height="32px"><use xlink:href="#tumblr" /></svg></a></li>
         </ul>
         <small>Copyright &copy; 2005 &ndash; 2016 thirteentwelve.com</small>
@@ -120,6 +134,10 @@
 
       <symbol id="tumblr" viewbox="0 0 32 32">
         <path fill="currentColor" d="M26.668,0H5.334C2.4,0,0,2.4,0,5.334v21.332C0,29.602,2.4,32,5.334,32h21.334C29.601,32,32,29.602,32,26.666,V5.334C32,2.401,29.601,0,26.668,0L26.668,0z M22.866,25.771c-0.942,0.443-1.798,0.756-2.563,0.936,c-0.765,0.178-1.592,0.267-2.481,0.267c-1.01,0-1.606-0.127-2.381-0.381c-0.776-0.256-1.437-0.621-1.984-1.09,c-0.549-0.472-0.928-0.975-1.14-1.506C12.105,23.466,12,22.695,12,21.686v-7.743H9v-3.127c0.867-0.281,1.873-0.685,2.49-1.211,c0.62-0.527,1.116-1.158,1.49-1.896c0.375-0.736,0.633-1.676,0.774-2.815h3.141v5.108H22v3.942h-5.106v5.662,c0,1.281-0.017,2.02,0.12,2.383c0.135,0.361,0.472,0.736,0.84,0.953c0.489,0.293,1.047,0.44,1.676,0.44,c1.118,0,2.231-0.363,3.336-1.09v3.482L22.866,25.771L22.866,25.771z"/>
+      </symbol>
+
+      <symbol id="github" viewbox="0 0 32 32">
+        <path fill="currentColor" d="M16,0C7.163,0,0,7.163,0,16s7.163,16,16,16s16-7.163,16-16S24.837,0,16,0z M25.502,25.502,c-1.235,1.235-2.672,2.204-4.272,2.881c-0.407,0.172-0.819,0.323-1.238,0.453v-2.398c0-1.26-0.432-2.187-1.297-2.781,c0.542-0.052,1.039-0.125,1.492-0.219s0.932-0.229,1.437-0.407c0.505-0.177,0.958-0.388,1.359-0.633,c0.401-0.245,0.787-0.563,1.156-0.953c0.37-0.391,0.68-0.833,0.93-1.328s0.448-1.089,0.594-1.781,c0.146-0.693,0.219-1.456,0.219-2.289c0-1.615-0.526-2.989-1.578-4.125c0.479-1.25,0.427-2.609-0.156-4.078l-0.391-0.047,C23.487,7.766,23,7.88,22.296,8.141s-1.492,0.687-2.367,1.281c-1.24-0.344-2.526-0.516-3.86-0.516c-1.344,0-2.625,0.172-3.844,0.516,c-0.552-0.375-1.076-0.685-1.57-0.93c-0.495-0.245-0.89-0.411-1.188-0.5C9.171,7.904,8.895,7.849,8.64,7.828,C8.385,7.807,8.221,7.802,8.148,7.813c-0.073,0.01-0.125,0.021-0.156,0.031c-0.584,1.479-0.635,2.839-0.156,4.078,c-1.052,1.135-1.578,2.51-1.578,4.125c0,0.833,0.073,1.596,0.219,2.289s0.344,1.287,0.594,1.781c0.25,0.495,0.56,0.937,0.93,1.328,c0.37,0.391,0.755,0.708,1.156,0.953c0.401,0.245,0.854,0.456,1.359,0.633c0.505,0.177,0.984,0.312,1.437,0.407,c0.453,0.094,0.951,0.167,1.492,0.219c-0.854,0.584-1.281,1.511-1.281,2.781v2.445c-0.472-0.14-0.937-0.306-1.394-0.5,c-1.6-0.677-3.037-1.646-4.272-2.881c-1.235-1.235-2.204-2.672-2.881-4.272c-0.7-1.655-1.055-3.414-1.055-5.23,s0.355-3.575,1.055-5.23c0.677-1.6,1.646-3.037,2.881-4.272s2.672-2.204,4.272-2.881c1.655-0.7,3.414-1.055,5.23-1.055,s3.575,0.355,5.23,1.055c1.6,0.677,3.037,1.646,4.272,2.881c1.235,1.235,2.204,2.672,2.881,4.272c0.7,1.655,1.055,3.415,1.055,5.23,s-0.355,3.575-1.055,5.23C27.705,22.829,26.736,24.267,25.502,25.502L25.502,25.502z"/>
       </symbol>
 
       <symbol id="logo" viewbox="0 0 422 86">

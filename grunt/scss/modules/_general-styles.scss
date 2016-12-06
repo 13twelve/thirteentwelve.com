@@ -42,6 +42,12 @@ a:focus {
 
 img {
   border: 0 none;
+  opacity: 1;
+  transition: opacity .25s;
+}
+
+img[data-src] {
+  opacity: 0;
 }
 
 small {

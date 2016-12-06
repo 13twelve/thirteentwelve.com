@@ -10,7 +10,7 @@ module.exports = {
     tasks: ['sass:dev','notify:sass']
   },
   css: {
-    files: ['stylesheets/application.css','stylesheets/icons.css']
+    files: ['stylesheets/application.css']
   },
   headjs: {
     files: ['grunt/js/head.js'],

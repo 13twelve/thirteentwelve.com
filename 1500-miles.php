@@ -34,13 +34,26 @@
   </p>
 </section>
 <script>
-  if (typeof document.querySelectorAll && 'classList' in document.createElement('a')) {
-    var els = document.querySelectorAll(".m");
-    for (var i = 0; i < els.length; ++i) {
-      els[i].addEventListener("click", function(){
-        this.classList.toggle("active");
-      }, false);
+  var els = document.querySelectorAll(".m");
+  for (var i = 0; i < els.length; ++i) {
+    els[i].addEventListener("click", function(){
+      this.classList.toggle("active");
+    }, false);
+  }
+
+  function calcMiles(runMiles) {
+    var oneDay = 24*60*60*1000;
+    var firstDate = new Date(2017,0,1);
+    var secondDate = new Date(Date.now());
+    var diffDays = Math.round(Math.abs((firstDate.getTime() - secondDate.getTime())/(oneDay)));
+    var targetMiles = 1500;
+    var remainingMiles = targetMiles - runMiles;
+    var targetPerDay = remainingMiles / diffDays;
+    if (console.log) {
+      console.log("Remaining miles: "+remainingMiles+"\nTarget/day: "+targetPerDay);
     }
   }
+
+  calcMiles(1420);
 </script>
 <?php include "includes/_html_footer.php"; ?>

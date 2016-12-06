@@ -5,8 +5,7 @@ module.exports = {
       outputStyle: "nested"
     },
     files: {
-      'stylesheets/application.css' : 'grunt/scss/application.scss',
-      'stylesheets/icons.css' : 'grunt/scss/icons.scss'
+      'stylesheets/application.css' : 'grunt/scss/application.scss'
     }
   },
   dist: {
@@ -15,8 +14,7 @@ module.exports = {
       outputStyle: "compressed"
     },
     files: {
-      'stylesheets/application.css' : 'grunt/scss/application.scss',
-      'stylesheets/icons.css' : 'grunt/scss/icons.scss'
+      'stylesheets/application.css' : 'grunt/scss/application.scss'
     }
   },
 };

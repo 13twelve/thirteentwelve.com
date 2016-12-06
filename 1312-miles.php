@@ -48,13 +48,11 @@
   </p>
 </section>
 <script>
-  if (typeof document.querySelectorAll && 'classList' in document.createElement('a')) {
-    var els = document.querySelectorAll(".m");
-    for (var i = 0; i < els.length; ++i) {
-      els[i].addEventListener("click", function(){
-        this.classList.toggle("active");
-      }, false);
-    }
+  var els = document.querySelectorAll(".m");
+  for (var i = 0; i < els.length; ++i) {
+    els[i].addEventListener("click", function(){
+      this.classList.toggle("active");
+    }, false);
   }
 </script>
 <?php include "includes/_html_footer.php"; ?>

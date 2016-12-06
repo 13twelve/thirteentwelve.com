@@ -36,7 +36,7 @@
 <h2>Speaking at:</h2>
 <ul class="key-engagements">
   <li>
-    <div class="key-engagements__img"><img src="/images/work/fred.jpg" alt="McrFRED" /></div>
+    <div class="key-engagements__img" style="background-color: #0a016e;"><img data-src="/images/work/fred.jpg" alt="McrFRED" width="185" height="79" /></div>
     <div class="key-engagements__meta">
       <h3><b>McrFRED: The importance of health and fitness as a developer</b> <br>23rd February 2017</h3>
       <p>A short talk about my experience of being an unhealthy developer and my efforts to be a healthier one and the impacts on my work and life. Contains pseudo-science, bad jokes and made up graphs.</p>
@@ -46,7 +46,7 @@
 <h2>Key Engagements</h2>
 <ul class="key-engagements">
   <li>
-    <div class="key-engagements__img"><img src="/images/work/cr.jpg" alt="Charlie Rose" /></div>
+    <div class="key-engagements__img" style="background-color: #000;"><img data-src="/images/work/cr.jpg" alt="Charlie Rose" width="185" height="79" /></div>
     <div class="key-engagements__meta">
       <h3><b>Charlie Rose</b> <br>April 2016, <i>AREA 17</i></h3>
       <p>The video archive of Charlie Rose, an American talk show host who has been interviewing people for 25+ years and appears on America’s most popular morning TV show. Known for his frank interviews with celebrities and politicians - including <a href="https://charlierose.com/videos/26938">President Obama</a>, <a href="https://charlierose.com/videos/18493">George W. Bush</a>, <a href="https://charlierose.com/videos/17601">Tom Cruise</a>, <a href="https://charlierose.com/videos/11084">Daniel Craig</a> and my hero, <a href="https://charlierose.com/videos/28777">Lewis Hamilton</a>.</p>
@@ -56,7 +56,7 @@
     </div>
   </li>
   <li>
-    <div class="key-engagements__img"><img src="/images/work/appl.jpg" alt="Apple" /></div>
+    <div class="key-engagements__img" style="background-color: #bababa;"><img data-src="/images/work/appl.jpg" alt="Apple" width="185" height="79" /></div>
     <div class="key-engagements__meta">
       <h3><b>Apple</b> <br>August - October 2014</h3>
       <p>Working within the Apple marcom team in Sunnyvale, California and Cupertino, California supporting 2014's biggest Apple product launches. Within my team I established a reputation for going beyond the required, doing whatever it takes to deliver and being very designer friendly. I like to think I brought energy, enthusiasm and some much needed British humor to the group.</p>
@@ -65,7 +65,7 @@
     </div>
   </li>
   <li>
-    <div class="key-engagements__img"><img src="/images/work/espn.jpg" alt="ESPN" /></div>
+    <div class="key-engagements__img" style="background-color: #cb0000;"><img data-src="/images/work/espn.jpg" alt="ESPN" width="185" height="79" /></div>
     <div class="key-engagements__meta">
       <h3><b>ESPN</b> <br>July 2013 - August 2014, <i>AREA 17</i></h3>
       <p>AREA 17 were engaged by ESPN to help redesign their website which receives up to 80 million visitors a month and handles 8,000 new pieces of content a day. Initially I was involved with redesign ideas generation - giving advice based on my experience as a developer with a keen interest in browser performance. This moved on to creating prototypes to demonstrate and refine ideas.</p>
@@ -77,7 +77,7 @@
 <h2>Written pieces</h2>
 <ul class="work">
   <li>
-    <div class="work__img"><img src="/images/work/oc.jpg" alt="ESPN" /></div>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/oc.jpg" alt="Optical Cortex" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Optical Cortex</b> <br>
       various blog posts <br><i>AREA 17</i> <br>
@@ -85,7 +85,7 @@
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/netmag3.jpg" alt=".net mag" /></div>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/netmag3.jpg" alt=".net mag" width="185" height="79" /></div>
     <div class="work__meta">
       <b>.net magazine</b> <br>
       Get your JavaScript in order <br>
@@ -94,7 +94,7 @@
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/netmag2.jpg" alt=".net mag" /></div>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/netmag2.jpg" alt=".net mag" width="185" height="79" /></div>
     <div class="work__meta">
       <b>.net magazine</b> <br>
       How to structure your css <br>
@@ -103,7 +103,7 @@
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/netmag.jpg" alt=".net mag" /></div>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/netmag.jpg" alt=".net mag" width="185" height="79" /></div>
     <div class="work__meta">
       <b>.net magazine</b> <br>
       Link swipe tutorial <br>
@@ -114,7 +114,7 @@
 <h2>Teaching</h2>
 <ul class="work">
   <li>
-    <div class="work__img"><img src="/images/work/sn.jpg" alt="Teaching: standards&gt;next" /></div>
+    <div class="work__img" style="background-color: #f2f2f2;"><img data-src="/images/work/sn.jpg" alt="Teaching: standards&gt;next" width="185" height="79" /></div>
     <div class="work__meta">
       <b>standards&gt;next</b> <br>
       CSS3 animations <br>
@@ -122,7 +122,7 @@
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/tq2011.jpg" alt="Teaching: Technique Retreat" /></div>
+    <div class="work__img" style="background-color: #25d0fb;"><img data-src="/images/work/tq2011.jpg" alt="Teaching: Technique Retreat" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Technique Retreat</b> <br>
       CSS teaching <br>
@@ -130,7 +130,7 @@
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/tqt.jpg" alt="Teaching: Technique Retreat" /></div>
+    <div class="work__img" style="background-color: #449a43;"><img data-src="/images/work/tqt.jpg" alt="Teaching: Technique Retreat" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Technique Retreat</b> <br>
       CSS teaching <br>
@@ -141,7 +141,7 @@
 <h2 data-reveal-trigger>Other Engagements</h2>
 <ul class="work" data-reveal-target>
   <li>
-    <div class="work__img"><img src="/images/work/wyss.jpg" alt="Wyss Institute" /></div>
+    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/wyss.jpg" alt="Wyss Institute" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Wyss Institute</b> <br>
       July 2016 <br><i>AREA 17</i> <br>
@@ -149,14 +149,14 @@
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/mop.jpg" alt="Maison&amp;Objet: Produits" /></div>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/mop.jpg" alt="Maison&amp;Objet: Produits" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Maison&amp;Objet and more</b> <br>
       April 2016 <br><i>AREA 17</i>
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img"><img src="/images/work/cr.jpg" alt="Charlie Rose" /></div>
+    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/cr.jpg" alt="Charlie Rose" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Charlie Rose</b> <br>
       April 2016 <br><i>AREA 17</i> <br>
@@ -164,21 +164,21 @@
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/wbpv2016.jpg" alt="The Webby Awards: People's Voice" /></div>
+    <div class="work__img" style="background-color: #fecb6f;"><img data-src="/images/work/wbpv2016.jpg" alt="The Webby Awards: People's Voice" width="185" height="79" /></div>
     <div class="work__meta">
       <b>The Webby Awards: <br>People's Voice (FE rebuild)</b> <br>
       April 2016 <br><i>AREA 17</i> <br>
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img"><img src="/images/work/ar.jpg" alt="Arré" /></div>
+    <div class="work__img" style="background-color: #000035;"><img data-src="/images/work/ar.jpg" alt="Arré" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Arré</b> <br>
       (technical direction) <br>April 2016 <br><i>AREA 17</i> <br>
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/sca.jpg" alt="Scientific American" /></div>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/sca.jpg" alt="Scientific American" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Scientific American</b> <br>
       (technical direction) <br>November 2015 <br><i>AREA 17</i> <br>
@@ -186,7 +186,7 @@
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/en.jpg" alt="Engadget" /></div>
+    <div class="work__img" style="background-color: #2c2d31;"><img data-src="/images/work/en.jpg" alt="Engadget" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Engadget</b> <br>
       (technical direction) <br>November 2015 <br><i>AREA 17</i> <br>
@@ -194,42 +194,42 @@
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/loa.jpg" alt="Library of America" /></div>
+    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/loa.jpg" alt="Library of America" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Library of America</b> <br>
       (technical direction) <br>November 2015 <br><i>AREA 17</i>
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img"><img src="/images/work/dh2015.jpg" alt="Dering Hall" /></div>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/dh2015.jpg" alt="Dering Hall" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Dering Hall</b> <br>
       September 2015 <br><i>AREA 17</i>
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/ham.jpg" alt="Havard Art Museums" /></div>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/ham.jpg" alt="Havard Art Museums" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Havard Art Museums</b> <br>
       (technical direction) <br>October 2014 <br><i>AREA 17</i>
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img"><img src="/images/work/appl.jpg" alt="Apple" /></div>
+    <div class="work__img" style="background-color: #bababa;"><img data-src="/images/work/appl.jpg" alt="Apple" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Apple</b> <br>
       September 2014
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img"><img src="/images/work/dy.jpg" alt="Samsung:Derby" /></div>
+    <div class="work__img" style="background-color: #5861a9;"><img data-src="/images/work/dy.jpg" alt="Samsung:Derby" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Samsung: Derby</b> <br>
       September 2014 <br><i>AREA 17</i> <br>
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img"><img src="/images/work/espn.jpg" alt="ESPN" /></div>
+    <div class="work__img" style="background-color: #cb0000;"><img data-src="/images/work/espn.jpg" alt="ESPN" width="185" height="79" /></div>
     <div class="work__meta">
       <b>ESPN</b> <br>
       April 2014 <br><i>ESPN</i> <br>
@@ -237,21 +237,21 @@
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img"><img src="/images/work/wbpv.jpg" alt="The Webby Awards: People's Voice" /></div>
+    <div class="work__img" style="background-color: #e8eff9;"><img data-src="/images/work/wbpv.jpg" alt="The Webby Awards: People's Voice" width="185" height="79" /></div>
     <div class="work__meta">
       <b>The Webby Awards: <br>People's Voice (reskin)</b> <br>
       April 2014 <br><i>AREA 17</i> <br>
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/adda.jpg" alt="Advertising Age" /></div>
+    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/adda.jpg" alt="Advertising Age" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Advertising Age</b> <br>
       (technical direction) <br>February 2014 <br><i>AREA 17</i>
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img"><img src="/images/work/a.jpg" alt="Activaire" /></div>
+    <div class="work__img" style="background-color: #2de382;"><img data-src="/images/work/a.jpg" alt="Activaire" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Activaire</b> <br>
       February 2014 <br><i>Spearpoint</i> <br>
@@ -259,35 +259,35 @@
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img"><img src="/images/work/fbs_10.jpg" alt="Happy Birthday Facebook!" /></div>
+    <div class="work__img" style="background-color: #3b5586;"><img data-src="/images/work/fbs_10.jpg" alt="Happy Birthday Facebook!" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Ten Stories</b> <br>
       February 2014 <br><i>for Facebook's 10th Birthday</i> <br>
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img"><img src="/images/work/hdr.jpg" alt="Design Connect" /></div>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/hdr.jpg" alt="Design Connect" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Design Connect</b> <br>
       February 2014 <br><i>AREA 17</i>
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img"><img src="/images/work/nycmc.jpg" alt="NY Media Center" /></div>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/nycmc.jpg" alt="NY Media Center" width="185" height="79" /></div>
     <div class="work__meta">
       <b>NY Media Center</b> <br>
       January 2014 <br><i>AREA 17</i> <br>
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img"><img src="/images/work/fbs_yir_2013.jpg" alt="Facebook Stories: 2013 Year in Review" /></div>
+    <div class="work__img" style="background-color: #2f2b28;"><img data-src="/images/work/fbs_yir_2013.jpg" alt="Facebook Stories: 2013 Year in Review" width="185" height="79" /></div>
     <div class="work__meta">
       <b>2013 Year in Review</b> <br>
       December 2013 <br><i>Facebook</i>
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/hrtr.jpg" alt="heartresearch.me" /></div>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/hrtr.jpg" alt="heartresearch.me" width="185" height="79" /></div>
     <div class="work__meta">
       <b>heartresearch.me</b> <br>
       Charity hack day <br>November 2013 <br><i>We Love The Web</i> <br>
@@ -295,42 +295,42 @@
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/fbs_2013.jpg" alt="Facebook Stories" /></div>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/fbs_2013.jpg" alt="Facebook Stories" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Facebook Stories</b> <br>
       November 2013 <br><i>Facebook</i>
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/wb.jpg" alt="The Webby Awards Winners Gallery and Archive" /></div>
+    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/wb.jpg" alt="The Webby Awards Winners Gallery and Archive" width="185" height="79" /></div>
     <div class="work__meta">
       <b>The Webby Awards: Winners Gallery and Archive</b> <br>
       April 2013 <br><i>AREA 17</i>
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/bb.jpg" alt="Billboard Biz" /></div>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/bb.jpg" alt="Billboard Biz" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Billboard</b> <br>
       January 2013 <br><i>AREA 17</i>
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img"><img src="/images/work/bbb.jpg" alt="Billboard Biz" /></div>
+    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/bbb.jpg" alt="Billboard Biz" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Billboard Biz</b> <br>
       January 2013 <br><i>AREA 17</i>
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img"><img src="/images/work/fbs_nymd.jpg" alt="Facebook Stories: New Year's Midnight Delivery" /></div>
+    <div class="work__img" style="background-color: #f7f3f0;"><img data-src="/images/work/fbs_nymd.jpg" alt="Facebook Stories: New Year's Midnight Delivery" width="185" height="79" /></div>
     <div class="work__meta">
       <b>New Year's Midnight Delivery</b> <br>
       December 2012 <br><i>Facebook</i>
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/fm.jpg" alt="Filmmaker" /></div>
+    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/fm.jpg" alt="Filmmaker" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Filmmaker</b> <br>
       November 2012 <br><i>AREA 17</i> <br>
@@ -338,56 +338,56 @@
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img"><img src="/images/work/fbs_av2012.jpg" alt="Facebook Stories: America Votes 2012" /></div>
+    <div class="work__img" style="background-color: #e9e8e4;"><img data-src="/images/work/fbs_av2012.jpg" alt="Facebook Stories: America Votes 2012" width="185" height="79" /></div>
     <div class="work__meta">
       <b>America Votes 2012</b> <br>
       November 2012 <br><i>Facebook</i> <br>
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img"><img src="/images/work/cbx.jpg" alt="CBX" /></div>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/cbx.jpg" alt="CBX" width="185" height="79" /></div>
     <div class="work__meta">
       <b>CBX</b> <br>
       October 2012 <br><i>AREA 17</i> <br>
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/fbs.jpg" alt="Facebook Stories" /></div>
+    <div class="work__img" style="background-color: #f5f1ee;"><img data-src="/images/work/fbs.jpg" alt="Facebook Stories" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Facebook Stories</b> <br>
       August 2012 <br><i>Facebook</i> <br>
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/chr.jpg" alt="Google Chrome" /></div>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/chr.jpg" alt="Google Chrome" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Google Chrome</b> <br>
       April 2012 <br><i>Google</i> <br>
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/lt.jpg" alt="Life+Times" /></div>
+    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/lt.jpg" alt="Life+Times" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Jay Z's Life+Times</b> <br>
       March 2012 (javascript re-write) <br><i>AREA 17</i> <br>
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img"><img src="/images/work/up.jpg" alt="Unpakt" /></div>
+    <div class="work__img" style="background-color: #0faad7;"><img data-src="/images/work/up.jpg" alt="Unpakt" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Unpakt</b> <br>
       January 2012 <br><i>Pivotal Labs</i> <br>
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img"><img src="/images/work/st.jpg" alt="Stalkr" /></div>
+    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/st.jpg" alt="Stalkr" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Stalkr</b> <br>
       December 2011 <br><i>AREA 17</i>
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/ifp.jpg" alt="IFP" /></div>
+    <div class="work__img" style="background-color: #989898;"><img data-src="/images/work/ifp.jpg" alt="IFP" width="185" height="79" /></div>
     <div class="work__meta">
       <b>IFP</b> <br>
       November 2011 <br><i>AREA 17</i> <br>
@@ -395,63 +395,63 @@
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img"><img src="/images/work/cf.jpg" alt="Coroflot" /></div>
+    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/cf.jpg" alt="Coroflot" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Coroflot</b> <br>
       November 2011 <br><i>AREA 17</i> <br>
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img"><img src="/images/work/dh.jpg" alt="Dering Hall" /></div>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/dh.jpg" alt="Dering Hall" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Dering Hall</b> <br>
       October 2011 <br><i>AREA 17</i> <br>
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img"><img src="/images/work/sp.jpg" alt="Société Perrier" /></div>
+    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/sp.jpg" alt="Société Perrier" width="185" height="79" /></div>
    <div class="work__meta">
      <b>Société Perrier</b> <br>
      August 2011 <br><i>AREA 17</i> <br>
    </div>
   </li>
   <li class="js-all">
-    <div class="work__img"><img src="/images/work/tt.jpg" alt="Theyskens Theory" /></div>
+    <div class="work__img" style="background-color: #434343;"><img data-src="/images/work/tt.jpg" alt="Theyskens Theory" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Theyskens Theory</b> <br>
       January 2011 <br><i>AREA 17</i> <br>
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img"><img src="/images/work/f.jpg" alt="Fudge" /></div>
+    <div class="work__img" style="background-color: #497cb6;"><img data-src="/images/work/f.jpg" alt="Fudge" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Made by Fudge</b> <br>
       January 2011 <br><i>Fudge</i>
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img"><img src="/images/work/gm.jpg" alt="Universal: Give Music" /></div>
+    <div class="work__img" style="background-color: #cdcdcd;"><img data-src="/images/work/gm.jpg" alt="Universal: Give Music" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Universal Music: Give Music</b> <br>
       December 2010 <br><i>Fudge</i> <br>
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/dfi.jpg" alt="Doha Film Institute" /></div>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/dfi.jpg" alt="Doha Film Institute" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Doha Film Institute</b> <br>
       October 2010 <br><i>AREA 17</i>
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img"><img src="/images/work/fobi.jpg" alt="Face of Blue Inc" /></div>
+    <div class="work__img" style="background-color: #cacaca;"><img data-src="/images/work/fobi.jpg" alt="Face of Blue Inc" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Face of Blue Inc</b> <br>
       October 2010 <br><i>Fudge</i> <br>
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/sa.jpg" alt="Sustainability" /></div>
+    <div class="work__img" style="background-color: #32a1bb;"><img data-src="/images/work/sa.jpg" alt="Sustainability" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Sustainability</b> <br>
       August 2010 <br><i>AREA 17</i> <br>
@@ -459,35 +459,35 @@
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img"><img src="/images/work/v.jpg" alt="Volcom: Amsterdanm Am" /></div>
+    <div class="work__img" style="background-color: #fcfcfc;"><img data-src="/images/work/v.jpg" alt="Volcom: Amsterdanm Am" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Volcom: Amsterdanm Am</b> <br>
       June 2010 <br><i>Fudge</i>
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/tcp.jpg" alt="The Creators Project" /></div>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/tcp.jpg" alt="The Creators Project" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Vice Magazine: The Creators Project</b> <br>
       June 2010 <br><i>AREA 17</i>
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img"><img src="/images/work/pl.jpg" alt="The Pleasance" /></div>
+    <div class="work__img" style="background-color: #b7a26a;"><img data-src="/images/work/pl.jpg" alt="The Pleasance" width="185" height="79" /></div>
     <div class="work__meta">
       <b>The Pleasance</b> <br>
       April 2010 <br><i>Fudge</i>
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img"><img src="/images/work/fob.jpg" alt="Face of Bank" /></div>
+    <div class="work__img" style="background-color: #e5e7e6;"><img data-src="/images/work/fob.jpg" alt="Face of Bank" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Face of Bank</b> <br>
       March 2010 <br><i>Fudge</i>
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img"><img src="/images/work/jm.jpg" alt="James Maddox Photography" /></div>
+    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/jm.jpg" alt="James Maddox Photography" width="185" height="79" /></div>
     <div class="work__meta">
       <b>James Maddox Photography</b> <br>
       February 2010 <br><i>Fudge</i>
@@ -495,147 +495,147 @@
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img"><img src="/images/work/ci.jpg" alt="Creative Islington" /></div>
+    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/ci.jpg" alt="Creative Islington" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Creative Islington</b> <br>
       February 2010 <br><i>Fudge</i> <br>
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img"><img src="/images/work/tq.jpg" alt="Technique Retreat" /></div>
+    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/tq.jpg" alt="Technique Retreat" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Technique Retreat</b> <br>
       January 2010 <br><i>thirteentwelve</i> <br>
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img"><img src="/images/work/ct2.jpg" alt="Creative Times" /></div>
+    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/ct2.jpg" alt="Creative Times" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Creative Times</b> <br>
       January 2010 <br><i>Fudge</i> <br>
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img"><img src="/images/work/db.jpg" alt="Digital Bury" /></div>
+    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/db.jpg" alt="Digital Bury" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Digital Bury</b> <br>
       September 2009 <br><i>Fudge</i> <br>
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img"><img src="/images/work/cc.jpg" alt="Creative Capita" /></div>
+    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/cc.jpg" alt="Creative Capita" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Creative Capital</b> <br>
       August 2009 <br><i>AREA 17</i> <br>
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img"><img src="/images/work/hu.jpg" alt="Humanity United" /></div>
+    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/hu.jpg" alt="Humanity United" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Humanity United</b> <br>
       July 2009 <br><i>AREA 17</i> <br>
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/cp.jpg" alt="Canal+" /></div>
+    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/cp.jpg" alt="Canal+" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Canal+</b> <br>
       July 2009 <br><i>AREA 17</i> <br>
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/es.jpg" alt="England Squash and Racketball" /></div>
+    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/es.jpg" alt="England Squash and Racketball" width="185" height="79" /></div>
     <div class="work__meta">
       <b>England Squash and Racketball</b> <br>
       DADI Award Winner <br>May 2009 <br><i>Fudge</i> <br>
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img"><img src="/images/work/oi.jpg" alt="Own It" /></div>
+    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/oi.jpg" alt="Own It" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Own It</b> <br>
       December 2008 <br><i>Fudge</i> <br>
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/mb.jpg" alt="Motherboard.tv" /></div>
+    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/mb.jpg" alt="Motherboard.tv" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Vice Magazine: Motherboard.tv</b> <br>
       November 2008 <br><i>AREA 17</i> <br>
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/vbs.jpg" alt="VBS.tv" /></div>
+    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/vbs.jpg" alt="VBS.tv" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Vice Magazine: VBS.tv</b> <br>
       September 2008 <br><i>AREA 17</i> <br>
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/aol-ld.jpg" alt="AOL Lemondrop" /></div>
+    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/aol-ld.jpg" alt="AOL Lemondrop" width="185" height="79" /></div>
     <div class="work__meta">
       <b>AOL Lemondrop</b> <br>
       June 2008 <br><i>AREA 17</i> <br>
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/aol-dc.jpg" alt="AOL Digital City" /></div>
+    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/aol-dc.jpg" alt="AOL Digital City" width="185" height="79" /></div>
     <div class="work__meta">
       <b>AOL Digital City</b> <br>
       June 2008 <br><i>AREA 17</i> <br>
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/aol-tt.jpg" alt="AOL Tour Tracker" /></div>
+    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/aol-tt.jpg" alt="AOL Tour Tracker" width="185" height="79" /></div>
     <div class="work__meta">
       <b>AOL Tour Tracker</b> <br>
       4+ million unique a month. <br>March 2008 <br><i>AREA 17</i> <br>
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/aol-w.jpg" alt="AOL Weather" /></div>
+    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/aol-w.jpg" alt="AOL Weather" width="185" height="79" /></div>
     <div class="work__meta">
       <b>AOL Weather</b> <br>
       January 2008 <br><i>AREA 17</i> <br>
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/aol-a.jpg" alt="AOL Digital City" /></div>
+    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/aol-a.jpg" alt="AOL Digital City" width="185" height="79" /></div>
     <div class="work__meta">
       <b>AOL Asylum</b> <br>
       2+ million unique a month <br>October 2007 <br><i>AREA 17</i> <br>
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img"><img src="/images/work/twag.jpg" alt="The Way Ahead Group" /></div>
+    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/twag.jpg" alt="The Way Ahead Group" width="185" height="79" /></div>
     <div class="work__meta">
       <b>The Way Ahead Group</b> <br>
       December 2007 <br><i>Fudge</i> <br>
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img"><img src="/images/work/kc.jpg" alt="Kitty Cooper" /></div>
+    <div class="work__img" style="background-color: #979cbc;"><img data-src="/images/work/kc.jpg" alt="Kitty Cooper" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Kitty Cooper</b> <br>
       Big Chip &amp; DADI award winner <br>September 2007 <br><i>Fudge</i> <br>
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/wx.jpg" alt="Warp X" /></div>
+    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/wx.jpg" alt="Warp X" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Warp X</b> <br>
       June 2007 <br><i>We Love The Web</i> <br>
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/mrs.jpg" alt="Mr Scruff" /></div>
+    <div class="work__img" style="background-color: #83b0cd;"><img data-src="/images/work/mrs.jpg" alt="Mr Scruff" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Mr Scruff</b> <br>
       December 2004 <br><i>We Love The Web</i> <br>
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/ep.jpg" alt="Evolution Print" /></div>
+    <div class="work__img" style="background-color: #fffde8;"><img data-src="/images/work/ep.jpg" alt="Evolution Print" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Evolution Print</b> <br>
       Design by The Designers Republic. <br><i>We love the web</i> <br>
@@ -645,7 +645,7 @@
 <h2>Personal</h2>
 <ul class="work">
   <li>
-    <div class="work__img"><img src="/images/work/1000.jpg" alt="1000 Miles" /></div>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/1000.jpg" alt="1000 Miles" width="185" height="79" /></div>
     <div class="work__meta">
       <b>1000 Miles</b> <br>
       Stats from running 1000 miles in 2014 <br>
@@ -653,7 +653,7 @@
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/1312.jpg" alt="1312 Miles" /></div>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/1312.jpg" alt="1312 Miles" width="185" height="79" /></div>
     <div class="work__meta">
       <b>1312 Miles</b> <br>
       Stats from running 1312 miles in 2015 <br>
@@ -661,7 +661,7 @@
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/1500.jpg" alt="1500 Miles" /></div>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/1500.jpg" alt="1500 Miles" width="185" height="79" /></div>
     <div class="work__meta">
       <b>1500 Miles</b> <br>
       Stats from running 1500 miles in 2016 <br>
@@ -669,7 +669,7 @@
     </div>
   </li>
   <li>
-    <div class="work__img"><img src="/images/work/hs.jpg" alt="Go Team Fun: Handstands" /></div>
+    <div class="work__img" style="background-color: #87a058;"><img data-src="/images/work/hs.jpg" alt="Go Team Fun: Handstands" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Handstands</b> <br>
       <a href="http://goteamfun.tumblr.com/" target="_blank">Visit <svg><use xlink:href="#external" /></svg></a>
@@ -677,6 +677,20 @@
   </li>
 </ul>
 <script>
+  var imgs = document.querySelectorAll('img[data-src]');
+  var imgsLength = imgs.length;
+  var imgLoaders = [];
+
+  function setSrc() {
+    imgs[this.index].removeAttribute('data-src');
+  }
+
+  for (var i = 0; i < imgsLength; i++) {
+    imgs[i].index = i;
+    imgs[i].onload = setSrc;
+    imgs[i].src = imgs[i].getAttribute('data-src');
+  }
+
   var revealTrigger = document.querySelectorAll('[data-reveal-trigger]')[0];
   function revealAllWork() {
     document.querySelectorAll('[data-reveal-target]')[0].className += ' js-reveal';

@@ -1,6 +1,5 @@
 .work {
   @include font--s;
-  @extend %float_clear;
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
@@ -37,10 +36,12 @@
   }
 
   .js-all {
+    /*
     position: absolute;
     visibility: hidden;
     opacity: 0;
     transition: opacity .5s;
+    */
   }
 
   &.js-reveal .js-all {
@@ -55,9 +56,11 @@
 
   .work__img {
     position: relative;
+    height: 0;
+    padding-bottom: 42.7027027%;
   }
 
-  .work__img::before {
+  .work__img::after {
     content: '';
     position: absolute;
     left: 0;
@@ -68,9 +71,10 @@
   }
 
   img {
-    display: block;
+    position: absolute;
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
   }
 
   a svg {
