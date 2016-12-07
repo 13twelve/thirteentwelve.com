@@ -4,4 +4,5 @@ npm-debug.log
 
 stylesheets/*.css
 javascripts/*.js
-images/fallback
+images/work
+html/

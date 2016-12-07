@@ -54,6 +54,6 @@
     }
   }
 
-  calcMiles(1420);
+  calcMiles(1440);
 </script>
 <?php include "includes/_html_footer.php"; ?>

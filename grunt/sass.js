@@ -5,7 +5,8 @@ module.exports = {
       outputStyle: "nested"
     },
     files: {
-      'stylesheets/application.css' : 'grunt/scss/application.scss'
+      'stylesheets/application.css' : 'grunt/scss/application.scss',
+      'includes/_homecss.php' : 'grunt/scss/home.scss'
     }
   },
   dist: {
@@ -14,7 +15,8 @@ module.exports = {
       outputStyle: "compressed"
     },
     files: {
-      'stylesheets/application.css' : 'grunt/scss/application.scss'
+      'stylesheets/application.css' : 'grunt/scss/application.scss',
+      'includes/_homecss.php' : 'grunt/scss/home.scss'
     }
   },
 };

@@ -8,5 +8,10 @@ module.exports = {
    options: {
      message: 'JS uglified!'
    }
+  },
+  img: {
+   options: {
+     message: 'Images compressed!'
+   }
   }
 };

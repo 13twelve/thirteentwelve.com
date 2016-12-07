@@ -269,7 +269,6 @@ C36.47,26.479,36.641,27.069,37.497,27.205z"/>
     </svg>
 
     <script type="text/javascript">
-
       var thirteentwelve = document.getElementById('thirteentwelve');
       thirteentwelve.insertBefore(document.getElementById('icons'),thirteentwelve.childNodes[0]);
 
@@ -282,7 +281,6 @@ C36.47,26.479,36.641,27.069,37.497,27.205z"/>
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
-
     </script>
   </body>
 </html>

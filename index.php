@@ -1,8 +1,9 @@
+<?php $home = true; ?>
 <?php include "includes/_html_header.php"; ?>
 <div class="intro">
   <div class="intro__col">
     <h1>The portfolio of front end developer Mike Byrne</h1>
-    <p>I have 15 years experience specialising in building semantic, accessible, pixel perfect websites, using and pushing todays best practice methods. I seek to produce graceful, pragmatic solutions to solve interface problems presented to me.</p>
+    <p>I have 15 years experience specialising in building semantic, accessible, pixel perfect websites, using and pushing todays best practice methods. I seek to produce graceful, pragmatic solutions to solve interface problems presented to me. Over the years I have developed a reputation for straight talking, working very quickly, adaptability, being client friendly and leading both developers and whole teams towards a successful project.</p>
   </div>
   <div class="intro__col">
    <h2>Primary skills:</h2>
@@ -56,7 +57,7 @@
     </div>
   </li>
   <li>
-    <div class="key-engagements__img" style="background-color: #bababa;"><img data-src="/images/work/appl.jpg" alt="Apple" width="185" height="79" /></div>
+    <div class="key-engagements__img" style="background-color: #fff;"><img data-src="/images/work/appl.jpg" alt="Apple" width="185" height="79" /></div>
     <div class="key-engagements__meta">
       <h3><b>Apple</b> <br>August - October 2014</h3>
       <p>Working within the Apple marcom team in Sunnyvale, California and Cupertino, California supporting 2014's biggest Apple product launches. Within my team I established a reputation for going beyond the required, doing whatever it takes to deliver and being very designer friendly. I like to think I brought energy, enthusiasm and some much needed British humor to the group.</p>
@@ -215,7 +216,7 @@
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img" style="background-color: #bababa;"><img data-src="/images/work/appl.jpg" alt="Apple" width="185" height="79" /></div>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/appl.jpg" alt="Apple" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Apple</b> <br>
       September 2014
@@ -495,21 +496,21 @@
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/ci.jpg" alt="Creative Islington" width="185" height="79" /></div>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/ci.jpg" alt="Creative Islington" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Creative Islington</b> <br>
       February 2010 <br><i>Fudge</i> <br>
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/tq.jpg" alt="Technique Retreat" width="185" height="79" /></div>
+    <div class="work__img" style="background-color: #252120;"><img data-src="/images/work/tq.jpg" alt="Technique Retreat" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Technique Retreat</b> <br>
       January 2010 <br><i>thirteentwelve</i> <br>
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/ct2.jpg" alt="Creative Times" width="185" height="79" /></div>
+    <div class="work__img" style="background-color: #a45600;"><img data-src="/images/work/ct2.jpg" alt="Creative Times" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Creative Times</b> <br>
       January 2010 <br><i>Fudge</i> <br>
@@ -523,14 +524,14 @@
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/cc.jpg" alt="Creative Capita" width="185" height="79" /></div>
+    <div class="work__img" style="background-color: #262626;"><img data-src="/images/work/cc.jpg" alt="Creative Capita" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Creative Capital</b> <br>
       August 2009 <br><i>AREA 17</i> <br>
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/hu.jpg" alt="Humanity United" width="185" height="79" /></div>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/hu.jpg" alt="Humanity United" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Humanity United</b> <br>
       July 2009 <br><i>AREA 17</i> <br>
@@ -544,14 +545,14 @@
     </div>
   </li>
   <li>
-    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/es.jpg" alt="England Squash and Racketball" width="185" height="79" /></div>
+    <div class="work__img" style="background-color: #a4a4a4;"><img data-src="/images/work/es.jpg" alt="England Squash and Racketball" width="185" height="79" /></div>
     <div class="work__meta">
       <b>England Squash and Racketball</b> <br>
       DADI Award Winner <br>May 2009 <br><i>Fudge</i> <br>
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/oi.jpg" alt="Own It" width="185" height="79" /></div>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/oi.jpg" alt="Own It" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Own It</b> <br>
       December 2008 <br><i>Fudge</i> <br>
@@ -565,56 +566,56 @@
     </div>
   </li>
   <li>
-    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/vbs.jpg" alt="VBS.tv" width="185" height="79" /></div>
+    <div class="work__img" style="background-color: #504f4c;"><img data-src="/images/work/vbs.jpg" alt="VBS.tv" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Vice Magazine: VBS.tv</b> <br>
       September 2008 <br><i>AREA 17</i> <br>
     </div>
   </li>
   <li>
-    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/aol-ld.jpg" alt="AOL Lemondrop" width="185" height="79" /></div>
+    <div class="work__img" style="background-color: #41488c;"><img data-src="/images/work/aol-ld.jpg" alt="AOL Lemondrop" width="185" height="79" /></div>
     <div class="work__meta">
       <b>AOL Lemondrop</b> <br>
       June 2008 <br><i>AREA 17</i> <br>
     </div>
   </li>
   <li>
-    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/aol-dc.jpg" alt="AOL Digital City" width="185" height="79" /></div>
+    <div class="work__img" style="background-color: #d30008;"><img data-src="/images/work/aol-dc.jpg" alt="AOL Digital City" width="185" height="79" /></div>
     <div class="work__meta">
       <b>AOL Digital City</b> <br>
       June 2008 <br><i>AREA 17</i> <br>
     </div>
   </li>
   <li>
-    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/aol-tt.jpg" alt="AOL Tour Tracker" width="185" height="79" /></div>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/aol-tt.jpg" alt="AOL Tour Tracker" width="185" height="79" /></div>
     <div class="work__meta">
       <b>AOL Tour Tracker</b> <br>
       4+ million unique a month. <br>March 2008 <br><i>AREA 17</i> <br>
     </div>
   </li>
   <li>
-    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/aol-w.jpg" alt="AOL Weather" width="185" height="79" /></div>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/aol-w.jpg" alt="AOL Weather" width="185" height="79" /></div>
     <div class="work__meta">
       <b>AOL Weather</b> <br>
       January 2008 <br><i>AREA 17</i> <br>
     </div>
   </li>
   <li>
-    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/aol-a.jpg" alt="AOL Digital City" width="185" height="79" /></div>
+    <div class="work__img" style="background-color: #272727;"><img data-src="/images/work/aol-a.jpg" alt="AOL Digital City" width="185" height="79" /></div>
     <div class="work__meta">
       <b>AOL Asylum</b> <br>
       2+ million unique a month <br>October 2007 <br><i>AREA 17</i> <br>
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img" style="background-color: #000;"><img data-src="/images/work/twag.jpg" alt="The Way Ahead Group" width="185" height="79" /></div>
+    <div class="work__img" style="background-color: #8f4637;"><img data-src="/images/work/twag.jpg" alt="The Way Ahead Group" width="185" height="79" /></div>
     <div class="work__meta">
       <b>The Way Ahead Group</b> <br>
       December 2007 <br><i>Fudge</i> <br>
     </div>
   </li>
   <li class="js-all">
-    <div class="work__img" style="background-color: #979cbc;"><img data-src="/images/work/kc.jpg" alt="Kitty Cooper" width="185" height="79" /></div>
+    <div class="work__img" style="background-color: #9294b2;"><img data-src="/images/work/kc.jpg" alt="Kitty Cooper" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Kitty Cooper</b> <br>
       Big Chip &amp; DADI award winner <br>September 2007 <br><i>Fudge</i> <br>
@@ -680,23 +681,42 @@
   var imgs = document.querySelectorAll('img[data-src]');
   var imgsLength = imgs.length;
   var imgLoaders = [];
+  var imgsLoaded = 0;
+
+  function imgInViewport(img) {
+    var rect = img.getBoundingClientRect();
+    return (rect.top >= 0 && rect.left >= 0 && rect.top <= (window.innerHeight || document.documentElement.clientHeight));
+  }
 
   function setSrc() {
     imgs[this.index].removeAttribute('data-src');
+    imgsLoaded++;
   }
 
-  for (var i = 0; i < imgsLength; i++) {
-    imgs[i].index = i;
-    imgs[i].onload = setSrc;
-    imgs[i].src = imgs[i].getAttribute('data-src');
+  function setSrcs() {
+    for (var i = 0; i < imgsLength; i++) {
+      if (!imgs[i].src && imgInViewport(imgs[i])) {
+        imgs[i].index = i;
+        imgs[i].onload = setSrc;
+        imgs[i].src = imgs[i].getAttribute('data-src');
+      }
+    }
+    if (imgsLoaded < imgsLength) {
+      requestAnimationFrame(setSrcs);
+    }
   }
+
+  requestAnimationFrame(setSrcs);
 
   var revealTrigger = document.querySelectorAll('[data-reveal-trigger]')[0];
+
   function revealAllWork() {
+    revealTrigger.textContent = "All Engagements";
     document.querySelectorAll('[data-reveal-target]')[0].className += ' js-reveal';
     revealTrigger.removeAttribute('data-reveal-trigger');
     revealTrigger.removeEventListener('click', revealAllWork);
   }
+
   revealTrigger.addEventListener('click', revealAllWork, false);
 </script>
 <?php include "includes/_html_footer.php"; ?>

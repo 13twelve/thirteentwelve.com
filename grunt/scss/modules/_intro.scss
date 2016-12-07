@@ -1,33 +1,25 @@
 .intro {
-  @extend %float_clear;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
   margin-bottom: 10px;
 }
 
 .intro__col {
-  display: inline;
-  float: left;
+  flex: 0 0 50%;
   width: 50%;
   padding-right: 20px;
 
   @include breakpoint(small) {
-    float: none;
-    display: block;
-    width: auto;
+    flex: 0 0 100%;
+    width: 100%;
   }
 
   &:first-child {
-    width: auto;
+    flex: 0 0 100%;
+    width: 100%;
     padding-right: 0;
-
-    @include breakpoint(medium) {
-      float: none;
-      display: block;
-    }
-  }
-
-  h1 span {
-    display: block;
-    color: #9e9e9e;
   }
 
   p {
@@ -35,7 +27,7 @@
   }
 
   ul {
-    padding-left: 15px;
+    padding-left: 1.1em;
   }
 
   li {

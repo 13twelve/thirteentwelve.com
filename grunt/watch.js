@@ -10,7 +10,11 @@ module.exports = {
     tasks: ['sass:dev','notify:sass']
   },
   css: {
-    files: ['stylesheets/application.css']
+    files: ['stylesheets/application.css','includes/_homecss.php']
+  },
+  images: {
+    files: ['grunt/img/*.*','grunt/img/**/*.*'],
+    tasks: ['newer:imagemin','notify:img']
   },
   headjs: {
     files: ['grunt/js/head.js'],

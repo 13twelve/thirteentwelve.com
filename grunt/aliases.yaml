@@ -3,6 +3,7 @@ default:
   - 'uglify:head'
   - 'uglify:dev'
   - 'sass:dev'
+  - 'imagemin'
 
 dist:
   description: 'Produces minified CSS and JS'
@@ -13,10 +14,7 @@ dist:
     - 'sass:dist'
     - 'clean:html'
     - 'php2html'
-
-html:
-  description: 'Generates HTML from PHP files'
-  tasks:
-    - 'clean:html'
-    - 'php2html'
+    - 'htmlmin'
+    - 'compress'
+    - 'imagemin'
 

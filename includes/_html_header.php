@@ -3,9 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>13twelve | Front end web developer. Specialising in HTML, CSS and javascript.</title>
+    <title>13twelve | Front end web developer. Specialising in HTML, CSS and JavaScript.</title>
     <meta name="description" content="The portfolio of Mike Byrne: an interface/front end developer.">
+    <?php if(isset($home)) { ?>
+    <style><?php include "includes/_homecss.php"; ?></style>
+    <?php } else { ?>
     <link href="/stylesheets/application.css" rel="stylesheet" />
+    <?php } ?>
     <?php if(isset($third_party_css)) { echo $third_party_css; } ?>
   </head>
   <body>
