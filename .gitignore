@@ -2,6 +2,7 @@
 node_modules/
 npm-debug.log
 
+includes/_homecss.php
 stylesheets/*.css
 javascripts/*.js
 images/work
