@@ -1,3 +1,10 @@
+<?php
+$meta_title = "13twelve | Front end web developer. Specialising in HTML, CSS and JavaScript.";
+$meta_social_title = "13twelve";
+$meta_description = "The portfolio of front end web developer Mike Byrne. Specialising in HTML, CSS and JavaScript.";
+$meta_url = "http://www.thirteentwelve.com/";
+$meta_image = "http://www.thirteentwelve.com/images/og.jpg";
+?>
 <?php include "includes/_html_header.php"; ?>
 
 <section id="lease-miles-calculator">

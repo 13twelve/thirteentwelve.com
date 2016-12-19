@@ -1,5 +1,11 @@
-<?php $third_party_css = "<link href=\"http://fonts.googleapis.com/css?family=Oswald:400,700\" rel=\"stylesheet\" type=\"text/css\">
-" ?>
+<?php
+  $third_party_css = "<link href=\"http://fonts.googleapis.com/css?family=Oswald:400,700\" rel=\"stylesheet\" type=\"text/css\">";
+  $meta_title = "13twelve | 1500 miles in 2016";
+  $meta_social_title = "13twelve";
+  $meta_description = "Breakdown of stats from running 1500 miles in 2016.";
+  $meta_url = "http://www.thirteentwelve.com/1500-miles.html";
+  $meta_image = "http://www.thirteentwelve.com/images/og.jpg";
+?>
 <?php include "includes/_html_header.php"; ?>
 <section id="miles">
   <h1>
@@ -7,8 +13,8 @@
     <span class="d" style="text-decoration: line-through;">2414 km</span>
   </h1>
   <h2>
-    <span class="m" title="achilles tendonitis isn't helping...">1416/1500 mi</span>
-    <span class="d">2111/2414 km</span>
+    <span class="m" title="achilles tendonitis isn't helping...">1487/1500</span>
+    <span class="d">2379/2414</span>
     <span class="y">2016</span>
   </h2>
   <p>
@@ -54,6 +60,6 @@
     }
   }
 
-  calcMiles(1440);
+  calcMiles(1487);
 </script>
 <?php include "includes/_html_footer.php"; ?>

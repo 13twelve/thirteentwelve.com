@@ -1,5 +1,11 @@
-<?php $third_party_css = "<link href=\"http://fonts.googleapis.com/css?family=Oswald:400,700\" rel=\"stylesheet\" type=\"text/css\">
-" ?>
+<?php
+  $third_party_css = "<link href=\"http://fonts.googleapis.com/css?family=Oswald:400,700\" rel=\"stylesheet\" type=\"text/css\">";
+  $meta_title = "13twelve | 1000 miles in 2014";
+  $meta_social_title = "13twelve";
+  $meta_description = "Breakdown of stats from running 1000 miles in 2014.";
+  $meta_url = "http://www.thirteentwelve.com/1000-miles.html";
+  $meta_image = "http://www.thirteentwelve.com/images/og.jpg";
+?>
 <?php include "includes/_html_header.php"; ?>
 <section id="miles">
   <h1>

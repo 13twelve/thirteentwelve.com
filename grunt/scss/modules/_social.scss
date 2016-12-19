@@ -20,6 +20,11 @@
     display: inline-block;
     width: auto;
     height: 20px;
+
+    @include breakpoint(small) {
+      width: 15px;
+      height: 15px;
+    }
   }
 
   a[title='Linked In'] svg {

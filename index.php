@@ -1,4 +1,11 @@
-<?php $home = true; ?>
+<?php
+$home = true;
+$meta_title = "13twelve | Front end web developer. Specialising in HTML, CSS and JavaScript.";
+$meta_social_title = "13twelve";
+$meta_description = "The portfolio of front end web developer Mike Byrne. Specialising in HTML, CSS and JavaScript.";
+$meta_url = "http://www.thirteentwelve.com/";
+$meta_image = "http://www.thirteentwelve.com/images/og.jpg";
+?>
 <?php include "includes/_html_header.php"; ?>
 <div class="intro">
   <div class="intro__col">
@@ -39,7 +46,7 @@
   <li>
     <div class="key-engagements__img" style="background-color: #0a016e;"><img data-src="/images/work/fred.jpg" alt="McrFRED" width="185" height="79" /></div>
     <div class="key-engagements__meta">
-      <h3><b>McrFRED: The importance of health and fitness as a developer</b> <br>23rd February 2017</h3>
+      <h3><b>McrFRED: The importance of health and fitness as a developer</b> <br>26th January 2017</h3>
       <p>A short talk about my experience of being an unhealthy developer and my efforts to be a healthier one and the impacts on my work and life. Contains pseudo-science, bad jokes and made up graphs.</p>
     </div>
   </li>
@@ -136,6 +143,40 @@
       <b>Technique Retreat</b> <br>
       CSS teaching <br>
       <i>February 2010</i>
+    </div>
+  </li>
+</ul>
+<h2>Personal</h2>
+<ul class="work">
+  <li>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/1000.jpg" alt="1000 Miles" width="185" height="79" /></div>
+    <div class="work__meta">
+      <b>1000 Miles</b> <br>
+      Stats from running 1000 miles in 2014 <br>
+      <a href="/1000-miles.html" target="_blank">Visit <svg><use xlink:href="#external" /></svg></a>
+    </div>
+  </li>
+  <li>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/1312.jpg" alt="1312 Miles" width="185" height="79" /></div>
+    <div class="work__meta">
+      <b>1312 Miles</b> <br>
+      Stats from running 1312 miles in 2015 <br>
+      <a href="/1312-miles.html" target="_blank">Visit <svg><use xlink:href="#external" /></svg></a>
+    </div>
+  </li>
+  <li>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/1500.jpg" alt="1500 Miles" width="185" height="79" /></div>
+    <div class="work__meta">
+      <b>1500 Miles</b> <br>
+      Stats from running 1500 miles in 2016 <br>
+      <a href="/1500-miles.html" target="_blank">Visit <svg><use xlink:href="#external" /></svg></a>
+    </div>
+  </li>
+  <li>
+    <div class="work__img" style="background-color: #87a058;"><img data-src="/images/work/hs.jpg" alt="Go Team Fun: Handstands" width="185" height="79" /></div>
+    <div class="work__meta">
+      <b>Handstands</b> <br>
+      <a href="http://goteamfun.tumblr.com/" target="_blank">Visit <svg><use xlink:href="#external" /></svg></a>
     </div>
   </li>
 </ul>
@@ -640,40 +681,6 @@
     <div class="work__meta">
       <b>Evolution Print</b> <br>
       Design by The Designers Republic. <br><i>We love the web</i> <br>
-    </div>
-  </li>
-</ul>
-<h2>Personal</h2>
-<ul class="work">
-  <li>
-    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/1000.jpg" alt="1000 Miles" width="185" height="79" /></div>
-    <div class="work__meta">
-      <b>1000 Miles</b> <br>
-      Stats from running 1000 miles in 2014 <br>
-      <a href="/1000-miles" target="_blank">Visit <svg><use xlink:href="#external" /></svg></a>
-    </div>
-  </li>
-  <li>
-    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/1312.jpg" alt="1312 Miles" width="185" height="79" /></div>
-    <div class="work__meta">
-      <b>1312 Miles</b> <br>
-      Stats from running 1312 miles in 2015 <br>
-      <a href="/1312-miles" target="_blank">Visit <svg><use xlink:href="#external" /></svg></a>
-    </div>
-  </li>
-  <li>
-    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/1500.jpg" alt="1500 Miles" width="185" height="79" /></div>
-    <div class="work__meta">
-      <b>1500 Miles</b> <br>
-      Stats from running 1500 miles in 2016 <br>
-      <a href="/1500-miles" target="_blank">Visit <svg><use xlink:href="#external" /></svg></a>
-    </div>
-  </li>
-  <li>
-    <div class="work__img" style="background-color: #87a058;"><img data-src="/images/work/hs.jpg" alt="Go Team Fun: Handstands" width="185" height="79" /></div>
-    <div class="work__meta">
-      <b>Handstands</b> <br>
-      <a href="http://goteamfun.tumblr.com/" target="_blank">Visit <svg><use xlink:href="#external" /></svg></a>
     </div>
   </li>
 </ul>
