@@ -6,33 +6,49 @@
   font-family: 'Oswald', sans-serif;
 }
 
-#miles h1,
-#miles h2 {
+#miles h1 {
   font-size: 185px;
   line-height: 175px;
   margin: 0;
   vertical-align: text-top;
 }
-#miles h2 {
-  font-size: 155px;
-  line-height: 155px;
-}
 #miles p {
   font-size: 80px;
   line-height: 100px;
-  padding: 10px 0 0;
+  padding: 10px 0 30px;
+  border-bottom: .1em solid #1a1a1a;
 }
 #miles span {
   display: block;
 }
-#miles .m {
+#miles h1 .m {
+  text-align: justify;
+  -moz-text-align-last: justify;
+  -webkit-text-align-last: justify;
+  text-align-last: justify;
+}
+#miles h1 .y {
+  font-size: 80px;
+  line-height: 100px;
+  text-align: center;
+  text-shadow: -6px -6px white, -6px 6px white, 6px -6px white, 6px 6px white;
+  box-shadow: inset 0 -0.5em white, inset 0 -0.6em #1a1a1a;
+}
+#miles .m,
+#miles .d {
   position: relative;
 }
 #miles .m:hover {
   color: #ff5400;
   cursor: pointer;
 }
-#miles .m[title]:before {
+#miles .m.active:hover {
+  color: #1a1a1a;
+  cursor: default;
+}
+#miles .m[title]:before,
+#miles .d[title]:before,
+#miles .d a[title]:before {
   content: attr(title);
   position: absolute;
   right: 0;
@@ -47,7 +63,9 @@
   transition: opacity .1s linear;
   transition-delay: .25s;
 }
-#miles .m[title]:hover:before {
+#miles .m[title]:hover:before,
+#miles .d[title]:hover:before,
+#miles .d a[title]:hover:before {
   opacity: 1;
 }
 #miles .d {
@@ -73,8 +91,18 @@
     max-height: 900px;
   }
   #miles .d a {
-    color: #666;
+    text-decoration: none;
+    color: inherit;
+    text-shadow: -2px -2px white, -2px 2px white, 2px -2px white, 2px 2px white;
+    box-shadow: inset 0 -0.17em white, inset 0 -0.2em #1a1a1a;
   }
+    #miles .d a:hover {
+      box-shadow: inset 0 -0.17em white, inset 0 -0.2em #ff5400;
+    }
+    #miles .d a::before {
+      text-shadow: none;
+      box-shadow: none;
+    }
 
 @include breakpoint(medium) {
   #miles {
@@ -84,23 +112,20 @@
     font-size: 90px;
     line-height: 90px;
   }
-  #miles h2 {
-    font-size: 70px;
-    line-height: 70px;
-  }
-  #miles p {
+  #miles p,
+  #miles h1 .y {
     font-size: 40px;
     line-height: 55px;
   }
 }
 
 @include breakpoint(small) {
-  #miles h1,
-  #miles h2 {
+  #miles h1 {
     font-size: 50px;
     line-height: 50px;
   }
-  #miles p {
+  #miles p,
+  #miles h1 .y {
     font-size: 25px;
     line-height: 35px;
   }

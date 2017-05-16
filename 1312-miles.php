@@ -9,9 +9,9 @@
 <?php include "includes/_html_header.php"; ?>
 <section id="miles">
   <h1>
+    <span class="y">2015</span>
     <span class="m" title="totalled 1416 miles!">1312 MILES</span>
     <span class="d">2111 km</span>
-    <span class="y">2015</span>
   </h1>
   <p>
     <span class="m" title="95 days less than 2014">1000 miles in 251 days</span>
@@ -26,7 +26,7 @@
     <span class="m" title="No change from 2014">6.22mi modal</span>
     <span class="d">10km modal</span>
 
-    <span class="m" title="0.26 mph faster than 2014">8:00 avg. per mile</span>
+    <span class="m" title="0.26 mph faster than 2014">8'00" avg. per mile</span>
     <span class="d">7.5mph avg. speed</span>
 
     <span class="m" title="4.5 hours less than 2014">133:36:24 total time</span>
@@ -56,9 +56,14 @@
 <script>
   var els = document.querySelectorAll(".m");
   for (var i = 0; i < els.length; ++i) {
-    els[i].addEventListener("click", function(){
-      this.classList.toggle("active");
-    }, false);
+    els[i].addEventListener("click", showExtras, false);
+  }
+
+  function showExtras() {
+    for (var i = 0; i < els.length; ++i) {
+      els[i].classList.add("active");
+      els[i].removeEventListener("click", showExtras);
+    }
   }
 </script>
 <?php include "includes/_html_footer.php"; ?>

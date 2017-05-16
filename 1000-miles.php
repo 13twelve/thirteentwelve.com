@@ -9,9 +9,9 @@
 <?php include "includes/_html_header.php"; ?>
 <section id="miles">
   <h1>
+    <span class="y">2014</span>
     <span class="m">1000 MILES</span>
     <span class="d">1609 km</span>
-    <span class="y">2014</span>
   </h1>
   <p>
     <span class="m">346 days</span>
@@ -70,9 +70,14 @@
 <script>
   var els = document.querySelectorAll(".m");
   for (var i = 0; i < els.length; ++i) {
-    els[i].addEventListener("click", function(){
-      this.classList.toggle("active");
-    }, false);
+    els[i].addEventListener("click", showExtras, false);
+  }
+
+  function showExtras() {
+    for (var i = 0; i < els.length; ++i) {
+      els[i].classList.add("active");
+      els[i].removeEventListener("click", showExtras);
+    }
   }
 </script>
 <?php include "includes/_html_footer.php"; ?>
