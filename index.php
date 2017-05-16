@@ -15,12 +15,12 @@ $meta_image = "http://www.thirteentwelve.com/images/og.jpg";
   <div class="intro__col">
    <h2>Primary skills:</h2>
    <ul>
-      <li>CSS/SASS</li>
+      <li>CSS/SCSS</li>
       <li>HTML, xHTML and HTML5</li>
       <li>JavaScript</li>
+      <li>FE architecture</li>
       <li>Browser compatibility</li>
-      <li>Performance</li>
-      <li>Browser compatibility</li>
+      <li>Browser performance</li>
       <li>Mentoring</li>
       <li>Prototyping</li>
       <li>Responsive websites</li>
@@ -41,16 +41,6 @@ $meta_image = "http://www.thirteentwelve.com/images/og.jpg";
     </ul>
   </div>
 </div>
-<h2>Speaking at:</h2>
-<ul class="key-engagements">
-  <li>
-    <div class="key-engagements__img" style="background-color: #0a016e;"><img data-src="/images/work/fred.jpg" alt="McrFRED" width="185" height="79" /></div>
-    <div class="key-engagements__meta">
-      <h3><b>McrFRED: The importance of health and fitness as a developer</b> <br>26th January 2017</h3>
-      <p>A short talk about my experience of being an unhealthy developer and my efforts to be a healthier one and the impacts on my work and life. Contains pseudo-science, bad jokes and made up graphs.</p>
-    </div>
-  </li>
-</ul>
 <h2>Key Engagements</h2>
 <ul class="key-engagements">
   <li>
@@ -82,106 +72,53 @@ $meta_image = "http://www.thirteentwelve.com/images/og.jpg";
     </div>
   </li>
 </ul>
-<h2>Written pieces</h2>
+<h2>Talks</h2>
 <ul class="work">
   <li>
-    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/oc.jpg" alt="Optical Cortex" width="185" height="79" /></div>
+    <div class="work__img" style="background-color: #0a016e;"><img data-src="/images/work/wad.jpg" alt="Talks: Warrington Digital" width="185" height="79" /></div>
     <div class="work__meta">
-      <b>Optical Cortex</b> <br>
-      various blog posts <br><i>AREA 17</i> <br>
-      <a href="http://opticalcortex.com/author/mike/" target="_blank">Visit <svg><use xlink:href="#external" /></svg></a>
+      <b>Warrington Digital</b> <br>
+      A17 FE philosophy and boilerplate <br>
+      <i>Mar 2017</i> <br>
+      <a href="http://www.thirteentwelve.com/philosophy/#/" target="_blank">Slides <svg><use xlink:href="#external" /></svg></a>
     </div>
   </li>
   <li>
-    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/netmag3.jpg" alt=".net mag" width="185" height="79" /></div>
+    <div class="work__img" style="background-color: #0a016e;"><img data-src="/images/work/fred.jpg" alt="Talks: McrFRED" width="185" height="79" /></div>
     <div class="work__meta">
-      <b>.net magazine</b> <br>
-      Get your JavaScript in order <br>
-      <i>October 2012</i>
-      <!-- <a href="http://www.creativebloq.com/javascript/get-your-javascript-order-4135704" target="_blank">Visit <svg><use xlink:href="#external" /></svg></a> -->
+      <b>McrFRED</b> <br>
+      The importance of health and fitness as a developer <br>
+      <i>Jan 2017</i> <br>
+      <a href="http://www.thirteentwelve.com/fitness/#/" target="_blank">Slides <svg><use xlink:href="#external" /></svg></a>
     </div>
   </li>
   <li>
-    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/netmag2.jpg" alt=".net mag" width="185" height="79" /></div>
-    <div class="work__meta">
-      <b>.net magazine</b> <br>
-      How to structure your css <br>
-      <i>August 2011</i>
-      <!-- <a href="http://www.creativebloq.com/how-structure-your-css-12114258" target="_blank">Visit <svg><use xlink:href="#external" /></svg></a> -->
-    </div>
-  </li>
-  <li>
-    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/netmag.jpg" alt=".net mag" width="185" height="79" /></div>
-    <div class="work__meta">
-      <b>.net magazine</b> <br>
-      Link swipe tutorial <br>
-      <i>January 2011</i>
-    </div>
-  </li>
-</ul>
-<h2>Teaching</h2>
-<ul class="work">
-  <li>
-    <div class="work__img" style="background-color: #f2f2f2;"><img data-src="/images/work/sn.jpg" alt="Teaching: standards&gt;next" width="185" height="79" /></div>
+    <div class="work__img" style="background-color: #f2f2f2;"><img data-src="/images/work/sn.jpg" alt="Talks: standards&gt;next" width="185" height="79" /></div>
     <div class="work__meta">
       <b>standards&gt;next</b> <br>
       CSS3 animations <br>
       <i>March 2011</i>
     </div>
   </li>
-  <li>
-    <div class="work__img" style="background-color: #25d0fb;"><img data-src="/images/work/tq2011.jpg" alt="Teaching: Technique Retreat" width="185" height="79" /></div>
-    <div class="work__meta">
-      <b>Technique Retreat</b> <br>
-      CSS teaching <br>
-      <i>March 2011</i>
-    </div>
-  </li>
-  <li>
-    <div class="work__img" style="background-color: #449a43;"><img data-src="/images/work/tqt.jpg" alt="Teaching: Technique Retreat" width="185" height="79" /></div>
-    <div class="work__meta">
-      <b>Technique Retreat</b> <br>
-      CSS teaching <br>
-      <i>February 2010</i>
-    </div>
-  </li>
-</ul>
-<h2>Personal</h2>
-<ul class="work">
-  <li>
-    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/1000.jpg" alt="1000 Miles" width="185" height="79" /></div>
-    <div class="work__meta">
-      <b>1000 Miles</b> <br>
-      Stats from running 1000 miles in 2014 <br>
-      <a href="/1000-miles.html" target="_blank">Visit <svg><use xlink:href="#external" /></svg></a>
-    </div>
-  </li>
-  <li>
-    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/1312.jpg" alt="1312 Miles" width="185" height="79" /></div>
-    <div class="work__meta">
-      <b>1312 Miles</b> <br>
-      Stats from running 1312 miles in 2015 <br>
-      <a href="/1312-miles.html" target="_blank">Visit <svg><use xlink:href="#external" /></svg></a>
-    </div>
-  </li>
-  <li>
-    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/1500.jpg" alt="1500 Miles" width="185" height="79" /></div>
-    <div class="work__meta">
-      <b>1500 Miles</b> <br>
-      Stats from running 1500 miles in 2016 <br>
-      <a href="/1500-miles.html" target="_blank">Visit <svg><use xlink:href="#external" /></svg></a>
-    </div>
-  </li>
-  <li>
-    <div class="work__img" style="background-color: #87a058;"><img data-src="/images/work/hs.jpg" alt="Go Team Fun: Handstands" width="185" height="79" /></div>
-    <div class="work__meta">
-      <b>Handstands</b> <br>
-      <a href="http://goteamfun.tumblr.com/" target="_blank">Visit <svg><use xlink:href="#external" /></svg></a>
-    </div>
-  </li>
 </ul>
 <h2 data-reveal-trigger>Other Engagements</h2>
 <ul class="work" data-reveal-target>
+  <!--
+  <li>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/nejm.jpg" alt="New England Journal of Medicine" width="185" height="79" /></div>
+    <div class="work__meta">
+      <b>New England Journal of Medicine</b> <br>
+      September 2017 <br><i>AREA 17</i>
+    </div>
+  </li>
+  <li>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/mai.jpg" alt="Mai 36" width="185" height="79" /></div>
+    <div class="work__meta">
+      <b>Mai 36</b> <br>
+      July 2017 <br><i>AREA 17</i>
+    </div>
+  </li>
+  <!-- -->
   <li>
     <div class="work__img" style="background-color: #000;"><img data-src="/images/work/wyss.jpg" alt="Wyss Institute" width="185" height="79" /></div>
     <div class="work__meta">
@@ -496,8 +433,8 @@ $meta_image = "http://www.thirteentwelve.com/images/og.jpg";
     <div class="work__img" style="background-color: #32a1bb;"><img data-src="/images/work/sa.jpg" alt="Sustainability" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Sustainability</b> <br>
-      August 2010 <br><i>AREA 17</i> <br>
-      <a href="http://www.sustainability.com/" target="_blank">Visit <svg><use xlink:href="#external" /></svg></a>
+      August 2010 <br><i>AREA 17</i>
+      <!-- <a href="http://www.sustainability.com/" target="_blank">Visit <svg><use xlink:href="#external" /></svg></a> -->
     </div>
   </li>
   <li class="js-all">
@@ -681,6 +618,96 @@ $meta_image = "http://www.thirteentwelve.com/images/og.jpg";
     <div class="work__meta">
       <b>Evolution Print</b> <br>
       Design by The Designers Republic. <br><i>We love the web</i> <br>
+    </div>
+  </li>
+</ul>
+<h2>Written pieces</h2>
+<ul class="work">
+  <li>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/oc.jpg" alt="Optical Cortex" width="185" height="79" /></div>
+    <div class="work__meta">
+      <b>Optical Cortex</b> <br>
+      various blog posts <br><i>AREA 17</i> <br>
+      <a href="http://opticalcortex.com/author/mike/" target="_blank">Visit <svg><use xlink:href="#external" /></svg></a>
+    </div>
+  </li>
+  <li>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/netmag3.jpg" alt=".net mag" width="185" height="79" /></div>
+    <div class="work__meta">
+      <b>.net magazine</b> <br>
+      Get your JavaScript in order <br>
+      <i>October 2012</i>
+      <!-- <a href="http://www.creativebloq.com/javascript/get-your-javascript-order-4135704" target="_blank">Visit <svg><use xlink:href="#external" /></svg></a> -->
+    </div>
+  </li>
+  <li>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/netmag2.jpg" alt=".net mag" width="185" height="79" /></div>
+    <div class="work__meta">
+      <b>.net magazine</b> <br>
+      How to structure your css <br>
+      <i>August 2011</i>
+      <!-- <a href="http://www.creativebloq.com/how-structure-your-css-12114258" target="_blank">Visit <svg><use xlink:href="#external" /></svg></a> -->
+    </div>
+  </li>
+  <li>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/netmag.jpg" alt=".net mag" width="185" height="79" /></div>
+    <div class="work__meta">
+      <b>.net magazine</b> <br>
+      Link swipe tutorial <br>
+      <i>January 2011</i>
+    </div>
+  </li>
+</ul>
+<h2>Teaching</h2>
+<ul class="work">
+  <li>
+    <div class="work__img" style="background-color: #25d0fb;"><img data-src="/images/work/tq2011.jpg" alt="Teaching: Technique Retreat" width="185" height="79" /></div>
+    <div class="work__meta">
+      <b>Technique Retreat</b> <br>
+      CSS teaching <br>
+      <i>March 2011</i>
+    </div>
+  </li>
+  <li>
+    <div class="work__img" style="background-color: #449a43;"><img data-src="/images/work/tqt.jpg" alt="Teaching: Technique Retreat" width="185" height="79" /></div>
+    <div class="work__meta">
+      <b>Technique Retreat</b> <br>
+      CSS teaching <br>
+      <i>February 2010</i>
+    </div>
+  </li>
+</ul>
+<h2>Personal</h2>
+<ul class="work">
+  <li>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/1000.jpg" alt="1000 Miles" width="185" height="79" /></div>
+    <div class="work__meta">
+      <b>1000 Miles</b> <br>
+      Stats from running 1000 miles in 2014 <br>
+      <a href="/1000-miles.html" target="_blank">Visit <svg><use xlink:href="#external" /></svg></a>
+    </div>
+  </li>
+  <li>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/1312.jpg" alt="1312 Miles" width="185" height="79" /></div>
+    <div class="work__meta">
+      <b>1312 Miles</b> <br>
+      Stats from running 1312 miles in 2015 <br>
+      <a href="/1312-miles.html" target="_blank">Visit <svg><use xlink:href="#external" /></svg></a>
+    </div>
+  </li>
+  <li>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/1500.jpg" alt="1500 Miles" width="185" height="79" /></div>
+    <div class="work__meta">
+      <b>1500 Miles</b> <br>
+      Stats from running 1500 miles in 2016 <br>
+      <a href="/1500-miles.html" target="_blank">Visit <svg><use xlink:href="#external" /></svg></a>
+    </div>
+  </li>
+  <li>
+    <div class="work__img" style="background-color: #87a058;"><img data-src="/images/work/hs.jpg" alt="Go Team Fun: Handstands" width="185" height="79" /></div>
+    <div class="work__meta">
+      <b>Handstands</b> <br>
+      <a href="http://goteamfun.tumblr.com/" target="_blank">Visit <svg><use xlink:href="#external" /></svg></a>
     </div>
   </li>
 </ul>
