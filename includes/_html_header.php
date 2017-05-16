@@ -56,6 +56,6 @@
   <body>
     <div id="thirteentwelve">
       <header>
-        <a href="/" class="logo"><svg width="422px" height="86px"><use xlink:href="#logo" /></svg></a>
+        <a href="/" class="logo"><svg width="422px" height="86px" aria-label="thirteentwelve logo"><use xlink:href="#logo" /><use xlink:href="#logo" /><use xlink:href="#logo" /></svg></a>
       </header>
       <main id="content">

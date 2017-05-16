@@ -8,13 +8,37 @@ header {
   a,
   svg {
     display: block;
-    width: 422px;
+    width: 440px;
     height: 86px;
     margin: 0 auto;
+    color: $color__black;
 
     @include breakpoint(small) {
       width: 100%;
       height: auto;
+    }
+  }
+
+  svg use {
+    width: 422px;
+    height: 86px;
+  }
+
+  svg use:nth-child(1) {
+    color: #0ff;
+    transform: translateX(-4px) translateY(-1px);
+
+    @include breakpoint(small) {
+      transform: translateX(-2px) translateY(-1px);
+    }
+  }
+
+  svg use:nth-child(2) {
+    color: #f00;
+    transform: translateX(4px) translateY(1px);
+
+    @include breakpoint(small) {
+      transform: translateX(2px) translateY(1px);
     }
   }
 }
