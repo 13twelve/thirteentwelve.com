@@ -1,12 +1,19 @@
-html,
-body {
-  min-width: 320px;
+html {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  width: 100vw;
+  margin-right: -50vw;
+  margin-left: -50vw;
+  min-height: 100%;
   overflow-x: hidden;
+  overflow-y: scroll;
 }
+
 body {
   @include font--m();
   color: $color__text;
-  background: $color__white;
+  background: $color__black--5;
   -moz-font-feature-settings: "kern";
   -webkit-font-feature-settings: "kern";
   -ms-font-feature-settings: "kern";

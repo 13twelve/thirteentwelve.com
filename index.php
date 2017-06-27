@@ -41,6 +41,22 @@ $meta_image = "http://www.thirteentwelve.com/images/og.jpg";
     </ul>
   </div>
 </div>
+<h2>Speaking at</h2>
+<ul class="key-engagements">
+  <li>
+    <div class="key-engagements__img" style="background-color: #0a016e;"><img data-src="/images/work/fred.jpg" alt="Talks: McrFRED" width="185" height="79" /></div>
+    <div class="key-engagements__meta">
+      <p>Since starting to work with AREA 17 in 2008, I've been lucky to be able to help grow and shape the discipline and how its practiced at the company; today engineering is at A17’s very core. Some areas I'll cover:</p>
+      <ul>
+        <li>the relationship between design and engineering at A17</li>
+        <li>A17 FE philosophy</li>
+        <li>how A17 apply it internally and externally</li>
+        <li>an introduction to the A17 FE code boilerplate</li>
+      </ul>
+      <p>There will be code samples, site examples, random tales and bad jokes.</p>
+    </div>
+  </li>
+</ul>
 <h2>Key Engagements</h2>
 <ul class="key-engagements">
   <li>
@@ -111,18 +127,20 @@ $meta_image = "http://www.thirteentwelve.com/images/og.jpg";
       September 2017 <br><i>AREA 17</i>
     </div>
   </li>
+  <!--  -->
   <li>
     <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/mai.jpg" alt="Mai 36" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Mai 36</b> <br>
-      July 2017 <br><i>AREA 17</i>
+      June 2017 <br><i>AREA 17</i> <br>
+      <a href="https://www.mai36.com/" target="_blank">Visit <svg><use xlink:href="#external" /></svg></a>
     </div>
   </li>
-  <!-- -->
   <li>
     <div class="work__img" style="background-color: #000;"><img data-src="/images/work/wyss.jpg" alt="Wyss Institute" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Wyss Institute</b> <br>
+      Winner of two Webby Awards <br>
       July 2016 <br><i>AREA 17</i> <br>
       <a href="http://wyss.harvard.edu/" target="_blank">Visit <svg><use xlink:href="#external" /></svg></a>
     </div>
@@ -434,7 +452,7 @@ $meta_image = "http://www.thirteentwelve.com/images/og.jpg";
     <div class="work__meta">
       <b>Sustainability</b> <br>
       August 2010 <br><i>AREA 17</i>
-      <!-- <a href="http://www.sustainability.com/" target="_blank">Visit <svg><use xlink:href="#external" /></svg></a> -->
+      <!-- <a href="http://www.sustainability.com/" target="_blank">Visit <svg><use xlink:href="#external" /></svg></a>
     </div>
   </li>
   <li class="js-all">
