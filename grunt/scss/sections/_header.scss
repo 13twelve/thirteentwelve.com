@@ -2,7 +2,7 @@ header {
   padding-top: 60px;
 
   @include breakpoint(small) {
-    margin-top: 20px;
+    padding-top: 20px;
   }
 
   .logo {
@@ -16,5 +16,9 @@ header {
     height: auto;
     margin: 0 auto;
     color: $color__black;
+
+    @include breakpoint(small) {
+      width: 85%;
+    }
   }
 }
