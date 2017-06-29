@@ -41,7 +41,7 @@ $meta_image = "http://www.thirteentwelve.com/images/og.jpg";
     </ul>
   </div>
 </div>
-<h2>Speaking at</h2>
+<h2>Recently spoke at</h2>
 <ul class="key-engagements">
   <li>
     <div class="key-engagements__img" style="background-color: #0a016e;"><img data-src="/images/work/fred.jpg" alt="Talks: McrFRED" width="185" height="79" /></div>
@@ -53,7 +53,7 @@ $meta_image = "http://www.thirteentwelve.com/images/og.jpg";
         <li>how A17 apply it internally and externally</li>
         <li>an introduction to the A17 FE code boilerplate</li>
       </ul>
-      <p>There will be code samples, site examples, random tales and bad jokes.</p>
+      <p><a href="/mcrfred-a17-philosophy/" target="_blank">Slides <svg><use xlink:href="#external" /></svg></a></p>
     </div>
   </li>
 </ul>
