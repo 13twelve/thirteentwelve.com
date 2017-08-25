@@ -41,22 +41,6 @@ $meta_image = "http://www.thirteentwelve.com/images/og.jpg";
     </ul>
   </div>
 </div>
-<h2>Recently spoke at</h2>
-<ul class="key-engagements">
-  <li>
-    <div class="key-engagements__img" style="background-color: #0a016e;"><img data-src="/images/work/fred.jpg" alt="Talks: McrFRED" width="185" height="79" /></div>
-    <div class="key-engagements__meta">
-      <p>Since starting to work with AREA 17 in 2008, I've been lucky to be able to help grow and shape the discipline and how its practiced at the company; today engineering is at A17’s very core. Some areas I'll cover:</p>
-      <ul>
-        <li>the relationship between design and engineering at A17</li>
-        <li>A17 FE philosophy</li>
-        <li>how A17 apply it internally and externally</li>
-        <li>an introduction to the A17 FE code boilerplate</li>
-      </ul>
-      <p><a href="/mcrfred-a17-philosophy/" target="_blank">Slides <svg><use xlink:href="#external" /></svg></a></p>
-    </div>
-  </li>
-</ul>
 <h2>Key Engagements</h2>
 <ul class="key-engagements">
   <li>
@@ -91,11 +75,20 @@ $meta_image = "http://www.thirteentwelve.com/images/og.jpg";
 <h2>Talks</h2>
 <ul class="work">
   <li>
+    <div class="work__img" style="background-color: #0a016e;"><img data-src="/images/work/fred.jpg" alt="Talks: McrFRED" width="185" height="79" /></div>
+    <div class="work__meta">
+      <b>McrFRED</b> <br>
+      A17 FE philosophy and boilerplate <br>
+      <i>June 2017</i> <br>
+      <a href="http://www.thirteentwelve.com/mcrfred-a17-philosophy/" target="_blank">Slides <svg><use xlink:href="#external" /></svg></a>
+    </div>
+  </li>
+  <li>
     <div class="work__img" style="background-color: #0a016e;"><img data-src="/images/work/wad.jpg" alt="Talks: Warrington Digital" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Warrington Digital</b> <br>
       A17 FE philosophy and boilerplate <br>
-      <i>Mar 2017</i> <br>
+      <i>March 2017</i> <br>
       <a href="http://www.thirteentwelve.com/philosophy/#/" target="_blank">Slides <svg><use xlink:href="#external" /></svg></a>
     </div>
   </li>
@@ -104,7 +97,7 @@ $meta_image = "http://www.thirteentwelve.com/images/og.jpg";
     <div class="work__meta">
       <b>McrFRED</b> <br>
       The importance of health and fitness as a developer <br>
-      <i>Jan 2017</i> <br>
+      <i>January 2017</i> <br>
       <a href="http://www.thirteentwelve.com/fitness/#/" target="_blank">Slides <svg><use xlink:href="#external" /></svg></a>
     </div>
   </li>
