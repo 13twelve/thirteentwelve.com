@@ -4,15 +4,16 @@
           <use xlink:href="#bee" />
         </svg>
         <ul class="social">
-          <li><a href="http://www.twitter.com/13twelve" target="_blank" title="Twitter"><svg width="32px" height="32px"><use xlink:href="#twitter" /></svg></a></li>
-          <li><a href="http://instagram.com/13twelve" target="_blank" title="Instagram"><svg width="32px" height="32px"><use xlink:href="#instagram" /></svg></a></li>
-          <li><a href="http://www.last.fm/user/thirteentwelve" target="_blank" title="Last.fm"><svg width="32px" height="32px"><use xlink:href="#lastfm" /></svg></a></li>
-          <li><a href="http://soundcloud.com/thirteentwelve/" target="_blank" title="Soundcloud"><svg width="32px" height="32px"><use xlink:href="#soundcloud" /></svg></a></li>
-          <li><a href="http://www.flickr.com/photos/13twelve/" target="_blank" title="Flickr"><svg width="32px" height="32px"><use xlink:href="#flickr" /></svg></a></li>
-          <li><a href="http://www.youtube.com/13twelve" target="_blank" title="YouTube"><svg width="32px" height="32px"><use xlink:href="#youtube" /></svg></a></li>
-          <li><a href="http://www.linkedin.com/in/13twelve" target="_blank" title="Linked In"><svg width="32px" height="32px"><use xlink:href="#linkedin" /></svg></a></li>
-          <li><a href="https://github.com/13twelve" target="_blank" title="GitHub"><svg width="32px" height="32px"><use xlink:href="#github" /></svg></a></li>
-          <li><a href="http://goteamfun.tumblr.com/" target="_blank" title="Tumblr"><svg width="32px" height="32px"><use xlink:href="#tumblr" /></svg></a></li>
+          <li><a href="http://www.twitter.com/13twelve" target="_blank" title="Twitter"><svg width="32px" height="32px" aria-label="13twelve on Twitter"><use xlink:href="#twitter" /></svg></a></li>
+          <li><a href="http://instagram.com/13twelve" target="_blank" title="Instagram"><svg width="32px" height="32px" aria-label="13twelve on Instagram"><use xlink:href="#instagram" /></svg></a></li>
+          <li><a href="http://www.last.fm/user/thirteentwelve" target="_blank" title="Last.fm"><svg width="32px" height="32px" aria-label="13twelve on Last.fm"><use xlink:href="#lastfm" /></svg></a></li>
+          <li><a href="http://soundcloud.com/thirteentwelve/" target="_blank" title="Soundcloud"><svg width="32px" height="32px" aria-label="13twelve on Soundcloud"><use xlink:href="#soundcloud" /></svg></a></li>
+          <li><a href="http://www.flickr.com/photos/13twelve/" target="_blank" title="Flickr"><svg width="32px" height="32px" aria-label="13twelve on Flickr"><use xlink:href="#flickr" /></svg></a></li>
+          <li><a href="http://www.youtube.com/13twelve" target="_blank" title="YouTube"><svg width="32px" height="32px" aria-label="13twelve on YouTube"><use xlink:href="#youtube" /></svg></a></li>
+          <li><a href="http://www.linkedin.com/in/13twelve" target="_blank" title="Linked In"><svg width="32px" height="32px" aria-label="13twelve on LinkedIn"><use xlink:href="#linkedin" /></svg></a></li>
+          <li><a href="https://github.com/13twelve" target="_blank" title="GitHub"><svg width="32px" height="32px" aria-label="13twelve on GitHub"><use xlink:href="#github" /></svg></a></li>
+          <li><a href="https://codepen.io/13twelve/" target="_blank" title="Codepen"><svg width="32px" height="32px" aria-label="13twelve on Codepen"><use xlink:href="#codepen" /></svg></a></li>
+          <li><a href="http://goteamfun.tumblr.com/" target="_blank" title="Tumblr"><svg width="32px" height="32px" aria-label="13twelve on Tumblr"><use xlink:href="#tumblr" /></svg></a></li>
         </ul>
         <small>Copyright &copy; 2005 &ndash; <?php date_default_timezone_set('UTC'); echo date("Y"); ?> thirteentwelve.com</small>
       </footer>
@@ -60,6 +61,10 @@
 
       <symbol id="github" viewbox="0 0 32 32">
         <path fill="currentColor" d="M16 0C7.163 0 0 7.163 0 16s7.163 16 16 16 16-7.163 16-16S24.837 0 16 0zm9.502 25.502c-1.235 1.235-2.672 2.204-4.272 2.88-.407.173-.82.324-1.238.454v-2.398c0-1.26-.432-2.187-1.297-2.78.542-.053 1.04-.126 1.492-.22s.932-.23 1.437-.407c.505-.17.958-.38 1.36-.63.4-.24.786-.56 1.155-.95.37-.39.68-.83.93-1.33s.44-1.09.59-1.78c.14-.69.22-1.45.22-2.29 0-1.61-.53-2.99-1.58-4.12.48-1.25.43-2.61-.16-4.08l-.39-.04c-.27-.03-.76.08-1.46.35s-1.49.69-2.37 1.28c-1.24-.34-2.53-.512-3.86-.512-1.35 0-2.63.17-3.85.516-.55-.376-1.08-.686-1.57-.93-.5-.246-.89-.41-1.19-.5-.3-.09-.57-.144-.83-.165-.26-.02-.42-.027-.49-.016-.08.01-.13.02-.16.03-.59 1.48-.64 2.84-.16 4.08-1.05 1.13-1.58 2.51-1.58 4.12 0 .83.07 1.592.22 2.29s.34 1.282.59 1.78c.25.49.56.933.93 1.324.37.39.755.706 1.156.95.4.244.852.455 1.36.63.502.178.98.31 1.434.408.45.095.95.17 1.49.22-.852.584-1.28 1.51-1.28 2.78v2.446c-.47-.14-.936-.305-1.393-.5-1.6-.676-3.04-1.645-4.272-2.88-1.237-1.235-2.206-2.672-2.88-4.272-.7-1.65-1.058-3.41-1.058-5.23s.354-3.57 1.054-5.23c.678-1.6 1.647-3.03 2.88-4.27s2.68-2.2 4.28-2.88c1.655-.7 3.414-1.05 5.23-1.05s3.575.354 5.23 1.054c1.6.68 3.037 1.65 4.27 2.88 1.237 1.24 2.206 2.676 2.88 4.276.7 1.654 1.058 3.414 1.058 5.23s-.353 3.574-1.053 5.23c-.68 1.6-1.648 3.036-2.88 4.27z"/>
+      </symbol>
+
+      <symbol id="codepen" viewbox="0 0 32 32">
+        <path fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" d="M1 21.045L16 31l15-9.955v-10.09L16 1 1 10.955z"/><path fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" d="M31 21.045l-15-10.09-15 10.09"/><path fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" d="M1 10.955l15 9.954 15-9.957M16 1v9.955m0 10.09V31"/>
       </symbol>
 
       <symbol id="logo" viewbox="0 0 422 86">
