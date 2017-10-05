@@ -41,6 +41,17 @@ $meta_image = "http://www.thirteentwelve.com/images/og.jpg";
     </ul>
   </div>
 </div>
+<h2>Speaking At</h2>
+<ul class="key-engagements">
+  <li>
+    <div class="key-engagements__img" style="background-color: #0a016e;"><img data-src="/images/work/fred.jpg" alt="Speaking at: McrFRED" width="185" height="79" /></div>
+    <div class="key-engagements__meta">
+      <h3><b>McrFRED 54: Rapidfire</b> <br>October 26 2017</h3>
+      <p>McrFRED's <a href="http://twitter.com/@s10wen">Simon Owen</a> is hosting a panel of developers, <a href="http://twitter.com/@melwood82">Mel Wood</a>, <a href="http://twitter.com/@Kat_Loveday">Kat Loveday</a> and myself to answer questions and discuss FE development. We'll answer questions from the audience about code, the job, the industry, the web and well, just about anything related. If you want to know opinion on the state of FE, what moving abroad is like, how I ended up working at Apple or the benefits of a ping pong table in the office, I'll answer with my usual unabashed honesty.</p>
+      <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfILOUtIIv63-Jd0Z2PPa_GCa8tmQitc4o0AKH2WkV-9nTvGA/viewform" target="_blank">Submit a question</a>. <br><a href="https://s10wen.com/blog/2017/07/17/mcrfred-54-rapidfire/" target="_blank">Meet Up Page</a></p>
+    </div>
+  </li>
+</ul>
 <h2>Key Engagements</h2>
 <ul class="key-engagements">
   <li>
