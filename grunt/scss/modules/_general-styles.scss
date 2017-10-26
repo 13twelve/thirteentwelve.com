@@ -62,3 +62,23 @@ small {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+.award-link {
+  display: inline-block;
+  text-decoration: none;
+  transition: transform .2s;
+}
+
+.award-link:hover {
+  transform: rotate(-5deg) scale(1.2);
+  animation: jiggle .2s infinite;
+}
+
+@keyframes jiggle {
+  0% {
+    transform: rotate(-5deg) scale(1.2);
+  }
+  50% {
+    transform: rotate(5deg) scale(1.2);
+  }
+}

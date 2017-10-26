@@ -77,6 +77,7 @@ $meta_image = "http://www.thirteentwelve.com/images/og.jpg";
     <div class="key-engagements__img" style="background-color: #cb0000;"><img data-src="/images/work/espn.jpg" alt="ESPN" width="185" height="79" /></div>
     <div class="key-engagements__meta">
       <h3><b>ESPN</b> <br>July 2013 - August 2014, <i>AREA 17</i></h3>
+      <p><a href="https://www.webbyawards.com/winners/2017/websites/general-website/sports/espncom/" class="award-link" title="Webby Award" target="_blank">🏆</a> <a href="https://www.webbyawards.com/winners/2017/mobile-sites-apps/general-sites-apps/sports/espncom/" class="award-link" title="Webby Award" target="_blank">🏆</a> <a href="https://www.webbyawards.com/winners/2016/mobile-sites-apps/general-sites-apps/sports/espn/" class="award-link" title="Webby Award" target="_blank">🏆</a> <a href="https://www.webbyawards.com/winners/2015/websites/general-website/sports/espncom/" class="award-link" title="Webby Award" target="_blank">🏆</a></p>
       <p>AREA 17 were engaged by ESPN to help redesign their website which receives up to 80 million visitors a month and handles 8,000 new pieces of content a day. Initially I was involved with redesign ideas generation - giving advice based on my experience as a developer with a keen interest in browser performance. This moved on to creating prototypes to demonstrate and refine ideas.</p>
       <p>Ultimately this led to being embedded within the ESPN developer team in Bristol, Connecticut, to help guide and direct realising and develop the new designs from the front line. This involved integrating with the FE team lead by <a href="https://twitter.com/crashton28">David Ashton</a>, the BE team lead by <a href="https://twitter.com/keithlam">Keith Lam</a>, the design team lead by <a href="https://twitter.com/benshoff">Dan Benshoff</a> and the product team lead by <a href="https://twitter.com/jarrodschwarz">Jarrod Schwarz</a> and <a href="https://twitter.com/dheerja">Dheerja Kaur</a>.</p>
       <p>The relaunched ESPN looks fantastic and I'm really warmed to still be able to spot my influence and my code within its pages.</p>
@@ -144,7 +145,7 @@ $meta_image = "http://www.thirteentwelve.com/images/og.jpg";
     <div class="work__img" style="background-color: #000;"><img data-src="/images/work/wyss.jpg" alt="Wyss Institute" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Wyss Institute</b> <br>
-      Winner of two Webby Awards <br>
+      <a href="https://www.webbyawards.com/winners/2017/websites/general-website/schooluniversity/wyss-institute-for-biologically-inspired-engineering-at-harvard-university/" class="award-link" title="Webby Award" target="_blank">🏆</a> <a href="https://www.webbyawards.com/winners/2017/mobile-sites-apps/general-sites-apps/schooluniversity/wyss-institute-for-biologically-inspired-engineering-at-harvard-university/" class="award-link" title="Webby Award" target="_blank">🏆</a> <a href="https://www.w3award.com/winners/gallery/?event=1015&award=1&_p=12" class="award-link" title="W3 Gold Award" target="_blank">🏆</a> <br>
       July 2016 <br><i>AREA 17</i> <br>
       <a href="http://wyss.harvard.edu/" target="_blank">Visit <svg><use xlink:href="#external" /></svg></a>
     </div>
@@ -233,6 +234,7 @@ $meta_image = "http://www.thirteentwelve.com/images/og.jpg";
     <div class="work__img" style="background-color: #cb0000;"><img data-src="/images/work/espn.jpg" alt="ESPN" width="185" height="79" /></div>
     <div class="work__meta">
       <b>ESPN</b> <br>
+      <a href="https://www.webbyawards.com/winners/2017/websites/general-website/sports/espncom/" class="award-link" title="Webby Award" target="_blank">🏆</a> <a href="https://www.webbyawards.com/winners/2017/mobile-sites-apps/general-sites-apps/sports/espncom/" class="award-link" title="Webby Award" target="_blank">🏆</a> <a href="https://www.webbyawards.com/winners/2016/mobile-sites-apps/general-sites-apps/sports/espn/" class="award-link" title="Webby Award" target="_blank">🏆</a> <a href="https://www.webbyawards.com/winners/2015/websites/general-website/sports/espncom/" class="award-link" title="Webby Award" target="_blank">🏆</a><br>
       April 2014 <br><i>ESPN</i> <br>
       <a href="http://espn.go.com/">Visit <svg><use xlink:href="#external" /></svg></a>
     </div>
@@ -548,7 +550,7 @@ $meta_image = "http://www.thirteentwelve.com/images/og.jpg";
     <div class="work__img" style="background-color: #a4a4a4;"><img data-src="/images/work/es.jpg" alt="England Squash and Racketball" width="185" height="79" /></div>
     <div class="work__meta">
       <b>England Squash and Racketball</b> <br>
-      DADI Award Winner <br>May 2009 <br><i>Fudge</i> <br>
+      <a href="http://www.dadiawards.com/dadi-awards/dadi-awards-2009#35433" class="award-link" title="DADI Award" target="_blank">🏆</a> <br>May 2009 <br><i>Fudge</i> <br>
     </div>
   </li>
   <li class="js-all">
@@ -618,7 +620,8 @@ $meta_image = "http://www.thirteentwelve.com/images/og.jpg";
     <div class="work__img" style="background-color: #9294b2;"><img data-src="/images/work/kc.jpg" alt="Kitty Cooper" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Kitty Cooper</b> <br>
-      Big Chip &amp; DADI award winner <br>September 2007 <br><i>Fudge</i> <br>
+      <a href="http://bigchipawards.com/BUOVD2008" class="award-link" title="Big Chip Award" target="_blank">🏆</a> <a href="http://www.dadiawards.com/dadi-awards/dadi-awards-2008#35291" class="award-link" title="DADI Award" target="_blank">🏆</a><br>
+      September 2007 <br><i>Fudge</i> <br>
     </div>
   </li>
   <li>
