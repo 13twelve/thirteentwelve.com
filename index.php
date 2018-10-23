@@ -41,20 +41,9 @@ $meta_image = "http://www.thirteentwelve.com/images/og.jpg";
     </ul>
   </div>
 </div>
-<h2 id="speaking-at">Speaking At</h2>
-<ul class="key-engagements">
-  <li>
-    <div class="key-engagements__img" style="background-color: #0a016e;"><img data-src="/images/work/fred.jpg" alt="Speaking at: McrFRED" width="185" height="79" /></div>
-    <div class="key-engagements__meta">
-      <h3><b>McrFRED 54: Rapidfire</b> <br>October 26 2017</h3>
-      <p>McrFRED's <a href="http://twitter.com/@s10wen">Simon Owen</a> is hosting a panel of developers, <a href="http://twitter.com/@melwood82">Mel Wood</a>, <a href="http://twitter.com/@Kat_Loveday">Kat Loveday</a> and myself to answer questions and discuss FE development. We'll answer questions from the audience about code, the job, the industry, the web and well, just about anything related. If you want to know opinion on the state of FE, what moving abroad is like, how I ended up working at Apple or the benefits of a ping pong table in the office, I'll answer with my usual unabashed honesty.</p>
-      <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfILOUtIIv63-Jd0Z2PPa_GCa8tmQitc4o0AKH2WkV-9nTvGA/viewform" target="_blank">Submit a question</a>. <br><a href="https://s10wen.com/blog/2017/07/17/mcrfred-54-rapidfire/" target="_blank">Meet Up Page</a></p>
-    </div>
-  </li>
-</ul>
 <h2>Key Engagements</h2>
 <ul class="key-engagements">
-  <li>
+<!--   <li>
     <div class="key-engagements__img" style="background-color: #000;"><img data-src="/images/work/cr.jpg" alt="Charlie Rose" width="185" height="79" /></div>
     <div class="key-engagements__meta">
       <h3><b>Charlie Rose</b> <br>April 2016, <i>AREA 17</i></h3>
@@ -63,7 +52,7 @@ $meta_image = "http://www.thirteentwelve.com/images/og.jpg";
       <p>This relaunched version of <a href="http://www.charlierose.com/">charlierose.com</a> now has double the traffic and people stay four times longer than the original.
       </p>
     </div>
-  </li>
+  </li> -->
   <li>
     <div class="key-engagements__img" style="background-color: #fff;"><img data-src="/images/work/appl.jpg" alt="Apple" width="185" height="79" /></div>
     <div class="key-engagements__meta">
@@ -86,6 +75,14 @@ $meta_image = "http://www.thirteentwelve.com/images/og.jpg";
 </ul>
 <h2>Talks</h2>
 <ul class="work">
+  <li>
+    <div class="work__img" style="background-color: #0a016e;"><img data-src="/images/work/fred.jpg" alt="Talks: McrFRED" width="185" height="79" /></div>
+    <div class="work__meta">
+      <b>McrFRED</b> <br>
+      Rapidfire <br>
+      <i>October 2017</i>
+    </div>
+  </li>
   <li>
     <div class="work__img" style="background-color: #0a016e;"><img data-src="/images/work/fred.jpg" alt="Talks: McrFRED" width="185" height="79" /></div>
     <div class="work__meta">
@@ -126,13 +123,37 @@ $meta_image = "http://www.thirteentwelve.com/images/og.jpg";
 <ul class="work" data-reveal-target>
   <!--
   <li>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/pup.jpg" alt="Princeton University Press"  width="185" height="79" /></div>
+    <div class="work__meta">
+      <b>Princeton University Press</b> <br>
+      December 2018 <br><i>AREA 17</i>
+    </div>
+  </li>
+  -->
+  <li>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/aic.jpg" alt="Art Institute of Chicago" width="185" height="79" /></div>
+    <div class="work__meta">
+      <b>Art Institute of Chicago</b> <br>
+      October 2018 <br><i>AREA 17</i> <br>
+      <a href="https://www.artic.edu/" target="_blank">Visit <svg><use xlink:href="#external" /></svg></a>
+    </div>
+  </li>
+  <li>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/cfr-wep.jpg" alt="CFR: Growing Economies Through Gender Parity" width="185" height="79" /></div>
+    <div class="work__meta">
+      <b>CFR: Growing Economies Through Gender Parity</b> <br>
+      October 2018 <br><i>AREA 17</i> <br>
+      <a href="https://www.cfr.org/interactive/womens-participation-in-global-economy/" target="_blank">Visit <svg><use xlink:href="#external" /></svg></a>
+    </div>
+  </li>
+  <li>
     <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/nejm.jpg" alt="New England Journal of Medicine" width="185" height="79" /></div>
     <div class="work__meta">
       <b>New England Journal of Medicine</b> <br>
-      September 2017 <br><i>AREA 17</i>
+      September 2017 <br><i>AREA 17</i> <br>
+      <a href="https://www.nejm.org/" target="_blank">Visit <svg><use xlink:href="#external" /></svg></a>
     </div>
   </li>
-  <!--  -->
   <li>
     <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/mai.jpg" alt="Mai 36" width="185" height="79" /></div>
     <div class="work__meta">
