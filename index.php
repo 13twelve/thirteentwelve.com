@@ -43,25 +43,6 @@ $meta_image = "http://www.thirteentwelve.com/images/og.jpg";
 </div>
 <h2>Key Engagements</h2>
 <ul class="key-engagements">
-<!--   <li>
-    <div class="key-engagements__img" style="background-color: #000;"><img data-src="/images/work/cr.jpg" alt="Charlie Rose" width="185" height="79" /></div>
-    <div class="key-engagements__meta">
-      <h3><b>Charlie Rose</b> <br>April 2016, <i>AREA 17</i></h3>
-      <p>The video archive of Charlie Rose, an American talk show host who has been interviewing people for 25+ years and appears on America’s most popular morning TV show. Known for his frank interviews with celebrities and politicians - including <a href="https://charlierose.com/videos/26938">President Obama</a>, <a href="https://charlierose.com/videos/18493">George W. Bush</a>, <a href="https://charlierose.com/videos/17601">Tom Cruise</a>, <a href="https://charlierose.com/videos/11084">Daniel Craig</a> and my hero, <a href="https://charlierose.com/videos/28777">Lewis Hamilton</a>.</p>
-      <p>This site is a personal favorite and I was the lead front end developer on the project, my involvement spanning from design, to build to post launch support and site maintenance. I particularly like the dark mode and simultaneous video and transcript viewing.</p>
-      <p>This relaunched version of <a href="http://www.charlierose.com/">charlierose.com</a> now has double the traffic and people stay four times longer than the original.
-      </p>
-    </div>
-  </li> -->
-  <li>
-    <div class="key-engagements__img" style="background-color: #fff;"><img data-src="/images/work/appl.jpg" alt="Apple" width="185" height="79" /></div>
-    <div class="key-engagements__meta">
-      <h3><b>Apple</b> <br>August - October 2014</h3>
-      <p>Working within the Apple marcom team in Sunnyvale, California and Cupertino, California supporting 2014's biggest Apple product launches. Within my team I established a reputation for going beyond the required, doing whatever it takes to deliver and being very designer friendly. I like to think I brought energy, enthusiasm and some much needed British humor to the group.</p>
-      <p>The key challenges here lay with adapting to working within marcom's (at the time) new responsive web strategy, whilst simultaneously also working on legacy marketing sites with frequent direction changes and a tiny timescale. Quickly becoming familiar with their internal methods, bug tracking systems while all the time maintaining a very high attention to detail.</p>
-      <p>Whilst there it was my great pleasure to meet and be inspired by <a href="https://twitter.com/segdeha">Andrew Hedges</a>, <a href="https://twitter.com/lunaroja">Abraham Velázquez</a>, <a href="https://twitter.com/ludwigw">Ludwig Wendzich</a> and many others.</p>
-    </div>
-  </li>
   <li>
     <div class="key-engagements__img" style="background-color: #cb0000;"><img data-src="/images/work/espn.jpg" alt="ESPN" width="185" height="79" /></div>
     <div class="key-engagements__meta">
@@ -72,56 +53,37 @@ $meta_image = "http://www.thirteentwelve.com/images/og.jpg";
       <p>The relaunched ESPN looks fantastic and I'm really warmed to still be able to spot my influence and my code within its pages.</p>
     </div>
   </li>
-</ul>
-<h2>Talks</h2>
-<ul class="work">
   <li>
-    <div class="work__img" style="background-color: #0a016e;"><img data-src="/images/work/fred.jpg" alt="Talks: McrFRED" width="185" height="79" /></div>
-    <div class="work__meta">
-      <b>McrFRED</b> <br>
-      Rapidfire <br>
-      <i>October 2017</i>
+    <div class="key-engagements__img" style="background-color: #000;"><img data-src="/images/work/cr.jpg" alt="Charlie Rose" width="185" height="79" /></div>
+    <div class="key-engagements__meta">
+      <h3><b>Charlie Rose</b> <br>April 2016, <i>AREA 17</i></h3>
+      <p>The video archive of the now disgraced Charlie Rose, an American talk show host who had been interviewing people for 25+ years and appeared on America’s most popular morning TV show. Known for his frank interviews with celebrities and politicians, and now, sadly, the sexual harassment of some of his employees.</p>
+      <p>This site was a personal favorite as I was the lead front end developer on the project; my involvement spanning from design, to build to post launch support and site maintenance. And now it sits in a peculiar place. We cannot deny his body of work but also we cannot condone his actions.</p>
+      <p>The biggest shame was his team of dedicated employees, who, from my experience, where smart, creative and thoroughly professional and in all honesty, a total pleasure to work with. Shouts to <a href="http://www.xarissaholdaway.com/" target="_blank">Xarissa Holdaway</a> in particular.</p>
+      <p>Some stand out interviews for me are <a href="https://charlierose.com/videos/26938" target="_blank">President Obama</a>, <a href="https://charlierose.com/videos/18493">George W. Bush</a>, <a href="https://charlierose.com/videos/17601" target="_blank">Tom Cruise</a>, <a href="https://charlierose.com/videos/11084" target="_blank">Daniel Craig</a>, the late <a href="https://charlierose.com/videos/17144" target="_blank">Niki Lauda</a> and my hero, <a href="https://charlierose.com/videos/28777" target="_blank">Lewis Hamilton</a>.</p>
+      <p>This relaunched version of <a href="http://www.charlierose.com/">charlierose.com</a> had double the traffic and people stayed four times longer than the original.</p>
     </div>
   </li>
   <li>
-    <div class="work__img" style="background-color: #0a016e;"><img data-src="/images/work/fred.jpg" alt="Talks: McrFRED" width="185" height="79" /></div>
-    <div class="work__meta">
-      <b>McrFRED</b> <br>
-      A17 FE philosophy and boilerplate <br>
-      <i>June 2017</i> <br>
-      <a href="http://www.thirteentwelve.com/mcrfred-a17-philosophy/" target="_blank">Slides <svg><use xlink:href="#external" /></svg></a>
-    </div>
-  </li>
-  <li>
-    <div class="work__img" style="background-color: #0a016e;"><img data-src="/images/work/wad.jpg" alt="Talks: Warrington Digital" width="185" height="79" /></div>
-    <div class="work__meta">
-      <b>Warrington Digital</b> <br>
-      A17 FE philosophy and boilerplate <br>
-      <i>March 2017</i> <br>
-      <a href="http://www.thirteentwelve.com/philosophy/#/" target="_blank">Slides <svg><use xlink:href="#external" /></svg></a>
-    </div>
-  </li>
-  <li>
-    <div class="work__img" style="background-color: #0a016e;"><img data-src="/images/work/fred.jpg" alt="Talks: McrFRED" width="185" height="79" /></div>
-    <div class="work__meta">
-      <b>McrFRED</b> <br>
-      The importance of health and fitness as a developer <br>
-      <i>January 2017</i> <br>
-      <a href="http://www.thirteentwelve.com/fitness/#/" target="_blank">Slides <svg><use xlink:href="#external" /></svg></a>
-    </div>
-  </li>
-  <li>
-    <div class="work__img" style="background-color: #f2f2f2;"><img data-src="/images/work/sn.jpg" alt="Talks: standards&gt;next" width="185" height="79" /></div>
-    <div class="work__meta">
-      <b>standards&gt;next</b> <br>
-      CSS3 animations <br>
-      <i>March 2011</i>
+    <div class="key-engagements__img" style="background-color: #fff;"><img data-src="/images/work/appl.jpg" alt="Apple" width="185" height="79" /></div>
+    <div class="key-engagements__meta">
+      <h3><b>Apple</b> <br>August - October 2014</h3>
+      <p>Working within the Apple marcom team in Sunnyvale, California and Cupertino, California supporting 2014's biggest Apple product launches. Within my team I established a reputation for going beyond the required, doing whatever it takes to deliver and being very designer friendly. I like to think I brought energy, enthusiasm and some much needed British humor to the group.</p>
+      <p>The key challenges here lay with adapting to working within marcom's (at the time) new responsive web strategy, whilst simultaneously also working on legacy marketing sites with frequent direction changes and a tiny timescale. Quickly becoming familiar with their internal methods, bug tracking systems while all the time maintaining a very high attention to detail.</p>
+      <p>Whilst there it was my great pleasure to meet and be inspired by <a href="https://twitter.com/segdeha">Andrew Hedges</a>, <a href="https://twitter.com/lunaroja">Abraham Velázquez</a>, <a href="https://twitter.com/ludwigw">Ludwig Wendzich</a> and many others.</p>
     </div>
   </li>
 </ul>
 <h2 data-reveal-trigger>Other Engagements</h2>
 <ul class="work" data-reveal-target>
   <!--
+  <li>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/cel.jpg" alt="Celine"  width="185" height="79" /></div>
+    <div class="work__meta">
+      <b>Celine</b> <br>
+      August 2019 <br><i>AREA 17</i>
+    </div>
+  </li>
   <li>
     <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/pup.jpg" alt="Princeton University Press"  width="185" height="79" /></div>
     <div class="work__meta">
@@ -131,11 +93,12 @@ $meta_image = "http://www.thirteentwelve.com/images/og.jpg";
   </li>
   -->
   <li>
-    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/aic.jpg" alt="Art Institute of Chicago" width="185" height="79" /></div>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/pr.jpg" alt="Precision Run"  width="185" height="79" /></div>
     <div class="work__meta">
-      <b>Art Institute of Chicago</b> <br>
-      October 2018 <br><i>AREA 17</i> <br>
-      <a href="https://www.artic.edu/" target="_blank">Visit <svg><use xlink:href="#external" /></svg></a>
+      <b>Precision Run</b> <br>
+      May 2019 <br><i>AREA 17</i> <br>
+      <a href="https://www.precisionrun.com/" target="_blank">Visit <svg><use xlink:href="#external" /></svg></a> <br>
+      <a href="https://www.awwwards.com/sites/precision-run" target="_blank">Site of the day <svg><use xlink:href="#external" /></svg></a>
     </div>
   </li>
   <li>
@@ -144,6 +107,14 @@ $meta_image = "http://www.thirteentwelve.com/images/og.jpg";
       <b>CFR: Growing Economies Through Gender Parity</b> <br>
       October 2018 <br><i>AREA 17</i> <br>
       <a href="https://www.cfr.org/interactive/womens-participation-in-global-economy/" target="_blank">Visit <svg><use xlink:href="#external" /></svg></a>
+    </div>
+  </li>
+  <li>
+    <div class="work__img" style="background-color: #fff;"><img data-src="/images/work/aic.jpg" alt="Art Institute of Chicago" width="185" height="79" /></div>
+    <div class="work__meta">
+      <b>Art Institute of Chicago</b> <br>
+      October 2018 <br><i>AREA 17</i> <br>
+      <a href="https://www.artic.edu/" target="_blank">Visit <svg><use xlink:href="#external" /></svg></a>
     </div>
   </li>
   <li>
@@ -757,6 +728,52 @@ $meta_image = "http://www.thirteentwelve.com/images/og.jpg";
     </div>
   </li>
 </ul>
+<!-- <h2>Talks</h2>
+<ul class="work">
+  <li>
+    <div class="work__img" style="background-color: #0a016e;"><img data-src="/images/work/fred.jpg" alt="Talks: McrFRED" width="185" height="79" /></div>
+    <div class="work__meta">
+      <b>McrFRED</b> <br>
+      Rapidfire <br>
+      <i>October 2017</i>
+    </div>
+  </li>
+  <li>
+    <div class="work__img" style="background-color: #0a016e;"><img data-src="/images/work/fred.jpg" alt="Talks: McrFRED" width="185" height="79" /></div>
+    <div class="work__meta">
+      <b>McrFRED</b> <br>
+      A17 FE philosophy and boilerplate <br>
+      <i>June 2017</i> <br>
+      <a href="http://www.thirteentwelve.com/mcrfred-a17-philosophy/" target="_blank">Slides <svg><use xlink:href="#external" /></svg></a>
+    </div>
+  </li>
+  <li>
+    <div class="work__img" style="background-color: #0a016e;"><img data-src="/images/work/wad.jpg" alt="Talks: Warrington Digital" width="185" height="79" /></div>
+    <div class="work__meta">
+      <b>Warrington Digital</b> <br>
+      A17 FE philosophy and boilerplate <br>
+      <i>March 2017</i> <br>
+      <a href="http://www.thirteentwelve.com/philosophy/#/" target="_blank">Slides <svg><use xlink:href="#external" /></svg></a>
+    </div>
+  </li>
+  <li>
+    <div class="work__img" style="background-color: #0a016e;"><img data-src="/images/work/fred.jpg" alt="Talks: McrFRED" width="185" height="79" /></div>
+    <div class="work__meta">
+      <b>McrFRED</b> <br>
+      The importance of health and fitness as a developer <br>
+      <i>January 2017</i> <br>
+      <a href="http://www.thirteentwelve.com/fitness/#/" target="_blank">Slides <svg><use xlink:href="#external" /></svg></a>
+    </div>
+  </li>
+  <li>
+    <div class="work__img" style="background-color: #f2f2f2;"><img data-src="/images/work/sn.jpg" alt="Talks: standards&gt;next" width="185" height="79" /></div>
+    <div class="work__meta">
+      <b>standards&gt;next</b> <br>
+      CSS3 animations <br>
+      <i>March 2011</i>
+    </div>
+  </li>
+</ul> -->
 <script>
   var imgs = document.querySelectorAll('img[data-src]');
   var imgsLength = imgs.length;
