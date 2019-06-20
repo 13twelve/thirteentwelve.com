@@ -11,7 +11,7 @@ $meta_image = "http://www.thirteentwelve.com/images/og.jpg";
   <dl>
     <dt>Miles driven:</dt>
     <dd>
-      <input id="milesDriven" type="text" value="730" pattern="[0-9]"> miles
+      <input id="milesDriven" type="text" value="1312" pattern="[0-9]"> miles
     </dd>
   </dl>
 
@@ -36,9 +36,9 @@ $meta_image = "http://www.thirteentwelve.com/images/og.jpg";
     <dl class="col">
       <dt>Date Start (d/m/y):</dt>
       <dd>
-        <input id="dateStart_day" type="text" value="20" pattern="[0-9]">
-        <input id="dateStart_month" type="text" value="5" pattern="[0-9]">
-        <input id="dateStart_year" type="text" value="2016" pattern="[0-9]">
+        <input id="dateStart_day" type="text" value="31" pattern="[0-9]">
+        <input id="dateStart_month" type="text" value="10" pattern="[0-9]">
+        <input id="dateStart_year" type="text" value="2018" pattern="[0-9]">
       </dd>
       <dt>Lease Term:</dt>
       <dd>
