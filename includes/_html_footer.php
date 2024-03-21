@@ -4,16 +4,14 @@
           <use xlink:href="#bee" />
         </svg>
         <ul class="social">
-          <li><a href="http://www.twitter.com/13twelve" target="_blank" title="Twitter"><svg width="32px" height="32px" aria-label="13twelve on Twitter"><use xlink:href="#twitter" /></svg></a></li>
-          <li><a href="http://instagram.com/13twelve" target="_blank" title="Instagram"><svg width="32px" height="32px" aria-label="13twelve on Instagram"><use xlink:href="#instagram" /></svg></a></li>
-          <li><a href="http://www.last.fm/user/thirteentwelve" target="_blank" title="Last.fm"><svg width="32px" height="32px" aria-label="13twelve on Last.fm"><use xlink:href="#lastfm" /></svg></a></li>
-          <li><a href="http://soundcloud.com/thirteentwelve/" target="_blank" title="Soundcloud"><svg width="32px" height="32px" aria-label="13twelve on Soundcloud"><use xlink:href="#soundcloud" /></svg></a></li>
-          <li><a href="http://www.flickr.com/photos/13twelve/" target="_blank" title="Flickr"><svg width="32px" height="32px" aria-label="13twelve on Flickr"><use xlink:href="#flickr" /></svg></a></li>
-          <li><a href="http://www.youtube.com/13twelve" target="_blank" title="YouTube"><svg width="32px" height="32px" aria-label="13twelve on YouTube"><use xlink:href="#youtube" /></svg></a></li>
-          <li><a href="http://www.linkedin.com/in/13twelve" target="_blank" title="Linked In"><svg width="32px" height="32px" aria-label="13twelve on LinkedIn"><use xlink:href="#linkedin" /></svg></a></li>
           <li><a href="https://github.com/13twelve" target="_blank" title="GitHub"><svg width="32px" height="32px" aria-label="13twelve on GitHub"><use xlink:href="#github" /></svg></a></li>
           <li><a href="https://codepen.io/13twelve/" target="_blank" title="Codepen"><svg width="32px" height="32px" aria-label="13twelve on Codepen"><use xlink:href="#codepen" /></svg></a></li>
-          <li><a href="http://goteamfun.tumblr.com/" target="_blank" title="Tumblr"><svg width="32px" height="32px" aria-label="13twelve on Tumblr"><use xlink:href="#tumblr" /></svg></a></li>
+          <li><a href="http://www.twitter.com/13twelve" target="_blank" title="Twitter"><svg width="32px" height="32px" aria-label="13twelve on Twitter"><use xlink:href="#twitter" /></svg></a></li>
+          <li><a href="http://instagram.com/13twelve" target="_blank" title="Instagram"><svg width="32px" height="32px" aria-label="13twelve on Instagram"><use xlink:href="#instagram" /></svg></a></li>
+          <li><a href="http://soundcloud.com/thirteentwelve/" target="_blank" title="Soundcloud"><svg width="32px" height="32px" aria-label="13twelve on Soundcloud"><use xlink:href="#soundcloud" /></svg></a></li>
+          <li><a href="http://www.flickr.com/photos/13twelve/" target="_blank" title="Flickr"><svg width="32px" height="32px" aria-label="13twelve on Flickr"><use xlink:href="#flickr" /></svg></a></li>
+          <!-- <li><a href="http://www.youtube.com/13twelve" target="_blank" title="YouTube"><svg width="32px" height="32px" aria-label="13twelve on YouTube"><use xlink:href="#youtube" /></svg></a></li> -->
+          <!-- <li><a href="http://www.linkedin.com/in/13twelve" target="_blank" title="Linked In"><svg width="32px" height="32px" aria-label="13twelve on LinkedIn"><use xlink:href="#linkedin" /></svg></a></li> -->
         </ul>
         <small>Copyright &copy; 2005 &ndash; <?php date_default_timezone_set('UTC'); echo date("Y"); ?> thirteentwelve.com</small>
       </footer>

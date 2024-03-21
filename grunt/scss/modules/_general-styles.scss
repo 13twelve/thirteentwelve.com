@@ -1,4 +1,9 @@
-h1, h2, p, ul, small {
+h1, h2 {
+  @include font--m;
+  margin-top: 20px;
+}
+
+p, ul, small {
   @include font--m;
   margin-top: 20px;
 
@@ -23,10 +28,6 @@ h2 {
   @include breakpoint(small) {
     margin-top: 30px;
   }
-}
-
-h2[data-reveal-trigger] {
-  cursor: pointer;
 }
 
 a {
@@ -81,4 +82,11 @@ small {
   50% {
     transform: rotate(5deg) scale(1.2);
   }
+}
+
+.icon-external {
+  display: inline-block;
+  width: 18px;
+  height: 9px;
+  margin-left: 5px;
 }
