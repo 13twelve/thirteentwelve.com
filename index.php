@@ -45,28 +45,28 @@ $meta_image = "http://www.thirteentwelve.com/images/og.webp";
     <div class="work__meta">
       <b>A17 Behaviors</b> <br>
       JavaScript framework to attach JavaScript events and interactions to DOM Nodes. <br>
-      <a href="https://github.com/area17/a17-behaviors" target="_blank">GitHub <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+      <a href="https://github.com/area17/a17-behaviors" target="_blank">GitHub</a>
     </div>
   </li>
   <li>
     <div class="work__meta">
       <b>A17 Tailwind Plugins</b> <br>
       A series of Tailwind plugins to enable/encourage systematised web design/development and some other useful utility classes. <br>
-      <a href="https://github.com/area17/tailwind-plugins" target="_blank">GitHub <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+      <a href="https://github.com/area17/tailwind-plugins" target="_blank">GitHub</a>
     </div>
   </li>
   <li>
     <div class="work__meta">
       <b>Twill</b> <br>
       Twill is an open source CMS toolkit for Laravel that helps developers rapidly create a custom admin console that is intuitive, powerful and flexible. <br>
-      <a href="https://github.com/area17/twill" target="_blank">GitHub <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+      <a href="https://github.com/area17/twill" target="_blank">GitHub</a>
     </div>
   </li>
   <li>
     <div class="work__meta">
       <b>Parse Numeric Date</b> <br>
       Micro library to parse numeric based date inputs. <br>
-      <a href="https://github.com/area17/parse-numeric-date" target="_blank">GitHub <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+      <a href="https://github.com/area17/parse-numeric-date" target="_blank">GitHub</a>
     </div>
   </li>
   <!--
@@ -74,67 +74,67 @@ $meta_image = "http://www.thirteentwelve.com/images/og.webp";
     <div class="work__meta">
       <b>HTML4CSS</b> <br>
       A default CSS file to give unsupported browsers something other than a totally broken experience of the web. <br>
-      <a href="https://github.com/area17/html4css" target="_blank">GitHub <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+      <a href="https://github.com/area17/html4css" target="_blank">GitHub</a>
     </div>
   </li>
   <li>
     <div class="work__meta">
       <b>A17 SCSS Utilities</b> <br>
       A series of plugins to enable/encourage systematised web design/development and some other useful utility classes. <br>
-      <a href="https://github.com/area17/scss-utilities" target="_blank">GitHub <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+      <a href="https://github.com/area17/scss-utilities" target="_blank">GitHub</a>
     </div>
   </li>
   <li>
     <div class="work__meta">
       <b>A17 JS Helpers</b> <br>
       A JavaScript helper package. <br>
-      <a href="https://github.com/area17/js-helpers" target="_blank">GitHub <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+      <a href="https://github.com/area17/js-helpers" target="_blank">GitHub</a>
     </div>
   </li>
   <li>
     <div class="work__meta">
       <b>A17 Generator</b> <br>
       A17 Generator is used to quickly install A17 FE libraries. <br>
-      <a href="https://github.com/area17/a17-generator" target="_blank">GitHub <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+      <a href="https://github.com/area17/a17-generator" target="_blank">GitHub</a>
     </div>
   </li> -->
 </ul>
-<p><a href="https://github.com/13twelve" target="_blank">See all open source contributions on GitHub.com <svg class="icon-external"><use xlink:href="#external" /></svg></a></p>
+<p><a href="https://github.com/13twelve" target="_blank">See all open source contributions on GitHub.com</a></p>
 <h2>CodePens</h2>
 <ul class="work">
   <li>
     <div class="work__img" style="background-color: #836997;"><img loading="lazy" decoding="async" src="/images/work/webp/cpGrad.webp" alt="CodePen: Animated CSS gradients (using CSS only)" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Animated CSS gradients (using CSS only)</b> <br>
-      <a href="https://codepen.io/13twelve/pen/OJwgxOo" target="_blank">CodePen <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+      <a href="https://codepen.io/13twelve/pen/OJwgxOo" target="_blank">CodePen</a>
     </div>
   </li>
   <li>
     <div class="work__img" style="background-color: #000;"><img loading="lazy" decoding="async" src="/images/work/webp/cpFlu.webp" alt="CodePen: Fluid flowing SVG SMIL animation" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Fluid flowing SVG SMIL animation</b> <br>
-      As used on <a href="https://wyss.harvard.edu/" target="_blank">Wyss <svg class="icon-external"><use xlink:href="#external" /></svg></a> <br>
-      <a href="https://codepen.io/13twelve/pen/QNRwGa" target="_blank">CodePen <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+      As used on <a href="https://wyss.harvard.edu/" target="_blank">Wyss</a> <br>
+      <a href="https://codepen.io/13twelve/pen/QNRwGa" target="_blank">CodePen</a>
     </div>
   </li>
   <li>
     <div class="work__img" style="background-color: #000;"><img loading="lazy" decoding="async" src="/images/work/webp/cpKal.webp" alt="CodePen: Kaleidoscope canvas image grid" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Kaleidoscope canvas image grid</b> <br>
-      As used on <a href="https://www.celine.com/en-gb/cm/celine-haute-parfumerie/project/first-chapter" target="_blank">Celine <svg class="icon-external"><use xlink:href="#external" /></svg></a> <br>
-      <a href="https://codepen.io/13twelve/pen/GRRJKpe" target="_blank">CodePen <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+      As used on <a href="https://www.celine.com/en-gb/cm/celine-haute-parfumerie/project/first-chapter" target="_blank">Celine</a> <br>
+      <a href="https://codepen.io/13twelve/pen/GRRJKpe" target="_blank">CodePen</a>
     </div>
   </li>
   <li>
     <div class="work__img" style="background-color: #000;"><img loading="lazy" decoding="async" src="/images/work/webp/cpWeather.webp" alt="CodePen: SVG animated weather icons" width="185" height="79" /></div>
     <div class="work__meta">
       <b>SVG animated weather icons</b> <br>
-      As used on <a href="https://time.area17.comr" target="_blank">time.area17.com <svg class="icon-external"><use xlink:href="#external" /></svg></a> <br>
-      <a href="https://codepen.io/13twelve/pen/aLxvXd" target="_blank">CodePen <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+      As used on <a href="https://time.area17.comr" target="_blank">time.area17.com</a> <br>
+      <a href="https://codepen.io/13twelve/pen/aLxvXd" target="_blank">CodePen</a>
     </div>
   </li>
 </ul>
-<p><a href="https://codepen.io/13twelve" target="_blank">See all my CodePens on codepen.com <svg class="icon-external"><use xlink:href="#external" /></svg></a></p>
+<p><a href="https://codepen.io/13twelve" target="_blank">See all my CodePens on codepen.com</a></p>
 <h2>Engagements</h2>
 <ul class="work">
   <!--
@@ -143,7 +143,7 @@ $meta_image = "http://www.thirteentwelve.com/images/og.webp";
     <div class="work__meta">
       <b>XXXXX</b> <br>
       XXXXXXX XXXX <br><i>AREA 17</i> <br>
-      <a href="XXXXX" target="_blank">Visit <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+      <a href="XXXXX" target="_blank">Visit</a>
     </div>
   </li>
   -->
@@ -159,7 +159,7 @@ $meta_image = "http://www.thirteentwelve.com/images/og.webp";
     <div class="work__meta">
       <b>Green Climate Fund</b> <br>
       April 2026 <br><i>AREA 17</i> <br>
-      <a href="https://www.greenclimate.fund/" target="_blank">Visit <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+      <a href="https://www.greenclimate.fund/" target="_blank">Visit</a>
     </div>
   </li>
   <li>
@@ -174,7 +174,7 @@ $meta_image = "http://www.thirteentwelve.com/images/og.webp";
     <div class="work__meta">
       <b>Rockwell</b> <br>
       June 2025 <br><i>AREA 17</i> <br>
-      <a href="https://www.rockwellgroup.com/" target="_blank">Visit <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+      <a href="https://www.rockwellgroup.com/" target="_blank">Visit</a>
     </div>
   </li>
   <li>
@@ -189,7 +189,7 @@ $meta_image = "http://www.thirteentwelve.com/images/og.webp";
     <div class="work__meta">
       <b>IEA</b> <br>
       <em>Ongoing</em> <br><i>AREA 17</i> <br>
-      <a href="https://www.iea.org/" target="_blank">Visit <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+      <a href="https://www.iea.org/" target="_blank">Visit</a>
     </div>
   </li>
   <li>
@@ -197,7 +197,7 @@ $meta_image = "http://www.thirteentwelve.com/images/og.webp";
     <div class="work__meta">
       <b>Fondation Louis Vuitton</b> <br>
       <em>Ongoing</em> <br><i>AREA 17</i> <br>
-      <a href="https://www.fondationlouisvuitton.fr/" target="_blank">Visit <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+      <a href="https://www.fondationlouisvuitton.fr/" target="_blank">Visit</a>
     </div>
   </li>
   <li>
@@ -205,7 +205,7 @@ $meta_image = "http://www.thirteentwelve.com/images/og.webp";
     <div class="work__meta">
       <b>Harvard University Press</b> <br>
       November 2023 <br><i>AREA 17</i> <br>
-      <a href="https://www.hup.harvard.edu/" target="_blank">Visit <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+      <a href="https://www.hup.harvard.edu/" target="_blank">Visit</a>
     </div>
   </li>
   <li>
@@ -234,7 +234,7 @@ $meta_image = "http://www.thirteentwelve.com/images/og.webp";
     <div class="work__meta">
       <b>Neri Oxman</b> <br>
       May 2022 <br><i>AREA 17</i> <br>
-      <a href="https://oxman.com/" target="_blank">Visit <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+      <a href="https://oxman.com/" target="_blank">Visit</a>
     </div>
   </li>
   <li>
@@ -243,7 +243,7 @@ $meta_image = "http://www.thirteentwelve.com/images/og.webp";
       <b>US Chamber of Commerce</b> <br>
       <a href="https://winners.webbyawards.com/winners/websites-and-mobile-sites/general-websites-and-mobile-sites/associations" title="Webby Award" target="_blank">🏆</a> <br>
       October 2021 <br><i>AREA 17</i> <br>
-      <a href="https://www.uschamber.com/" target="_blank">Visit <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+      <a href="https://www.uschamber.com/" target="_blank">Visit</a>
     </div>
   </li>
   <li>
@@ -279,7 +279,7 @@ $meta_image = "http://www.thirteentwelve.com/images/og.webp";
     <div class="work__meta">
       <b>Getty museum</b> <br>
       January 2020 <br><i>AREA 17</i> <br>
-      <a href="https://www.getty.edu/" target="_blank">Visit <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+      <a href="https://www.getty.edu/" target="_blank">Visit</a>
     </div>
   </li>
   <li>
@@ -294,7 +294,7 @@ $meta_image = "http://www.thirteentwelve.com/images/og.webp";
     <div class="work__meta">
       <b>Celine</b> <br>
       Dec 2019 - Dec 2024<br><i>AREA 17</i><br>
-      <a href="https://www.celine.com/en-gb/home" target="_blank">Visit <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+      <a href="https://www.celine.com/en-gb/home" target="_blank">Visit</a>
     </div>
   </li>
   <li>
@@ -302,8 +302,8 @@ $meta_image = "http://www.thirteentwelve.com/images/og.webp";
     <div class="work__meta">
       <b>Precision Run</b> <br>
       May 2019 <br><i>AREA 17</i> <br>
-      <a href="https://www.precisionrun.com/" target="_blank">Visit <svg class="icon-external"><use xlink:href="#external" /></svg></a> <br>
-      <a href="https://www.awwwards.com/sites/precision-run" target="_blank">Site of the day <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+      <a href="https://www.precisionrun.com/" target="_blank">Visit</a> <br>
+      <a href="https://www.awwwards.com/sites/precision-run" target="_blank">Site of the day</a>
     </div>
   </li>
   <li>
@@ -318,7 +318,7 @@ $meta_image = "http://www.thirteentwelve.com/images/og.webp";
     <div class="work__meta">
       <b>CFR: Growing Economies Through Gender Parity</b> <br>
       October 2018 <br><i>AREA 17</i> <br>
-      <a href="https://www.cfr.org/interactive/womens-participation-in-global-economy/" target="_blank">Visit <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+      <a href="https://www.cfr.org/interactive/womens-participation-in-global-economy/" target="_blank">Visit</a>
     </div>
   </li>
   <li>
@@ -326,7 +326,7 @@ $meta_image = "http://www.thirteentwelve.com/images/og.webp";
     <div class="work__meta">
       <b>Art Institute of Chicago</b> <br>
       October 2018 <br><i>AREA 17</i> <br>
-      <a href="https://www.artic.edu/" target="_blank">Visit <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+      <a href="https://www.artic.edu/" target="_blank">Visit</a>
     </div>
   </li>
   <li>
@@ -334,7 +334,7 @@ $meta_image = "http://www.thirteentwelve.com/images/og.webp";
     <div class="work__meta">
       <b>New England Journal of Medicine</b> <br>
       September 2017 <br><i>AREA 17</i> <br>
-      <a href="https://www.nejm.org/" target="_blank">Visit <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+      <a href="https://www.nejm.org/" target="_blank">Visit</a>
     </div>
   </li>
   <li>
@@ -342,7 +342,7 @@ $meta_image = "http://www.thirteentwelve.com/images/og.webp";
     <div class="work__meta">
       <b>Mai 36</b> <br>
       June 2017 <br><i>AREA 17</i> <br>
-      <a href="https://www.mai36.com/" target="_blank">Visit <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+      <a href="https://www.mai36.com/" target="_blank">Visit</a>
     </div>
   </li>
   <li>
@@ -351,7 +351,7 @@ $meta_image = "http://www.thirteentwelve.com/images/og.webp";
       <b>Wyss Institute</b> <br>
       <a href="https://www.webbyawards.com/winners/2017/websites/general-website/schooluniversity/wyss-institute-for-biologically-inspired-engineering-at-harvard-university/" class="award-link" title="Webby Award" target="_blank">🏆</a> <a href="https://www.webbyawards.com/winners/2017/mobile-sites-apps/general-sites-apps/schooluniversity/wyss-institute-for-biologically-inspired-engineering-at-harvard-university/" class="award-link" title="Webby Award" target="_blank">🏆</a> <a href="https://www.w3award.com/winners/gallery/?event=1015&award=1&_p=12" class="award-link" title="W3 Gold Award" target="_blank">🏆</a> <br>
       July 2016 <br><i>AREA 17</i> <br>
-      <a href="http://wyss.harvard.edu/" target="_blank">Visit <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+      <a href="http://wyss.harvard.edu/" target="_blank">Visit</a>
     </div>
   </li>
   <li>
@@ -366,7 +366,7 @@ $meta_image = "http://www.thirteentwelve.com/images/og.webp";
     <div class="work__meta">
       <b>Charlie Rose</b> <br>
       April 2016 <br><i>AREA 17</i> <br>
-      <a href="http://www.charlierose.com/" target="_blank">Visit <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+      <a href="http://www.charlierose.com/" target="_blank">Visit</a>
     </div>
   </li>
   <li>
@@ -388,7 +388,7 @@ $meta_image = "http://www.thirteentwelve.com/images/og.webp";
     <div class="work__meta">
       <b>Scientific American</b> <br>
       (technical direction) <br>November 2015 <br><i>AREA 17</i> <br>
-      <a href="http://www.scientificamerican.com/" target="_blank">Visit <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+      <a href="http://www.scientificamerican.com/" target="_blank">Visit</a>
     </div>
   </li>
   <li>
@@ -396,7 +396,7 @@ $meta_image = "http://www.thirteentwelve.com/images/og.webp";
     <div class="work__meta">
       <b>Engadget</b> <br>
       (technical direction) <br>November 2015 <br><i>AREA 17</i> <br>
-      <a href="http://www.engadget.com/" target="_blank">Visit <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+      <a href="http://www.engadget.com/" target="_blank">Visit</a>
     </div>
   </li>
   <li>
@@ -440,7 +440,7 @@ $meta_image = "http://www.thirteentwelve.com/images/og.webp";
       <b>ESPN</b> <br>
       <a href="https://www.webbyawards.com/winners/2017/websites/general-website/sports/espncom/" class="award-link" title="Webby Award" target="_blank">🏆</a> <a href="https://www.webbyawards.com/winners/2017/mobile-sites-apps/general-sites-apps/sports/espncom/" class="award-link" title="Webby Award" target="_blank">🏆</a> <a href="https://www.webbyawards.com/winners/2016/mobile-sites-apps/general-sites-apps/sports/espn/" class="award-link" title="Webby Award" target="_blank">🏆</a> <a href="https://www.webbyawards.com/winners/2015/websites/general-website/sports/espncom/" class="award-link" title="Webby Award" target="_blank">🏆</a><br>
       April 2014 <br><i>ESPN</i> <br>
-      <a href="http://espn.go.com/">Visit <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+      <a href="http://espn.go.com/">Visit</a>
     </div>
   </li>
   <li>
@@ -462,7 +462,7 @@ $meta_image = "http://www.thirteentwelve.com/images/og.webp";
     <div class="work__meta">
       <b>Activaire</b> <br>
       February 2014 <br><i>Spearpoint</i> <br>
-      <a href="http://www.activaire.com/" target="_blank">Visit <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+      <a href="http://www.activaire.com/" target="_blank">Visit</a>
     </div>
   </li>
   <li>
@@ -498,7 +498,7 @@ $meta_image = "http://www.thirteentwelve.com/images/og.webp";
     <div class="work__meta">
       <b>heartresearch.me</b> <br>
       Charity hack day <br>November 2013 <br><i>We Love The Web</i> <br>
-      <a href="http://heartresearch.me/" target="_blank">Visit <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+      <a href="http://heartresearch.me/" target="_blank">Visit</a>
     </div>
   </li>
   <li>
@@ -541,7 +541,7 @@ $meta_image = "http://www.thirteentwelve.com/images/og.webp";
     <div class="work__meta">
       <b>Filmmaker</b> <br>
       November 2012 <br><i>AREA 17</i> <br>
-      <a href="http://www.filmmakermagazine.com/" target="_blank">Visit <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+      <a href="http://www.filmmakermagazine.com/" target="_blank">Visit</a>
     </div>
   </li>
   <li>
@@ -598,7 +598,7 @@ $meta_image = "http://www.thirteentwelve.com/images/og.webp";
     <div class="work__meta">
       <b>IFP</b> <br>
       November 2011 <br><i>AREA 17</i> <br>
-      <a href="http://www.ifp.org/" target="_blank">Visit <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+      <a href="http://www.ifp.org/" target="_blank">Visit</a>
     </div>
   </li>
   <li>
@@ -662,7 +662,7 @@ $meta_image = "http://www.thirteentwelve.com/images/og.webp";
     <div class="work__meta">
       <b>Sustainability</b> <br>
       August 2010 <br><i>AREA 17</i>
-      <!-- <a href="http://www.sustainability.com/" target="_blank">Visit <svg class="icon-external"><use xlink:href="#external" /></svg></a> -->
+      <!-- <a href="http://www.sustainability.com/" target="_blank">Visit</a> -->
     </div>
   </li>
   <li>
@@ -698,7 +698,7 @@ $meta_image = "http://www.thirteentwelve.com/images/og.webp";
     <div class="work__meta">
       <b>James Maddox Photography</b> <br>
       February 2010 <br><i>Fudge</i>
-      <!-- <a href="http://www.jamesmaddox.co.uk/" target="_blank">Visit <svg class="icon-external"><use xlink:href="#external" /></svg></a> -->
+      <!-- <a href="http://www.jamesmaddox.co.uk/" target="_blank">Visit</a> -->
     </div>
   </li>
   <li>
