@@ -1,51 +1,46 @@
 <?php
 $home = true;
-$meta_title = "13twelve | Front end web developer. Specialising in HTML, CSS and JavaScript.";
+$meta_title = "13twelve | Mike Byrne, front-end developer";
 $meta_social_title = "13twelve";
-$meta_description = "The portfolio of front end web developer Mike Byrne. Specialising in HTML, CSS and JavaScript.";
+$meta_description = "The work of front-end developer Mike Byrne: architecture, design systems, accessibility, and practical front-end development.";
 $meta_url = "http://www.thirteentwelve.com/";
 $meta_image = "http://www.thirteentwelve.com/images/og.webp";
 ?>
 <?php include "includes/_html_header.php"; ?>
 <div class="intro">
   <div class="intro__col">
-    <h1>The portfolio of front end developer Mike Byrne</h1>
-    <p>I'm fortunate to say that during the course of my career you have seen my work online. <br>I have 25 years experience of building design systems, improving design and development processes and helping teams to do their best work. I focus on practical solutions, accessibility, adaptability and ensuring clients and projects have successful outcomes.</p>
+    <h1>The work of front-end developer Mike Byrne</h1>
+    <p>Over the past <?php date_default_timezone_set('UTC'); echo (date("Y") - 2000); ?> years, there’s a fair chance you’ve used a website I’ve worked on.</p>
+    <p>I work on front-end architecture, design systems, and better ways for designers and developers to work together. I care about accessibility, resilient code, and practical solutions that hold up over time.</p>
+    <p>This site is a record of some of the things I’ve built and contributed to.</p>
   </div>
   <div class="intro__col">
-   <h2>Primary skills:</h2>
+   <h2>What I do</h2>
    <ul>
-      <li>FE processes and architecture</li>
-      <li>Codifying design language</li>
-      <li>CSS, SCSS and Tailwind</li>
-      <li>HTML, xHTML and HTML5</li>
+      <li>Front-end architecture</li>
+      <li>Design systems and component libraries</li>
+      <li>CSS, SCSS, and Tailwind</li>
       <li>JavaScript</li>
       <li>Accessibility</li>
-      <li>Browser performance and compatibility</li>
+      <li>Localisation and internationalisation</li>
+      <li>Performance and browser compatibility</li>
    </ul>
   </div>
   <div class="intro__col">
-    <h2>Experience with:</h2>
+    <h2>What I do it with</h2>
     <ul>
-      <li>JSON, XML and SVG</li>
-      <li>Webpack, NPM, Gulp and Grunt</li>
-      <li>Vue.js, PHP, Node.js and Git</li>
-      <li>Mentoring, presenting and teaching</li>
-      <li>Localisation and internationalisation</li>
+      <li>HTML, Blade, Twig, SVG, XML, and JSON</li>
+      <li>Node.js, Vite, Webpack, and npm</li>
+      <li>PHP, Laravel, Storybook, Drupal, and Vue</li>
+      <li>Technical leadership and mentoring</li>
       <li>UI and UX</li>
-      <li>SEO</li>
+      <li>SEO, AEO and GEO</li>
+      <li>Git and SVN</li>
     </ul>
   </div>
 </div>
 <h2>Open Source Projects</h2>
 <ul class="work work--alt">
-  <li>
-    <div class="work__meta">
-      <b>Parse Numeric Date</b> <br>
-      Micro library to parse numeric based date inputs. <br>
-      <a href="https://github.com/area17/parse-numeric-date" target="_blank">GitHub <svg class="icon-external"><use xlink:href="#external" /></svg></a>
-    </div>
-  </li>
   <li>
     <div class="work__meta">
       <b>A17 Behaviors</b> <br>
@@ -55,16 +50,31 @@ $meta_image = "http://www.thirteentwelve.com/images/og.webp";
   </li>
   <li>
     <div class="work__meta">
-      <b>HTML4CSS</b> <br>
-      A default CSS file to give unsupported browsers something other than a totally broken experience of the web. <br>
-      <a href="https://github.com/area17/html4css" target="_blank">GitHub <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+      <b>A17 Tailwind Plugins</b> <br>
+      A series of Tailwind plugins to enable/encourage systematised web design/development and some other useful utility classes. <br>
+      <a href="https://github.com/area17/tailwind-plugins" target="_blank">GitHub <svg class="icon-external"><use xlink:href="#external" /></svg></a>
     </div>
   </li>
   <li>
     <div class="work__meta">
-      <b>A17 Tailwind Plugins</b> <br>
-      A series of Tailwind plugins to enable/encourage systematised web design/development and some other useful utility classes. <br>
-      <a href="https://github.com/area17/tailwind-plugins" target="_blank">GitHub <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+      <b>Twill</b> <br>
+      Twill is an open source CMS toolkit for Laravel that helps developers rapidly create a custom admin console that is intuitive, powerful and flexible. <br>
+      <a href="https://github.com/area17/twill" target="_blank">GitHub <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+    </div>
+  </li>
+  <li>
+    <div class="work__meta">
+      <b>Parse Numeric Date</b> <br>
+      Micro library to parse numeric based date inputs. <br>
+      <a href="https://github.com/area17/parse-numeric-date" target="_blank">GitHub <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+    </div>
+  </li>
+  <!--
+  <li>
+    <div class="work__meta">
+      <b>HTML4CSS</b> <br>
+      A default CSS file to give unsupported browsers something other than a totally broken experience of the web. <br>
+      <a href="https://github.com/area17/html4css" target="_blank">GitHub <svg class="icon-external"><use xlink:href="#external" /></svg></a>
     </div>
   </li>
   <li>
@@ -87,14 +97,7 @@ $meta_image = "http://www.thirteentwelve.com/images/og.webp";
       A17 Generator is used to quickly install A17 FE libraries. <br>
       <a href="https://github.com/area17/a17-generator" target="_blank">GitHub <svg class="icon-external"><use xlink:href="#external" /></svg></a>
     </div>
-  </li>
-  <li>
-    <div class="work__meta">
-      <b>Twill</b> <br>
-      Twill is an open source CMS toolkit for Laravel that helps developers rapidly create a custom admin console that is intuitive, powerful and flexible. <br>
-      <a href="https://github.com/area17/twill" target="_blank">GitHub <svg class="icon-external"><use xlink:href="#external" /></svg></a>
-    </div>
-  </li>
+  </li> -->
 </ul>
 <p><a href="https://github.com/13twelve" target="_blank">See all open source contributions on GitHub.com <svg class="icon-external"><use xlink:href="#external" /></svg></a></p>
 <h2>CodePens</h2>
@@ -134,6 +137,69 @@ $meta_image = "http://www.thirteentwelve.com/images/og.webp";
 <p><a href="https://codepen.io/13twelve" target="_blank">See all my CodePens on codepen.com <svg class="icon-external"><use xlink:href="#external" /></svg></a></p>
 <h2>Engagements</h2>
 <ul class="work">
+  <!--
+  <li>
+    <div class="work__img" style="background-color: #fff;"><img loading="lazy" decoding="async" src="/images/work/webp/XXXX.webp" alt="XXXX" width="185" height="79" /></div>
+    <div class="work__meta">
+      <b>XXXXX</b> <br>
+      XXXXXXX XXXX <br><i>AREA 17</i> <br>
+      <a href="XXXXX" target="_blank">Visit <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+    </div>
+  </li>
+  -->
+  <!-- <li>
+    <div class="work__img" style="background-color: #f2f6f3;"><img loading="lazy" decoding="async" src="/images/work/webp/k2.webp" alt="K2 Aurora" width="185" height="79" /></div>
+    <div class="work__meta">
+      <b>IFM K2 Aurora</b> <br>
+      July 2026 <br><i>AREA 17</i>
+    </div>
+  </li> -->
+  <li>
+    <div class="work__img" style="background-color: #fff;"><img loading="lazy" decoding="async" src="/images/work/webp/gcf.webp" alt="Green Climate Fund" width="185" height="79" /></div>
+    <div class="work__meta">
+      <b>Green Climate Fund</b> <br>
+      April 2026 <br><i>AREA 17</i> <br>
+      <a href="https://www.greenclimate.fund/" target="_blank">Visit <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+    </div>
+  </li>
+  <li>
+    <div class="work__img" style="background-color: #fff;"><img loading="lazy" decoding="async" src="/images/work/webp/fo.webp" alt="XXXX" width="185" height="79" /></div>
+    <div class="work__meta">
+      <b>Field Operations</b> <br>
+      March 2026 <br><i>AREA 17</i>
+    </div>
+  </li>
+  <li>
+    <div class="work__img" style="background-color: #fff;"><img loading="lazy" decoding="async" src="/images/work/webp/rock.webp" alt="Rockwell Group" width="185" height="79" /></div>
+    <div class="work__meta">
+      <b>Rockwell</b> <br>
+      June 2025 <br><i>AREA 17</i> <br>
+      <a href="https://www.rockwellgroup.com/" target="_blank">Visit <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+    </div>
+  </li>
+  <li>
+    <div class="work__img" style="background-color: #fff;"><img loading="lazy" decoding="async" src="/images/work/webp/dk.webp" alt="Davidson Kempner" width="185" height="79" /></div>
+    <div class="work__meta">
+      <b>Davidson Kempner</b> <br>
+      November 2024 <br><i>AREA 17</i>s
+    </div>
+  </li>
+  <li>
+    <div class="work__img" style="background-color: #fff;"><img loading="lazy" decoding="async" src="/images/work/webp/iea.webp" alt="iea" width="185" height="79" /></div>
+    <div class="work__meta">
+      <b>IEA</b> <br>
+      <em>Ongoing</em> <br><i>AREA 17</i> <br>
+      <a href="https://www.iea.org/" target="_blank">Visit <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+    </div>
+  </li>
+  <li>
+    <div class="work__img" style="background-color: #fff;"><img loading="lazy" decoding="async" src="/images/work/webp/flv.webp" alt="flv" width="185" height="79" /></div>
+    <div class="work__meta">
+      <b>Fondation Louis Vuitton</b> <br>
+      <em>Ongoing</em> <br><i>AREA 17</i> <br>
+      <a href="https://www.fondationlouisvuitton.fr/" target="_blank">Visit <svg class="icon-external"><use xlink:href="#external" /></svg></a>
+    </div>
+  </li>
   <li>
     <div class="work__img" style="background-color: #fff;"><img loading="lazy" decoding="async" src="/images/work/webp/hup.webp" alt="hup" width="185" height="79" /></div>
     <div class="work__meta">
@@ -152,17 +218,17 @@ $meta_image = "http://www.thirteentwelve.com/images/og.webp";
   <li>
     <div class="work__img" style="background-color: #fff;"><img loading="lazy" decoding="async" src="/images/work/webp/vcaoe.webp" alt="vcaoe" width="185" height="79" /></div>
     <div class="work__meta">
-      <b>Van Cleef & Arpels: Open Event</b> <br>
+      <b>Van Cleef &amp; Arpels: Open Event</b> <br>
       July 2023 <br><i>AREA 17</i>
     </div>
   </li>
-  <!-- <li>
+  <li>
     <div class="work__img" style="background-color: #f3f3f1;"><img loading="lazy" decoding="async" src="/images/work/webp/lhllc.webp" alt="lhllc" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Yield Giving</b> <br>
       Dec 2022
     </div>
-  </li> -->
+  </li>
   <li>
     <div class="work__img" style="background-color: #fff;"><img loading="lazy" decoding="async" src="/images/work/webp/oxman.webp" alt="Neri Oxman" width="185" height="79" /></div>
     <div class="work__meta">
@@ -227,7 +293,7 @@ $meta_image = "http://www.thirteentwelve.com/images/og.webp";
     <div class="work__img" style="background-color: #fff;"><img loading="lazy" decoding="async" src="/images/work/webp/cel.webp" alt="Celine" width="185" height="79" /></div>
     <div class="work__meta">
       <b>Celine</b> <br>
-      Dec 2019 - present<br><i>AREA 17</i><br>
+      Dec 2019 - Dec 2024<br><i>AREA 17</i><br>
       <a href="https://www.celine.com/en-gb/home" target="_blank">Visit <svg class="icon-external"><use xlink:href="#external" /></svg></a>
     </div>
   </li>

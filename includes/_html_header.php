@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><?php echo isset($meta_title) ? $meta_title : "13twelve | Front end web developer. Specialising in HTML, CSS and JavaScript."; ?></title>
+    <title><?php echo isset($meta_title) ? $meta_title : "13twelve | Mike Byrne, front-end developer"; ?></title>
 
     <?php if(isset($home)) { ?>
     <style><?php include "includes/_homecss.php"; ?></style>
