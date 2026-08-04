@@ -43,6 +43,12 @@ $years_experience = $current_year - 2000;
         inherits: false;
       }
 
+      @property --mask-end {
+        syntax: "<color>";
+        initial-value: rgb(0 0 0 / 100);
+        inherits: false;
+      }
+
       :root {
         color-scheme: light;
         --font: 400 1.125rem/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -54,6 +60,8 @@ $years_experience = $current_year - 2000;
         --reveal-position: 0%;
         --reveal-start: rgb(0 0 0 / 0);
         --reveal-end: rgb(0 0 0 / 0);
+        --logo-sticky-top: -12vw;
+        --logo-fade-end: 0.05;
       }
 
       * {
@@ -78,7 +86,7 @@ $years_experience = $current_year - 2000;
         text-decoration: none;
       }
 
-      a::after {
+      a:not(.no-arrow):not(.award-link)::after {
         content: ' →';
       }
 
@@ -100,9 +108,10 @@ $years_experience = $current_year - 2000;
 
       header {
         position: sticky;
-        top: -12vw;
+        top: var(--logo-sticky-top);
         margin: 1rem auto 3rem;
         aspect-ratio: 422/86;
+        pointer-events: none;
       }
 
       header svg {
@@ -245,7 +254,7 @@ $years_experience = $current_year - 2000;
       }
 
       .social a:after {
-        content: none;
+        content: none !important;
       }
 
       .social svg {
@@ -286,8 +295,14 @@ $years_experience = $current_year - 2000;
       }
 
       @media (max-width: 600px) {
+        :root {
+          --logo-fade-end: 0.25;
+          --logo-sticky-top: -8vw;
+        }
+
         header, main, footer {
-          padding: 0 1rem;
+          padding-right: 1rem;
+          padding-left: 1rem;
         }
 
         header {
@@ -348,18 +363,22 @@ $years_experience = $current_year - 2000;
         }
       }
 
-      @supports (container-type: scroll-state) {
+      @supports (animation-timeline: scroll()) {
         header {
-          container-type: scroll-state;
+          mask-image: linear-gradient(to bottom, #000 0, var(--mask-end) 100%);
+          mask-size: 100% 100%;
+          mask-repeat: no-repeat;
+          animation: header-fade-mask ease-in both;
+          animation-timeline: scroll(root block);
+          animation-range: 0 calc(var(--logo-sticky-top) * -1);
         }
 
-        header svg {
-          transition: opacity 200ms;
-        }
-
-        @container scroll-state(stuck: top) {
-          header svg {
-            opacity: 0.05;
+        @keyframes header-fade-mask {
+          0% {
+            --mask-end: rgb(0 0 0 / 100);
+          }
+          100% {
+            --mask-end: rgb(0 0 0 / 0);
           }
         }
       }
@@ -374,32 +393,30 @@ $years_experience = $current_year - 2000;
         <div class="intro">
           <div class="intro__col">
             <h1>The work of front-end developer Mike Byrne</h1>
-            <p>Over the past <?php echo $years_experience; ?> years, there’s a fair chance you’ve used a website I’ve worked on.</p>
-            <p>I work on front-end architecture, design systems, and better ways for designers and developers to work together. I care about accessibility, resilient code, and practical solutions that hold up over time.</p>
-            <p>This site is a record of some of the things I’ve built and contributed to.</p>
+            <p>Over the past <?php echo $years_experience; ?> years, and especially through my work at <a href="https://area17.com/" rel="noreferrer noopener" target="_blank" class="no-arrow">AREA 17</a>, there’s a fair chance you’ve used a website I’ve helped build.</p>
+            <p>During this time I’ve learned that the best outcomes rarely come from prioritising design, engineering or business needs on their own. They come from finding the right compromise between them, then building something teams can confidently maintain and grow.</p>
+            <p>I care about accessibility, design systems, helping teams work well together, and practical solutions that hold up over time.</p>
           </div>
           <div class="intro__col">
            <h2>What I do</h2>
            <ul>
               <li>Front-end architecture</li>
               <li>Design systems and component libraries</li>
-              <li>CSS, SCSS, and Tailwind</li>
-              <li>JavaScript</li>
               <li>Accessibility</li>
-              <li>Localisation and internationalisation</li>
               <li>Performance and browser compatibility</li>
+              <li>CSS, JavaScript and modern front-end workflows</li>
+              <li>Localisation and internationalisation</li>
+              <li>Technical leadership and mentoring</li>
            </ul>
           </div>
           <div class="intro__col">
-            <h2>What I do it with</h2>
+            <h2>How I help</h2>
             <ul>
-              <li>HTML, Blade, Twig, SVG, XML, and JSON</li>
-              <li>Node.js, Vite, Webpack, and npm</li>
-              <li>PHP, Laravel, Storybook, Drupal, and Vue</li>
-              <li>Technical leadership and mentoring</li>
-              <li>UI and UX</li>
-              <li>SEO, AEO and GEO</li>
-              <li>Git and SVN</li>
+              <li>Translate between design, engineering and business needs</li>
+              <li>Look for practical compromises and the best fit solution</li>
+              <li>Help teams build things they can maintain</li>
+              <li>I make collaboration easier for clients, designers and developers</li>
+              <li>Explain technical decisions in plain English</li>
             </ul>
           </div>
         </div>
@@ -409,28 +426,28 @@ $years_experience = $current_year - 2000;
             <div class="work__meta">
               <strong>A17 Behaviors</strong> <br>
               JavaScript framework to attach JavaScript events and interactions to DOM Nodes. <br>
-              <a href="https://github.com/area17/a17-behaviors" target="_blank">GitHub</a>
+              <a href="https://github.com/area17/a17-behaviors" rel="noreferrer noopener" target="_blank">GitHub</a>
             </div>
           </li>
           <li>
             <div class="work__meta">
               <strong>A17 Tailwind Plugins</strong> <br>
               A series of Tailwind plugins to enable/encourage systematised web design/development and some other useful utility classes. <br>
-              <a href="https://github.com/area17/tailwind-plugins" target="_blank">GitHub</a>
+              <a href="https://github.com/area17/tailwind-plugins" rel="noreferrer noopener" target="_blank">GitHub</a>
             </div>
           </li>
           <li>
             <div class="work__meta">
               <strong>Twill</strong> <br>
               Twill is an open source CMS toolkit for Laravel that helps developers rapidly create a custom admin console that is intuitive, powerful and flexible. <br>
-              <a href="https://github.com/area17/twill" target="_blank">GitHub</a>
+              <a href="https://github.com/area17/twill" rel="noreferrer noopener" target="_blank">GitHub</a>
             </div>
           </li>
           <li>
             <div class="work__meta">
               <strong>Parse Numeric Date</strong> <br>
               Micro library to parse numeric based date inputs. <br>
-              <a href="https://github.com/area17/parse-numeric-date" target="_blank">GitHub</a>
+              <a href="https://github.com/area17/parse-numeric-date" rel="noreferrer noopener" target="_blank">GitHub</a>
             </div>
           </li>
           <!--
@@ -463,39 +480,39 @@ $years_experience = $current_year - 2000;
             </div>
           </li> -->
         </ul>
-        <p class="see-all"><a href="https://github.com/13twelve" target="_blank">See all open source contributions on GitHub.com</a></p>
+        <p class="see-all"><a href="https://github.com/13twelve" rel="noreferrer noopener" target="_blank">See all open source contributions on GitHub.com</a></p>
         <h2>CodePens</h2>
         <ul class="work">
           <li>
             <div class="work__img" style="background-color: #836997;"><img loading="lazy" decoding="async" src="/images/work/webp/cpGrad.webp" alt="CodePen: Animated CSS gradients (using CSS only)" width="185" height="79" /></div>
             <div class="work__meta">
               <strong>Animated CSS gradients (using CSS only)</strong> <br>
-              <a href="https://codepen.io/13twelve/pen/OJwgxOo" target="_blank">CodePen</a>
+              <a href="https://codepen.io/13twelve/pen/OJwgxOo" rel="noreferrer noopener" target="_blank">CodePen</a>
             </div>
           </li>
           <li>
             <div class="work__img" style="background-color: #000;"><img loading="lazy" decoding="async" src="/images/work/webp/cpFlu.webp" alt="CodePen: Fluid flowing SVG SMIL animation" width="185" height="79" /></div>
             <div class="work__meta">
               <strong>Fluid flowing SVG SMIL animation</strong> <br>
-              <a href="https://codepen.io/13twelve/pen/QNRwGa" target="_blank">CodePen</a>
+              <a href="https://codepen.io/13twelve/pen/QNRwGa" rel="noreferrer noopener" target="_blank">CodePen</a>
             </div>
           </li>
           <li>
             <div class="work__img" style="background-color: #000;"><img loading="lazy" decoding="async" src="/images/work/webp/cpKal.webp" alt="CodePen: Kaleidoscope canvas image grid" width="185" height="79" /></div>
             <div class="work__meta">
               <strong>Kaleidoscope canvas image grid</strong> <br>
-              <a href="https://codepen.io/13twelve/pen/GRRJKpe" target="_blank">CodePen</a>
+              <a href="https://codepen.io/13twelve/pen/GRRJKpe" rel="noreferrer noopener" target="_blank">CodePen</a>
             </div>
           </li>
           <li>
             <div class="work__img" style="background-color: #000;"><img loading="lazy" decoding="async" src="/images/work/webp/cpWeather.webp" alt="CodePen: SVG animated weather icons" width="185" height="79" /></div>
             <div class="work__meta">
               <strong>SVG animated weather icons</strong> <br>
-              <a href="https://codepen.io/13twelve/pen/aLxvXd" target="_blank">CodePen</a>
+              <a href="https://codepen.io/13twelve/pen/aLxvXd" rel="noreferrer noopener" target="_blank">CodePen</a>
             </div>
           </li>
         </ul>
-        <p class="see-all"><a href="https://codepen.io/13twelve" target="_blank">See all my CodePens on codepen.com</a></p>
+        <p class="see-all"><a href="https://codepen.io/13twelve" rel="noreferrer noopener" target="_blank">See all my CodePens on codepen.com</a></p>
         <h2>Projects</h2>
         <ul class="work">
           <!-- <li>
@@ -514,14 +531,22 @@ $years_experience = $current_year - 2000;
             </div>
           </li>
           <li>
-            <div class="work__img" style="background-color: #fff;"><img loading="lazy" decoding="async" src="/images/work/webp/fo.webp" alt="XXXX" width="185" height="79" /></div>
+            <div class="work__img" style="background-color: #fff;"><img loading="lazy" decoding="async" src="/images/work/webp/fo.webp" alt="Field Operations" width="185" height="79" /></div>
             <div class="work__meta">
               <strong>Field Operations</strong> <br>
               March 2026 <br><i>AREA 17</i>
             </div>
           </li>
           <li>
-            <div class="work__img" style="background-color: #fff;"><img loading="lazy" decoding="async" src="/images/work/webp/rock.webp" alt="Rockwell Group" width="185" height="79" /></div>
+            <div class="work__img" style="background-color: #fff;"><img loading="lazy" decoding="async" src="/images/work/webp/cel.webp" alt="Celine" width="185" height="79" /></div>
+            <div class="work__meta">
+              <strong>Celine</strong> <br>
+              Dec 2019 - Dec 2024<br><i>AREA 17</i> <!-- <br>
+              <a href="https://www.celine.com/en-gb/home" target="_blank">Visit</a> -->
+            </div>
+          </li>
+          <li>
+            <div class="work__img" style="background-color: #000;"><img loading="lazy" decoding="async" src="/images/work/webp/rock.webp" alt="Rockwell Group" width="185" height="79" /></div>
             <div class="work__meta">
               <strong>Rockwell</strong> <br>
               June 2025 <br><i>AREA 17</i> <!-- <br>
@@ -529,7 +554,7 @@ $years_experience = $current_year - 2000;
             </div>
           </li>
           <li>
-            <div class="work__img" style="background-color: #fff;"><img loading="lazy" decoding="async" src="/images/work/webp/dk.webp" alt="Davidson Kempner" width="185" height="79" /></div>
+            <div class="work__img" style="background-color: #112839;"><img loading="lazy" decoding="async" src="/images/work/webp/dk.webp" alt="Davidson Kempner" width="185" height="79" /></div>
             <div class="work__meta">
               <strong>Davidson Kempner</strong> <br>
               November 2024 <br><i>AREA 17</i>s
@@ -567,7 +592,7 @@ $years_experience = $current_year - 2000;
             </div>
           </li>
           <li>
-            <div class="work__img" style="background-color: #fff;"><img loading="lazy" decoding="async" src="/images/work/webp/vcaoe.webp" alt="vcaoe" width="185" height="79" /></div>
+            <div class="work__img" style="background-color: #F3F4F1;"><img loading="lazy" decoding="async" src="/images/work/webp/vcaoe.webp" alt="vcaoe" width="185" height="79" /></div>
             <div class="work__meta">
               <strong>Van Cleef &amp; Arpels: Open Event</strong> <br>
               July 2023 <br><i>AREA 17</i>
@@ -581,7 +606,7 @@ $years_experience = $current_year - 2000;
             </div>
           </li>
           <li>
-            <div class="work__img" style="background-color: #fff;"><img loading="lazy" decoding="async" src="/images/work/webp/oxman.webp" alt="Neri Oxman" width="185" height="79" /></div>
+            <div class="work__img" style="background-color: #D9D9D9;"><img loading="lazy" decoding="async" src="/images/work/webp/oxman.webp" alt="Neri Oxman" width="185" height="79" /></div>
             <div class="work__meta">
               <strong>Neri Oxman</strong> <br>
               May 2022 <br><i>AREA 17</i> <!-- <br>
@@ -605,14 +630,14 @@ $years_experience = $current_year - 2000;
             </div>
           </li>
           <li>
-            <div class="work__img" style="background-color: #050033;"><img loading="lazy" decoding="async" src="/images/work/webp/accext.webp" alt="Accor: Extended Stay" width="185" height="79" /></div>
+            <div class="work__img" style="background-color: #fff;"><img loading="lazy" decoding="async" src="/images/work/webp/accext.webp" alt="Accor: Extended Stay" width="185" height="79" /></div>
             <div class="work__meta">
               <strong>Accor: Extended Stay</strong> <br>
               October 2020 <br><i>AREA 17</i>
             </div>
           </li>
           <li>
-            <div class="work__img" style="background-color: #f00;"><img loading="lazy" decoding="async" src="/images/work/webp/mde.webp" alt="Media Election" width="185" height="79" /></div>
+            <div class="work__img" style="background-color: #00f;"><img loading="lazy" decoding="async" src="/images/work/webp/mde.webp" alt="Media Election" width="185" height="79" /></div>
             <div class="work__meta">
               <strong>Media Election</strong> <br>
               September 2020 <br><i>AREA 17</i>
@@ -626,7 +651,7 @@ $years_experience = $current_year - 2000;
             </div>
           </li>
           <li>
-            <div class="work__img" style="background-color: #030;"><img loading="lazy" decoding="async" src="/images/work/webp/get.webp" alt="Getty museum" width="185" height="79" /></div>
+            <div class="work__img" style="background-color: #1947B7;"><img loading="lazy" decoding="async" src="/images/work/webp/get.webp" alt="Getty museum" width="185" height="79" /></div>
             <div class="work__meta">
               <strong>Getty museum</strong> <br>
               January 2020 <br><i>AREA 17</i> <!-- <br>
@@ -634,27 +659,19 @@ $years_experience = $current_year - 2000;
             </div>
           </li>
           <li>
-            <div class="work__img" style="background-color: #ffff32;"><img loading="lazy" decoding="async" src="/images/work/webp/a172019.webp" alt="2019.area17.com" width="185" height="79" /></div>
+            <div class="work__img" style="background-color: #fff;"><img loading="lazy" decoding="async" src="/images/work/webp/a172019.webp" alt="2019.area17.com" width="185" height="79" /></div>
             <div class="work__meta">
               <strong>2019.area17.com</strong> <br>
               December 2019 <br><i>AREA 17</i>
             </div>
           </li>
           <li>
-            <div class="work__img" style="background-color: #fff;"><img loading="lazy" decoding="async" src="/images/work/webp/cel.webp" alt="Celine" width="185" height="79" /></div>
+            <div class="work__img" style="background-color: #FE1F3C;"><img loading="lazy" decoding="async" src="/images/work/webp/pr.webp" alt="Precision Run" width="185" height="79" /></div>
             <div class="work__meta">
-              <strong>Celine</strong> <br>
-              Dec 2019 - Dec 2024<br><i>AREA 17</i> <!-- <br>
-              <a href="https://www.celine.com/en-gb/home" target="_blank">Visit</a> -->
-            </div>
-          </li>
-          <li>
-            <div class="work__img" style="background-color: #fff;"><img loading="lazy" decoding="async" src="/images/work/webp/pr.webp" alt="Precision Run" width="185" height="79" /></div>
-            <div class="work__meta">
-              <strong>Precision Run</strong> <br>
+              <strong>Equinox: Precision Run</strong> <br>
               May 2019 <br><i>AREA 17</i> <br>
               <!-- <a href="https://www.precisionrun.com/" target="_blank">Visit</a> <br> -->
-              <a href="https://www.awwwards.com/sites/precision-run" target="_blank">Site of the day</a>
+              <a href="https://www.awwwards.com/sites/precision-run" rel="noreferrer noopener" target="_blank">Site of the day</a>
             </div>
           </li>
           <li>
@@ -665,15 +682,15 @@ $years_experience = $current_year - 2000;
             </div>
           </li>
           <li>
-            <div class="work__img" style="background-color: #fff;"><img loading="lazy" decoding="async" src="/images/work/webp/cfr-wep.webp" alt="CFR: Growing Economies Through Gender Parity" width="185" height="79" /></div>
+            <div class="work__img" style="background-color: #929C56;"><img loading="lazy" decoding="async" src="/images/work/webp/cfr-wep.webp" alt="CFR: Growing Economies Through Gender Parity" width="185" height="79" /></div>
             <div class="work__meta">
-              <strong>CFR: Growing Economies Through Gender Parity</strong> <br>
+              <strong>Council on Foreign Relations: Growing Economies Through Gender Parity</strong> <br>
               October 2018 <br><i>AREA 17</i> <!-- <br>
               <a href="https://www.cfr.org/interactive/womens-participation-in-global-economy/" target="_blank">Visit</a> -->
             </div>
           </li>
           <li>
-            <div class="work__img" style="background-color: #fff;"><img loading="lazy" decoding="async" src="/images/work/webp/aic.webp" alt="Art Institute of Chicago" width="185" height="79" /></div>
+            <div class="work__img" style="background-color: #B60739;"><img loading="lazy" decoding="async" src="/images/work/webp/aic.webp" alt="Art Institute of Chicago" width="185" height="79" /></div>
             <div class="work__meta">
               <strong>Art Institute of Chicago</strong> <br>
               October 2018 <br><i>AREA 17</i> <!-- <br>
@@ -700,7 +717,7 @@ $years_experience = $current_year - 2000;
             <div class="work__img" style="background-color: #000;"><img loading="lazy" decoding="async" src="/images/work/webp/wyss.webp" alt="Wyss Institute" width="185" height="79" /></div>
             <div class="work__meta">
               <strong>Wyss Institute</strong> <br>
-              <a href="https://www.webbyawards.com/winners/2017/websites/general-website/schooluniversity/wyss-institute-for-biologically-inspired-engineering-at-harvard-university/" class="award-link" title="Webby Award" target="_blank">🏆</a> <a href="https://www.webbyawards.com/winners/2017/mobile-sites-apps/general-sites-apps/schooluniversity/wyss-institute-for-biologically-inspired-engineering-at-harvard-university/" class="award-link" title="Webby Award" target="_blank">🏆</a> <a href="https://www.w3award.com/winners/gallery/?event=1015&award=1&_p=12" class="award-link" title="W3 Gold Award" target="_blank">🏆</a> <br>
+              <a href="https://www.webbyawards.com/winners/2017/websites/general-website/schooluniversity/wyss-institute-for-biologically-inspired-engineering-at-harvard-university/" class="award-link" title="Webby Award" rel="noreferrer noopener" target="_blank">🏆</a> <a href="https://www.webbyawards.com/winners/2017/mobile-sites-apps/general-sites-apps/schooluniversity/wyss-institute-for-biologically-inspired-engineering-at-harvard-university/" class="award-link" title="Webby Award" rel="noreferrer noopener" target="_blank">🏆</a> <a href="https://www.w3award.com/winners/gallery/?event=1015&award=1&_p=12" class="award-link" title="W3 Gold Award" rel="noreferrer noopener" target="_blank">🏆</a> <br>
               July 2016 <br><i>AREA 17</i> <!-- <br>
               <a href="http://wyss.harvard.edu/" target="_blank">Visit</a> -->
             </div>
@@ -789,7 +806,7 @@ $years_experience = $current_year - 2000;
             <div class="work__img" style="background-color: #cb0000;"><img loading="lazy" decoding="async" src="/images/work/webp/espn.webp" alt="ESPN" width="185" height="79" /></div>
             <div class="work__meta">
               <strong>ESPN</strong> <br>
-              <a href="https://www.webbyawards.com/winners/2017/websites/general-website/sports/espncom/" class="award-link" title="Webby Award" target="_blank">🏆</a> <a href="https://www.webbyawards.com/winners/2017/mobile-sites-apps/general-sites-apps/sports/espncom/" class="award-link" title="Webby Award" target="_blank">🏆</a> <a href="https://www.webbyawards.com/winners/2016/mobile-sites-apps/general-sites-apps/sports/espn/" class="award-link" title="Webby Award" target="_blank">🏆</a> <a href="https://www.webbyawards.com/winners/2015/websites/general-website/sports/espncom/" class="award-link" title="Webby Award" target="_blank">🏆</a><br>
+              <a href="https://www.webbyawards.com/winners/2017/websites/general-website/sports/espncom/" class="award-link" title="Webby Award" rel="noreferrer noopener" target="_blank">🏆</a> <a href="https://www.webbyawards.com/winners/2017/mobile-sites-apps/general-sites-apps/sports/espncom/" class="award-link" title="Webby Award" rel="noreferrer noopener" target="_blank">🏆</a> <a href="https://www.webbyawards.com/winners/2016/mobile-sites-apps/general-sites-apps/sports/espn/" class="award-link" title="Webby Award" rel="noreferrer noopener" target="_blank">🏆</a> <a href="https://www.webbyawards.com/winners/2015/websites/general-website/sports/espncom/" class="award-link" title="Webby Award" rel="noreferrer noopener" target="_blank">🏆</a><br>
               April 2014 <br><i>ESPN</i> <!-- <br>
               <a href="http://espn.go.com/">Visit</a> -->
             </div>
@@ -1175,7 +1192,7 @@ $years_experience = $current_year - 2000;
             <div class="work__img" style="background-color: #9294b2;"><img loading="lazy" decoding="async" src="/images/work/webp/kc.webp" alt="Kitty Cooper" width="185" height="79" /></div>
             <div class="work__meta">
               <strong>Kitty Cooper</strong> <br>
-              <a href="http://bigchipawards.com/BUOVD2008" class="award-link" title="Big Chip Award" target="_blank">🏆</a> <a href="http://www.dadiawards.com/dadi-awards/dadi-awards-2008#35291" class="award-link" title="DADI Award" target="_blank">🏆</a><br>
+              <a href="http://bigchipawards.com/BUOVD2008" class="award-link" title="Big Chip Award" rel="noreferrer noopener" target="_blank">🏆</a> <a href="http://www.dadiawards.com/dadi-awards/dadi-awards-2008#35291" class="award-link" title="DADI Award" rel="noreferrer noopener" target="_blank">🏆</a><br>
               September 2007 <br><i>Fudge</i>
             </div>
           </li>
@@ -1207,9 +1224,9 @@ $years_experience = $current_year - 2000;
           <use xlink:href="#bee" />
         </svg>
         <ul class="social">
-          <li><a href="https://github.com/13twelve" target="_blank" title="GitHub"><svg width="32px" height="32px" aria-label="13twelve on GitHub"><use xlink:href="#github" /></svg></a></li>
-          <li><a href="https://codepen.io/13twelve/" target="_blank" title="Codepen"><svg width="32px" height="32px" aria-label="13twelve on Codepen"><use xlink:href="#codepen" /></svg></a></li>
-          <li><a href="http://instagram.com/13twelve" target="_blank" title="Instagram"><svg width="32px" height="32px" aria-label="13twelve on Instagram"><use xlink:href="#instagram" /></svg></a></li>
+          <li><a href="https://github.com/13twelve" rel="noreferrer noopener" target="_blank" title="GitHub"><svg width="32px" height="32px" aria-label="13twelve on GitHub"><use xlink:href="#github" /></svg></a></li>
+          <li><a href="https://codepen.io/13twelve/" rel="noreferrer noopener" target="_blank" title="Codepen"><svg width="32px" height="32px" aria-label="13twelve on Codepen"><use xlink:href="#codepen" /></svg></a></li>
+          <li><a href="http://instagram.com/13twelve" rel="noreferrer noopener" target="_blank" title="Instagram"><svg width="32px" height="32px" aria-label="13twelve on Instagram"><use xlink:href="#instagram" /></svg></a></li>
         </ul>
         <small>Copyright &copy; 2005 &ndash; <?php echo $current_year; ?>  thirteentwelve.com</small>
       </footer>
