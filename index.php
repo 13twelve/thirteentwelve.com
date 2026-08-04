@@ -31,14 +31,29 @@ $years_experience = $current_year - 2000;
     <meta name="twitter:image" content="<?php echo $meta_image; ?>">
     <meta name="twitter:site" content="@13twelve">
     <style>
+      @property --reveal-position {
+        syntax: "<percentage>";
+        initial-value: 100%;
+        inherits: false;
+      }
+
+      @property --reveal-end {
+        syntax: "<color>";
+        initial-value: var(--reveal-start);
+        inherits: false;
+      }
+
       :root {
         color-scheme: light;
         --font: 400 1.125rem/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-        --page-bg: #dcdcdc;
+        --bg: #dcdcdc;
         --text: #1a1a1a;
         --muted: #666;
         --line: #999;
         --accent: #6c2bd9;
+        --reveal-position: 0%;
+        --reveal-start: rgb(0 0 0 / 0);
+        --reveal-end: rgb(0 0 0 / 0);
       }
 
       * {
@@ -49,7 +64,7 @@ $years_experience = $current_year - 2000;
 
       html {
         min-height: 100%;
-        background: var(--page-bg);
+        background: var(--bg);
       }
 
       body {
@@ -77,33 +92,35 @@ $years_experience = $current_year - 2000;
         max-width: 100%;
       }
 
-      #thirteentwelve {
+      main, footer {
         max-width: 57.75rem;
         margin: 0 auto;
         padding: 0 2rem;
       }
 
       header {
-        padding-bottom: 1rem;
+        position: sticky;
+        top: -12vw;
+        margin: 1rem auto 3rem;
+        aspect-ratio: 422/86;
       }
 
       header svg {
-        position: relative;
-        left: 50%;
+        position: absolute;
+        inset: 0;
         display: block;
-        width: 100vw;
+        width: 100%;
         height: auto;
         aspect-ratio: 422/86;
-        margin: 1rem 0 3rem -50vw;
       }
 
-      header h1,
+      main h1,
       main h2,
       main p {
         max-width: 70ch;
       }
 
-      header h1,
+      main h1,
       main h2,
       main p,
       main ul {
@@ -111,7 +128,7 @@ $years_experience = $current_year - 2000;
         text-wrap: pretty;
       }
 
-      header h1,
+      main h1,
       main h2 {
         font-weight: 800;
       }
@@ -168,7 +185,6 @@ $years_experience = $current_year - 2000;
       }
 
       .work__img {
-        position: relative;
         overflow: hidden;
         aspect-ratio: 185 / 79;
         border: 1px solid var(--line);
@@ -244,7 +260,7 @@ $years_experience = $current_year - 2000;
 
       @media (max-width: 800px) {
         body,
-        header h1,
+        main h1,
         main h2,
         main p,
         main ul {
@@ -270,14 +286,17 @@ $years_experience = $current_year - 2000;
       }
 
       @media (max-width: 600px) {
-        #thirteentwelve {
+        header, main, footer {
           padding: 0 1rem;
         }
 
+        header {
+          aspect-ratio: unset;
+          margin-bottom: 2rem;
+        }
+
         header svg {
-          left: 0;
-          width: 100%;
-          margin-left: 0;
+          position: static;
         }
 
         .work {
@@ -289,17 +308,72 @@ $years_experience = $current_year - 2000;
           gap: 1rem;
         }
       }
+
+      .reveal {
+        display: none;
+      }
+
+      @supports at-rule(@property) {
+        .reveal {
+          display: block;
+          position: fixed;
+          z-index: 10;
+          inset: 0;
+          background: radial-gradient(
+            farthest-corner at left top,
+            var(--reveal-start) 0%,
+            var(--reveal-start) calc(var(--reveal-position) - 50%),
+            var(--reveal-end) var(--reveal-position),
+            var(--reveal-end) 100%
+          );
+          animation: reveal 1s cubic-bezier(0.32, 0, 0.67, 0) forwards;
+          pointer-events: none;
+        }
+      }
+
+      @keyframes reveal {
+        0% {
+          --reveal-position: 0%;
+          --reveal-end: var(--bg);
+        }
+
+        90% {
+          --reveal-position: 100%;
+          --reveal-end: var(--bg);
+        }
+
+        100% {
+          --reveal-position: 100%;
+          --reveal-end: var(--reveal-start);
+        }
+      }
+
+      @supports (container-type: scroll-state) {
+        header {
+          container-type: scroll-state;
+        }
+
+        header svg {
+          transition: opacity 200ms;
+        }
+
+        @container scroll-state(stuck: top) {
+          header svg {
+            opacity: 0.05;
+          }
+        }
+      }
     </style>
   </head>
   <body>
     <div id="thirteentwelve">
       <header>
         <svg aria-hidden="true"><use xlink:href="#logo"></use></svg>
-        <h1>The work of front-end developer Mike Byrne</h1>
       </header>
       <main>
         <div class="intro">
           <div class="intro__col">
+            <h1>The work of front-end developer Mike Byrne</h1>
             <p>Over the past <?php echo $years_experience; ?> years, there’s a fair chance you’ve used a website I’ve worked on.</p>
             <p>I work on front-end architecture, design systems, and better ways for designers and developers to work together. I care about accessibility, resilient code, and practical solutions that hold up over time.</p>
             <p>This site is a record of some of the things I’ve built and contributed to.</p>
@@ -1140,6 +1214,7 @@ $years_experience = $current_year - 2000;
         <small>Copyright &copy; 2005 &ndash; <?php echo $current_year; ?>  thirteentwelve.com</small>
       </footer>
     </div>
+    <div class="reveal"></div>
     <svg id="icons" style="display: none;">
       <symbol id="instagram" viewbox="0 0 32 32">
         <path fill="currentColor" d="M16 2.88c4.272 0 4.778.016 6.466.093 1.016.01 2.022.195 2.974.547 1.397.538 2.502 1.643 3.04 3.04.352.952.54 1.957.55 2.97.07 1.692.09 2.198.09 6.47s-.016 4.778-.093 6.466c-.01 1.016-.195 2.022-.547 2.974-.538 1.397-1.643 2.502-3.04 3.04-.952.352-1.957.54-2.97.55-1.69.07-2.198.09-6.47.09s-4.78-.016-6.466-.093c-1.016-.01-2.022-.195-2.974-.547-1.397-.538-2.502-1.643-3.04-3.04-.352-.952-.54-1.957-.55-2.97-.07-1.692-.09-2.198-.09-6.47s.016-4.778.093-6.466c.01-1.016.195-2.022.547-2.974.538-1.397 1.643-2.502 3.04-3.04.952-.352 1.957-.54 2.97-.55 1.692-.07 2.198-.09 6.47-.09M16 0c-4.346 0-4.89.02-6.597.096C8.077.123 6.763.374 5.52.84 3.37 1.67 1.67 3.37.84 5.52.374 6.763.123 8.077.096 9.403.02 11.11 0 11.653 0 16s.02 4.89.096 6.597c.027 1.326.278 2.64.744 3.883.83 2.15 2.53 3.85 4.68 4.68 1.243.466 2.557.717 3.883.744 1.707.078 2.25.096 6.597.096s4.89-.018 6.597-.096c1.326-.027 2.64-.278 3.883-.744 2.15-.83 3.85-2.53 4.68-4.68.466-1.243.717-2.557.744-3.883C31.98 20.89 32 20.347 32 16s-.02-4.89-.096-6.597c-.027-1.326-.278-2.64-.744-3.883-.83-2.15-2.53-3.85-4.68-4.68-1.243-.466-2.557-.717-3.883-.744C20.89.02 20.347 0 16 0zm0 8c-4.418 0-8 3.582-8 8s3.582 8 8 8 8-3.582 8-8-3.582-8-8-8zm0 13.194c-2.87 0-5.194-2.325-5.194-5.194S13.13 10.806 16 10.806 21.194 13.13 21.194 16 18.87 21.194 16 21.194zM24.8 4.8c1.325 0 2.4 1.075 2.4 2.4s-1.075 2.4-2.4 2.4-2.4-1.075-2.4-2.4 1.075-2.4 2.4-2.4z" />
